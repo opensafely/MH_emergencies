@@ -12,12 +12,7 @@ library(plyr)
 
 start <- "2020-03-01"
 
-for (i in c("measure_ADT_inj_rate.csv", 
-            "measure_ADT_inj1_rate.csv", 
-            "measure_ADT_inj3_rate.csv", 
-            "measure_ADT_inj6_rate.csv", 
-            "measure_ADT_oral_rate.csv",
-            "measure_ADTsecongen_rate.csv")){
+for (i in c("measure_self_harmAE_rate.csv")){
 
   Rates <- read_csv(here::here("output", "measures", i))
   Rates_rounded <- as.data.frame(Rates)
@@ -63,14 +58,10 @@ for (i in c("measure_ADT_inj_rate.csv",
   )
 }
 
-for (i in c("measure_ADToralbyRegion_rate.csv", 
-            "measure_ADToralbyIMD_rate.csv", 
-            "measure_ADToralbyEthnicity_rate.csv", 
-            "measure_ADToralbyAge_rate.csv", 
-            "measure_ADTinjbyRegion_rate.csv", 
-            "measure_ADTinjbyIMD_rate.csv", 
-            "measure_ADTinjbyEthnicity_rate.csv", 
-            "measure_ADTinjbyAge_rate.csv")){
+for (i in c("measure_self_harmAEbyRegion_rate.csv",
+            "measure_self_harmAEbyIMD_rate.csv",
+            "measure_self_harmAEbyEthnicity_rate.csv",
+            "measure_self_harmAEbyAge_rate.csv")){
   
   Rates <- read_csv(here::here("output", "measures", i))
   Rates_rounded <- as.data.frame(Rates)
