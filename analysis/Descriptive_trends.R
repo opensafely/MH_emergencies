@@ -86,7 +86,7 @@ for (i in c("measure_self_harmAEbyRegion_rate.csv",
     #geom_point(color = "region")+
     scale_x_date(date_breaks = "2 month",
                  date_labels = "%Y-%m")+
-    labs(title = paste0(substr(i, 9, 24)," by ",colnames(Rates_rounded)[1]), 
+    labs(title = paste0(substr(i, 9, 19)," by ",colnames(Rates_rounded)[1]), 
          x = "", y = "Rate per 100,000")+
     theme_bw()+
     theme(axis.text.x = element_text(angle = 45, hjust = 1), 
