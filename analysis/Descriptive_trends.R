@@ -77,7 +77,7 @@ for (i in c("measure_self_harmAEbyRegion_rate.csv",
   Rates_rounded$value <- Rates_rounded[,2]/Rates_rounded$population
   # calc rate per 100,000
   Rates_rounded$value2 <- Rates_rounded$value*100000
-  write.table(Rates_rounded, here::here("output",paste0(substr(i, 9, 19),"_rounded",".csv")),
+  write.table(Rates_rounded, here::here("output",paste0(substr(i, 9, 24),"_rounded",".csv")),
               sep = ",",row.names = FALSE)
   
   
@@ -86,7 +86,7 @@ for (i in c("measure_self_harmAEbyRegion_rate.csv",
     #geom_point(color = "region")+
     scale_x_date(date_breaks = "2 month",
                  date_labels = "%Y-%m")+
-    labs(title = paste0(substr(i, 9, 14)," by ",colnames(Rates_rounded)[1]), 
+    labs(title = paste0(substr(i, 9, 24)," by ",colnames(Rates_rounded)[1]), 
          x = "", y = "Rate per 100,000")+
     theme_bw()+
     theme(axis.text.x = element_text(angle = 45, hjust = 1), 
@@ -102,33 +102,33 @@ for (i in c("measure_self_harmAEbyRegion_rate.csv",
   
   ggsave(
     plot= p, dpi=800,width = 20,height = 10, units = "cm",
-    filename=paste0(substr(i, 9, 19),".png"), path=here::here("output"),
+    filename=paste0(substr(i, 9, 24),".png"), path=here::here("output"),
   )
 }
 
-###
-# Summarise population data from the input.csv
-###
+# ###
+# # Summarise population data from the input.csv
+# ###
 
-#Input <- read_csv(here::here("output", "input.csv"),show_col_types = FALSE)
-Input <- read_csv(here::here("output", "input.csv"),col_types = cols(patient_id = col_integer()))
+# #Input <- read_csv(here::here("output", "input.csv"),show_col_types = FALSE)
+# Input <- read_csv(here::here("output", "input.csv"),col_types = cols(patient_id = col_integer()))
 
-Table1 <- as.data.frame(NA)
-xx <- c("total_number","average_age","sd_age","ADTsecond_gener","HCD", "HCDexpanded")
-Table1[xx] <- NA
-Table1[1,"total_number"] <- plyr::round_any(length(which(Input$prostate_ca==1)), 5, f = round)
-Input2 <- Input[Input$prostate_ca==1,]
-Table1[1,"HCD"] <- plyr::round_any(length(which(Input2$HCD==1)), 5, f = round)
-Table1[1,"HCDexpanded"] <- plyr::round_any(length(which(Input2$HCDexpanded==1)), 5, f = round)
-Table1[1,"ADTsecond_gener"] <- plyr::round_any(length(which(Input2$ADTsecond_gener==1)), 5, f = round)
+# Table1 <- as.data.frame(NA)
+# xx <- c("total_number","average_age","sd_age","ADTsecond_gener","HCD", "HCDexpanded")
+# Table1[xx] <- NA
+# Table1[1,"total_number"] <- plyr::round_any(length(which(Input$prostate_ca==1)), 5, f = round)
+# Input2 <- Input[Input$prostate_ca==1,]
+# Table1[1,"HCD"] <- plyr::round_any(length(which(Input2$HCD==1)), 5, f = round)
+# Table1[1,"HCDexpanded"] <- plyr::round_any(length(which(Input2$HCDexpanded==1)), 5, f = round)
+# Table1[1,"ADTsecond_gener"] <- plyr::round_any(length(which(Input2$ADTsecond_gener==1)), 5, f = round)
 
-Table1[1,"average_age"] <- mean(Input2$age_pa_ca)
-Table1[1,"sd_age"] <- sd(Input2$age_pa_ca)
-Table1[names(table(Input2$age_group))] <- NA
-Table1[1,names(table(Input2$age_group))] <- plyr::round_any(as.numeric(table(Input2$age_group)), 5, f = round)
-Table1[names(table(Input2$ethnicity))] <- NA
-Table1[1,names(table(Input2$ethnicity))] <- plyr::round_any(as.numeric(table(Input2$ethnicity)), 5, f = round)
-Table1[names(table(Input2$sex))] <- NA
-Table1[1,names(table(Input2$sex))] <- plyr::round_any(as.numeric(table(Input2$sex)), 5, f = round)
+# Table1[1,"average_age"] <- mean(Input2$age_pa_ca)
+# Table1[1,"sd_age"] <- sd(Input2$age_pa_ca)
+# Table1[names(table(Input2$age_group))] <- NA
+# Table1[1,names(table(Input2$age_group))] <- plyr::round_any(as.numeric(table(Input2$age_group)), 5, f = round)
+# Table1[names(table(Input2$ethnicity))] <- NA
+# Table1[1,names(table(Input2$ethnicity))] <- plyr::round_any(as.numeric(table(Input2$ethnicity)), 5, f = round)
+# Table1[names(table(Input2$sex))] <- NA
+# Table1[1,names(table(Input2$sex))] <- plyr::round_any(as.numeric(table(Input2$sex)), 5, f = round)
 
-write.table(Table1, here::here("output", "Table1.csv"),sep = ",",row.names = FALSE)
+# write.table(Table1, here::here("output", "Table1.csv"),sep = ",",row.names = FALSE)

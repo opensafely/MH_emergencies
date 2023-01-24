@@ -52,47 +52,27 @@ actions:
     outputs:
       moderately_sensitive:
         measure_csv1: output/measures/measure_self_harmAE*_rate.csv
-        measure_csv5: output/measures/measure_self_harmAEbyRegion*_rate.csv
-        measure_csv6: output/measures/measure_self_harmAEbyIMD*_rate.csv
-        measure_csv7: output/measures/measure_self_harmAEbyEthnicity*_rate.csv
-        measure_csv8: output/measures/measure_self_harmAEbyAge*_rate.csv
+        measure_csv2: output/measures/measure_self_harmAEbyRegion*_rate.csv
+        measure_csv3: output/measures/measure_self_harmAEbyIMD*_rate.csv
+        measure_csv4: output/measures/measure_self_harmAEbyEthnicity*_rate.csv
+        measure_csv5: output/measures/measure_self_harmAEbyAge*_rate.csv
 
-  # describe_trends:
-  #   run: r:latest analysis/Descriptive_trends.R
-  #   needs: 
-  #     [
-  #       generate_measures_ADT,
-  #       generate_study_population
-  #     ]
-  #   outputs:
-  #     moderately_sensitive:
-  #       fig1: output/ADT_inj_rat.png
-  #       fig2: output/ADT_inj1_ra.png
-  #       fig3: output/ADT_inj3_ra.png
-  #       fig4: output/ADT_inj6_ra.png
-  #       fig5: output/ADTinjbyReg.png
-  #       fig6: output/ADTinjbyIMD.png
-  #       fig7: output/ADTinjbyEth.png
-  #       fig8: output/ADTinjbyAge.png
-  #       fig9: output/ADT_oral_ra.png
-  #       fig10: output/ADToralbyRe.png
-  #       fig11: output/ADToralbyIM.png
-  #       fig12: output/ADToralbyEt.png
-  #       fig13: output/ADToralbyAg.png
-  #       fig14: output/ADTsecongen.png        
-  #       csv1: output/ADT_inj_rat_rounded.csv
-  #       csv2: output/ADT_inj1_ra_rounded.csv
-  #       csv3: output/ADT_inj3_ra_rounded.csv
-  #       csv4: output/ADT_inj6_ra_rounded.csv
-  #       csv5: output/ADTinjbyReg_rounded.csv
-  #       csv6: output/ADTinjbyIMD_rounded.csv
-  #       csv7: output/ADTinjbyEth_rounded.csv
-  #       csv8: output/ADTinjbyAge_rounded.csv
-  #       csv9: output/ADT_oral_ra_rounded.csv
-  #       csv10: output/ADToralbyRe_rounded.csv
-  #       csv11: output/ADToralbyIM_rounded.csv
-  #       csv12: output/ADToralbyEt_rounded.csv
-  #       csv13: output/ADToralbyAg_rounded.csv
-  #       csv14: output/ADTsecongen_rounded.csv
-  #       csv15: output/Table1.csv
+  describe_trends:
+    run: r:latest analysis/Descriptive_trends.R
+    needs: 
+      [
+        generate_measures,
+      ]
+    outputs:
+      moderately_sensitive:
+        fig1: output/self_harmAE.png
+        fig2: output/self_harmAEbyReg.png
+        fig3: output/self_harmAEbyIMD.png
+        fig4: output/self_harmAEbyEth.png
+        fig5: output/self_harmAEbyAge.png   
+        csv1: output/self_harmAE_rounded.csv
+        csv2: output/self_harmAEbyReg_rounded.csv
+        csv3: output/self_harmAEbyIMD_rounded.csv
+        csv4: output/self_harmAEbyEth_rounded.csv
+        csv5: output/self_harmAEbyAge_rounded.csv
 
