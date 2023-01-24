@@ -1,3 +1,22 @@
 {
-  "files": {}
+  "files": {
+    "opensafely-ethnicity.csv": {
+      "id": "opensafely/ethnicity/2020-04-27",
+      "url": "https://codelists.opensafely.org/codelist/opensafely/ethnicity/2020-04-27/",
+      "downloaded_at": "2023-01-24 20:55:17.272243Z",
+      "sha": "3d2f3998b71863a80b24d60f6f4282e14191ae13"
+    },
+    "user-hjforbes-suicide-icd-10.csv": {
+      "id": "user/hjforbes/suicide-icd-10/3b53a18e",
+      "url": "https://codelists.opensafely.org/codelist/user/hjforbes/suicide-icd-10/3b53a18e/",
+      "downloaded_at": "2023-01-24 20:55:17.525094Z",
+      "sha": "806be08bebc267e8abb26b8ceeefd713dacb1eb8"
+    },
+    "ons-self-harm-intentional-and-undetermined-intent.csv": {
+      "id": "ons/self-harm-intentional-and-undetermined-intent/74239017",
+      "url": "https://codelists.opensafely.org/codelist/ons/self-harm-intentional-and-undetermined-intent/74239017/",
+      "downloaded_at": "2023-01-24 20:55:17.891196Z",
+      "sha": "6217ca378b4c55aaa67912723cef2ee1e0cad269"
+    }
+  }
 }
