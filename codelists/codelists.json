@@ -17,6 +17,42 @@
       "url": "https://codelists.opensafely.org/codelist/ons/self-harm-intentional-and-undetermined-intent/74239017/",
       "downloaded_at": "2023-01-24 20:55:17.891196Z",
       "sha": "6217ca378b4c55aaa67912723cef2ee1e0cad269"
+    },
+    "user-agleman-emotional-distress-snomed-ct.csv": {
+      "id": "user/agleman/emotional-distress-snomed-ct/3b415afb",
+      "url": "https://codelists.opensafely.org/codelist/user/agleman/emotional-distress-snomed-ct/3b415afb/",
+      "downloaded_at": "2023-01-25 17:59:44.671402Z",
+      "sha": "e34de05a6170a4675650615e9cec7ae6246d861d"
+    },
+    "user-agleman-emotional-distress.csv": {
+      "id": "user/agleman/emotional-distress/066fb49b",
+      "url": "https://codelists.opensafely.org/codelist/user/agleman/emotional-distress/066fb49b/",
+      "downloaded_at": "2023-01-25 17:59:44.941851Z",
+      "sha": "a4aeb211b8d49b1c01ad97be1269c3044c214af0"
+    },
+    "user-hjforbes-diagnoses-eating-disorder.csv": {
+      "id": "user/hjforbes/diagnoses-eating-disorder/62a78820",
+      "url": "https://codelists.opensafely.org/codelist/user/hjforbes/diagnoses-eating-disorder/62a78820/",
+      "downloaded_at": "2023-01-25 17:59:45.214485Z",
+      "sha": "7e6ed67c391b24de8f85adcca66813026596f67d"
+    },
+    "user-agleman-eating-disorders-icd10.csv": {
+      "id": "user/agleman/eating-disorders-icd10/57038e26",
+      "url": "https://codelists.opensafely.org/codelist/user/agleman/eating-disorders-icd10/57038e26/",
+      "downloaded_at": "2023-01-25 17:59:45.484993Z",
+      "sha": "1ab0c66ab31c1ba01ae83e0bf6fcedd925e4a1b0"
+    },
+    "user-agleman-lifestyle-problems-icd10.csv": {
+      "id": "user/agleman/lifestyle-problems-icd10/3df41af1",
+      "url": "https://codelists.opensafely.org/codelist/user/agleman/lifestyle-problems-icd10/3df41af1/",
+      "downloaded_at": "2023-01-25 17:59:45.751472Z",
+      "sha": "7a95a3fce6e6bb5536915bbc3550ba29dd381d96"
+    },
+    "user-agleman-assault_violence-icd10.csv": {
+      "id": "user/agleman/assault_violence-icd10/24e4a7bc",
+      "url": "https://codelists.opensafely.org/codelist/user/agleman/assault_violence-icd10/24e4a7bc/",
+      "downloaded_at": "2023-01-25 17:59:46.069662Z",
+      "sha": "d271431bc00bcc34b9ef15d3aa8ea3e01b1a1d12"
     }
   }
 }

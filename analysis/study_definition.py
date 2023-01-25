@@ -64,9 +64,7 @@ study = StudyDefinition(
             },
         ),
     ),
-
-### Self harm
-
+### Variable 1 Self harm
 # A&E: SNOMED_codes
     self_harmAE=patients.attended_emergency_care(
         with_these_diagnoses=self_harm_SNOMED, 
@@ -84,6 +82,94 @@ study = StudyDefinition(
 # mortality
     self_harmDead=patients.with_these_codes_on_death_certificate(
         self_harm_icd10,
+        match_only_underlying_cause=False,
+        on_or_before="index_date",
+        returning="binary_flag",
+    ),
+### Variable 2. Emotional distress
+# A&E: SNOMED_codes
+    emotional_distressAE=patients.attended_emergency_care(
+        with_these_diagnoses=emotional_distress_SNOMED, 
+        on_or_before="index_date",
+        returning="binary_flag",
+        return_expectations={"incidence": 0.20},
+    ),
+# hospital admissions: icd10_codelist
+    emotional_distressHosp=patients.admitted_to_hospital(
+        with_these_diagnoses=emotional_distress_icd10,
+        on_or_before="index_date",
+        returning="binary_flag",
+        return_expectations={"incidence": 0.20},
+    ),
+# mortality
+    emotional_distressDead=patients.with_these_codes_on_death_certificate(
+        emotional_distress_icd10,
+        match_only_underlying_cause=False,
+        on_or_before="index_date",
+        returning="binary_flag",
+    ),
+### Variable 3. Eating disorders
+# A&E: SNOMED_codes
+    eating_disordersAE=patients.attended_emergency_care(
+        with_these_diagnoses=eating_disorders_SNOMED, 
+        on_or_before="index_date",
+        returning="binary_flag",
+        return_expectations={"incidence": 0.20},
+    ),
+# hospital admissions: icd10_codelist
+    eating_disordersHosp=patients.admitted_to_hospital(
+        with_these_diagnoses=eating_disorders_icd10,
+        on_or_before="index_date",
+        returning="binary_flag",
+        return_expectations={"incidence": 0.20},
+    ),
+# mortality
+    eating_disordersDead=patients.with_these_codes_on_death_certificate(
+        eating_disorders_icd10,
+        match_only_underlying_cause=False,
+        on_or_before="index_date",
+        returning="binary_flag",
+    ),
+### Variable 4. Problems related to lifestyle
+# A&E: SNOMED_codes
+    # lifestyleAE=patients.attended_emergency_care(
+    #     with_these_diagnoses=lifestyle_SNOMED, 
+    #     on_or_before="index_date",
+    #     returning="binary_flag",
+    #     return_expectations={"incidence": 0.20},
+    # ),
+# hospital admissions: icd10_codelist
+    lifestyleHosp=patients.admitted_to_hospital(
+        with_these_diagnoses=lifestyle_icd10,
+        on_or_before="index_date",
+        returning="binary_flag",
+        return_expectations={"incidence": 0.20},
+    ),
+# mortality
+    lifestyleDead=patients.with_these_codes_on_death_certificate(
+        lifestyle_icd10,
+        match_only_underlying_cause=False,
+        on_or_before="index_date",
+        returning="binary_flag",
+    ),
+### Variable 5. Assault and violence
+# A&E: SNOMED_codes
+    # violenceAE=patients.attended_emergency_care(
+    #     with_these_diagnoses=violence_SNOMED, 
+    #     on_or_before="index_date",
+    #     returning="binary_flag",
+    #     return_expectations={"incidence": 0.20},
+    # ),
+# hospital admissions: icd10_codelist
+    violenceHosp=patients.admitted_to_hospital(
+        with_these_diagnoses=violence_icd10,
+        on_or_before="index_date",
+        returning="binary_flag",
+        return_expectations={"incidence": 0.20},
+    ),
+# mortality
+    violenceDead=patients.with_these_codes_on_death_certificate(
+        violence_icd10,
         match_only_underlying_cause=False,
         on_or_before="index_date",
         returning="binary_flag",

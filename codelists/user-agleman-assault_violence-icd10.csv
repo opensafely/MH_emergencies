@@ -1,0 +1,51 @@
+code,term
+T74,Maltreatment syndromes
+T740,Neglect or abandonment
+T741,Physical abuse
+T742,Sexual abuse
+T743,Psychological abuse
+T748,Other maltreatment syndromes
+T749,"Maltreatment syndrome, unspecified"
+X85,"Assault by drugs, medicaments and biological substances"
+X86,Assault by corrosive substance
+X87,Assault by pesticides
+X88,Assault by gases and vapours
+X880,Assault by carbon monoxide from combustion engine exhaust
+X881,Assault by carbon monoxide from utility gas
+X882,Assault by carbon monoxide from other domestic fuels
+X883,Assault by carbon monoxide from other sources
+X884,Assault by carbon monoxide from unspecified sources
+X888,Assault by other specified gases and vapours
+X889,Assault by unspecified gases and vapours
+X89,Assault by other specified chemicals and noxious substances
+X90,Assault by unspecified chemical or noxious substance
+X91,"Assault by hanging, strangulation and suffocation"
+X92,Assault by drowning and submersion
+X93,Assault by handgun discharge
+X94,"Assault by rifle, shotgun and larger firearm discharge"
+X95,Assault by other and unspecified firearm discharge
+X96,Assault by explosive material
+X97,"Assault by smoke, fire and flames"
+X98,"Assault by steam, hot vapours and hot objects"
+X99,Assault by sharp object
+Y00,Assault by blunt object
+Y01,Assault by pushing from high place
+Y02,Assault by pushing or placing victim before moving object
+Y03,Assault by crashing of motor vehicle
+Y04,Assault by bodily force
+Y05,Sexual assault by bodily force
+Y06,Neglect and abandonment
+Y060,By spouse or partner
+Y061,By parent
+Y062,By acquaintance or friend
+Y068,By other specified persons
+Y069,By unspecified person
+Y07,Other maltreatment
+Y070,By spouse or partner
+Y071,By parent
+Y072,By acquaintance or friend
+Y073,By official authorities
+Y078,By other specified persons
+Y079,By unspecified person
+Y08,Assault by other specified means
+Y09,Assault by unspecified means
