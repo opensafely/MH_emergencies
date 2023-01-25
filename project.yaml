@@ -44,11 +44,7 @@ actions:
   generate_measures:
     run: cohortextractor:latest generate_measures --study-definition study_definition_rates --skip-existing --output-dir=output/measures
     needs: 
-      [
-        generate_rates_1,
-        generate_rates_2,
-        join_ethnicity,
-      ]
+      [join_ethnicity]
     outputs:
       moderately_sensitive:
         measure_csv1a: output/measures/measure_self_harmAE*_rate.csv
@@ -163,7 +159,6 @@ actions:
         csv13a: output/self_harmDebyIMD_rounded.csv
         csv14a: output/self_harmDebyEth_rounded.csv
         csv15a: output/self_harmDebyAge_rounded.csv
-####################################################
         fig1c: output/emot_distAE.png
         fig2c: output/emot_distAEbyReg.png
         fig3c: output/emot_distAEbyIMD.png
@@ -194,7 +189,6 @@ actions:
         csv13c: output/emot_distDebyIMD_rounded.csv
         csv14c: output/emot_distDebyEth_rounded.csv
         csv15c: output/emot_distDebyAge_rounded.csv
-####################################################
         fig1b: output/eat_disorAE.png
         fig2b: output/eat_disorAEbyReg.png
         fig3b: output/eat_disorAEbyIMD.png
@@ -225,7 +219,6 @@ actions:
         csv13b: output/eat_disorDebyIMD_rounded.csv
         csv14b: output/eat_disorDebyEth_rounded.csv
         csv15b: output/eat_disorDebyAge_rounded.csv
-####################################################
         # fig1d: output/lifestyleAE.png
         # fig2d: output/lifestyleAEbyReg.png
         # fig3d: output/lifestyleAEbyIMD.png
@@ -256,7 +249,6 @@ actions:
         csv13d: output/lifestyleDebyIMD_rounded.csv
         csv14d: output/lifestyleDebyEth_rounded.csv
         csv15d: output/lifestyleDebyAge_rounded.csv
-####################################################
         # fig1e: output/violence_AE.png
         # fig2e: output/violence_AEbyReg.png
         # fig3e: output/violence_AEbyIMD.png
