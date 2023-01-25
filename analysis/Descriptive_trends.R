@@ -48,7 +48,6 @@ for (i in c(
               sep = ",",row.names = FALSE)
   ###### cut date that is after November 
   
-  
   ###
   # Plot 
   ###
