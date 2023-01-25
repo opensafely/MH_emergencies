@@ -52,76 +52,76 @@ actions:
         measure_csv1c: output/measures/measure_self_harmAEbyIMD*_rate.csv
         measure_csv1d: output/measures/measure_self_harmAEbyEthnicity*_rate.csv
         measure_csv1e: output/measures/measure_self_harmAEbyAge*_rate.csv
-        measure_csv1f: output/measures/measure_self_harmHosp*_rate.csv
-        measure_csv1g: output/measures/measure_self_harmHospbyRegion*_rate.csv
-        measure_csv1h: output/measures/measure_self_harmHospbyIMD*_rate.csv
-        measure_csv1i: output/measures/measure_self_harmHospbyEthnicity*_rate.csv
-        measure_csv1j: output/measures/measure_self_harmHospbyAge*_rate.csv
-        measure_csv1k: output/measures/measure_self_harmDead*_rate.csv
-        measure_csv1l: output/measures/measure_self_harmDeadbyRegion*_rate.csv
-        measure_csv1m: output/measures/measure_self_harmDeadbyIMD*_rate.csv
-        measure_csv1n: output/measures/measure_self_harmDeadbyEthnicity*_rate.csv
-        measure_csv1o: output/measures/measure_self_harmDeadbyAge*_rate.csv
+        measure_csv1f: output/measures/measure_self_harmHo*_rate.csv
+        measure_csv1g: output/measures/measure_self_harmHobyRegion*_rate.csv
+        measure_csv1h: output/measures/measure_self_harmHobyIMD*_rate.csv
+        measure_csv1i: output/measures/measure_self_harmHobyEthnicity*_rate.csv
+        measure_csv1j: output/measures/measure_self_harmHobyAge*_rate.csv
+        measure_csv1k: output/measures/measure_self_harmDe*_rate.csv
+        measure_csv1l: output/measures/measure_self_harmDebyRegion*_rate.csv
+        measure_csv1m: output/measures/measure_self_harmDebyIMD*_rate.csv
+        measure_csv1n: output/measures/measure_self_harmDebyEthnicity*_rate.csv
+        measure_csv1o: output/measures/measure_self_harmDebyAge*_rate.csv
         measure_csv2a: output/measures/measure_emot_distAE*_rate.csv
         measure_csv2b: output/measures/measure_emot_distAEbyRegion*_rate.csv
         measure_csv2c: output/measures/measure_emot_distAEbyIMD*_rate.csv
         measure_csv2d: output/measures/measure_emot_distAEbyEthnicity*_rate.csv
         measure_csv2e: output/measures/measure_emot_distAEbyAge*_rate.csv
-        measure_csv2f: output/measures/measure_emot_distHosp*_rate.csv
-        measure_csv2g: output/measures/measure_emot_distHospbyRegion*_rate.csv
-        measure_csv2h: output/measures/measure_emot_distHospbyIMD*_rate.csv
-        measure_csv2i: output/measures/measure_emot_distHospbyEthnicity*_rate.csv
-        measure_csv2j: output/measures/measure_emot_distHospbyAge*_rate.csv
-        measure_csv2k: output/measures/measure_emot_distDead*_rate.csv
-        measure_csv2l: output/measures/measure_emot_distDeadbyRegion*_rate.csv
-        measure_csv2m: output/measures/measure_emot_distDeadbyIMD*_rate.csv
-        measure_csv2n: output/measures/measure_emot_distDeadbyEthnicity*_rate.csv
-        measure_csv2o: output/measures/measure_emot_distDeadbyAge*_rate.csv
+        measure_csv2f: output/measures/measure_emot_distHo*_rate.csv
+        measure_csv2g: output/measures/measure_emot_distHobyRegion*_rate.csv
+        measure_csv2h: output/measures/measure_emot_distHobyIMD*_rate.csv
+        measure_csv2i: output/measures/measure_emot_distHobyEthnicity*_rate.csv
+        measure_csv2j: output/measures/measure_emot_distHobyAge*_rate.csv
+        measure_csv2k: output/measures/measure_emot_distDe*_rate.csv
+        measure_csv2l: output/measures/measure_emot_distDebyRegion*_rate.csv
+        measure_csv2m: output/measures/measure_emot_distDebyIMD*_rate.csv
+        measure_csv2n: output/measures/measure_emot_distDebyEthnicity*_rate.csv
+        measure_csv2o: output/measures/measure_emot_distDebyAge*_rate.csv
         measure_csv3a: output/measures/measure_eat_disorAE*_rate.csv
         measure_csv3b: output/measures/measure_eat_disorAEbyRegion*_rate.csv
         measure_csv3c: output/measures/measure_eat_disorAEbyIMD*_rate.csv
         measure_csv3d: output/measures/measure_eat_disorAEbyEthnicity*_rate.csv
         measure_csv3e: output/measures/measure_eat_disorAEbyAge*_rate.csv
-        measure_csv3f: output/measures/measure_eat_disorHosp*_rate.csv
-        measure_csv3g: output/measures/measure_eat_disorHospbyRegion*_rate.csv
-        measure_csv3h: output/measures/measure_eat_disorHospbyIMD*_rate.csv
-        measure_csv3i: output/measures/measure_eat_disorHospbyEthnicity*_rate.csv
-        measure_csv3j: output/measures/measure_eat_disorHospbyAge*_rate.csv
-        measure_csv3k: output/measures/measure_eat_disorDead*_rate.csv
-        measure_csv3l: output/measures/measure_eat_disorDeadbyRegion*_rate.csv
-        measure_csv3m: output/measures/measure_eat_disorDeadbyIMD*_rate.csv
-        measure_csv3n: output/measures/measure_eat_disorDeadbyEthnicity*_rate.csv
-        measure_csv3o: output/measures/measure_eat_disorDeadbyAge*_rate.csv
+        measure_csv3f: output/measures/measure_eat_disorHo*_rate.csv
+        measure_csv3g: output/measures/measure_eat_disorHobyRegion*_rate.csv
+        measure_csv3h: output/measures/measure_eat_disorHobyIMD*_rate.csv
+        measure_csv3i: output/measures/measure_eat_disorHobyEthnicity*_rate.csv
+        measure_csv3j: output/measures/measure_eat_disorHobyAge*_rate.csv
+        measure_csv3k: output/measures/measure_eat_disorDe*_rate.csv
+        measure_csv3l: output/measures/measure_eat_disorDebyRegion*_rate.csv
+        measure_csv3m: output/measures/measure_eat_disorDebyIMD*_rate.csv
+        measure_csv3n: output/measures/measure_eat_disorDebyEthnicity*_rate.csv
+        measure_csv3o: output/measures/measure_eat_disorDebyAge*_rate.csv
         # measure_csv4a: output/measures/measure_lifestyleAE*_rate.csv
         # measure_csv4b: output/measures/measure_lifestyleAEbyRegion*_rate.csv
         # measure_csv4c: output/measures/measure_lifestyleAEbyIMD*_rate.csv
         # measure_csv4d: output/measures/measure_lifestyleAEbyEthnicity*_rate.csv
         # measure_csv4e: output/measures/measure_lifestyleAEbyAge*_rate.csv
-        measure_csv4f: output/measures/measure_lifestyleHosp*_rate.csv
-        measure_csv4g: output/measures/measure_lifestyleHospbyRegion*_rate.csv
-        measure_csv4h: output/measures/measure_lifestyleHospbyIMD*_rate.csv
-        measure_csv4i: output/measures/measure_lifestyleHospbyEthnicity*_rate.csv
-        measure_csv4j: output/measures/measure_lifestyleHospbyAge*_rate.csv
-        measure_csv4k: output/measures/measure_lifestyleDead*_rate.csv
-        measure_csv4l: output/measures/measure_lifestyleDeadbyRegion*_rate.csv
-        measure_csv4m: output/measures/measure_lifestyleDeadbyIMD*_rate.csv
-        measure_csv4n: output/measures/measure_lifestyleDeadbyEthnicity*_rate.csv
-        measure_csv4o: output/measures/measure_lifestyleDeadbyAge*_rate.csv
+        measure_csv4f: output/measures/measure_lifestyleHo*_rate.csv
+        measure_csv4g: output/measures/measure_lifestyleHobyRegion*_rate.csv
+        measure_csv4h: output/measures/measure_lifestyleHobyIMD*_rate.csv
+        measure_csv4i: output/measures/measure_lifestyleHobyEthnicity*_rate.csv
+        measure_csv4j: output/measures/measure_lifestyleHobyAge*_rate.csv
+        measure_csv4k: output/measures/measure_lifestyleDe*_rate.csv
+        measure_csv4l: output/measures/measure_lifestyleDebyRegion*_rate.csv
+        measure_csv4m: output/measures/measure_lifestyleDebyIMD*_rate.csv
+        measure_csv4n: output/measures/measure_lifestyleDebyEthnicity*_rate.csv
+        measure_csv4o: output/measures/measure_lifestyleDebyAge*_rate.csv
         # measure_csv5a: output/measures/measure_violence_AE*_rate.csv
         # measure_csv5b: output/measures/measure_violence_AEbyRegion*_rate.csv
         # measure_csv5c: output/measures/measure_violence_AEbyIMD*_rate.csv
         # measure_csv5d: output/measures/measure_violence_AEbyEthnicity*_rate.csv
         # measure_csv5e: output/measures/measure_violence_AEbyAge*_rate.csv
-        measure_csv5f: output/measures/measure_violence_Hosp*_rate.csv
-        measure_csv5g: output/measures/measure_violence_HospbyRegion*_rate.csv
-        measure_csv5h: output/measures/measure_violence_HospbyIMD*_rate.csv
-        measure_csv5i: output/measures/measure_violence_HospbyEthnicity*_rate.csv
-        measure_csv5j: output/measures/measure_violence_HospbyAge*_rate.csv
-        measure_csv5k: output/measures/measure_violence_Dead*_rate.csv
-        measure_csv5l: output/measures/measure_violence_DeadbyRegion*_rate.csv
-        measure_csv5m: output/measures/measure_violence_DeadbyIMD*_rate.csv
-        measure_csv5n: output/measures/measure_violence_DeadbyEthnicity*_rate.csv
-        measure_csv5o: output/measures/measure_violence_DeadbyAge*_rate.csv
+        measure_csv5f: output/measures/measure_violence_Ho*_rate.csv
+        measure_csv5g: output/measures/measure_violence_HobyRegion*_rate.csv
+        measure_csv5h: output/measures/measure_violence_HobyIMD*_rate.csv
+        measure_csv5i: output/measures/measure_violence_HobyEthnicity*_rate.csv
+        measure_csv5j: output/measures/measure_violence_HobyAge*_rate.csv
+        measure_csv5k: output/measures/measure_violence_De*_rate.csv
+        measure_csv5l: output/measures/measure_violence_DebyRegion*_rate.csv
+        measure_csv5m: output/measures/measure_violence_DebyIMD*_rate.csv
+        measure_csv5n: output/measures/measure_violence_DebyEthnicity*_rate.csv
+        measure_csv5o: output/measures/measure_violence_DebyAge*_rate.csv
 
   describe_trends:
     run: r:latest analysis/Descriptive_trends.R
@@ -140,25 +140,25 @@ actions:
         csv4a: output/self_harmAEbyEth_rounded.csv
         csv5a: output/self_harmAEbyAge_rounded.csv
         fig6a: output/self_harmHo.png
-        fig7a: output/self_harmHobyReg.png
-        fig8a: output/self_harmHobyIMD.png
-        fig9a: output/self_harmHobyEth.png
-        fig10a: output/self_harmHobyAge.png   
+        fig7a: output/self_harmHobyR.png
+        fig8a: output/self_harmHobyI.png
+        fig9a: output/self_harmHobyE.png
+        fig10a: output/self_harmHobyA.png   
         csv6a: output/self_harmHo_rounded.csv
-        csv7a: output/self_harmHobyReg_rounded.csv
-        csv8a: output/self_harmHobyIMD_rounded.csv
-        csv9a: output/self_harmHobyEth_rounded.csv
-        csv10a: output/self_harmHobyAge_rounded.csv
+        csv7a: output/self_harmHobyR_rounded.csv
+        csv8a: output/self_harmHobyI_rounded.csv
+        csv9a: output/self_harmHobyE_rounded.csv
+        csv10a: output/self_harmHobyA_rounded.csv
         fig11a: output/self_harmDe.png
-        fig12a: output/self_harmDebyReg.png
-        fig13a: output/self_harmDebyIMD.png
-        fig14a: output/self_harmDebyEth.png
-        fig15a: output/self_harmDebyAge.png   
+        fig12a: output/self_harmDebyR.png
+        fig13a: output/self_harmDebyI.png
+        fig14a: output/self_harmDebyE.png
+        fig15a: output/self_harmDebyA.png   
         csv11a: output/self_harmDe_rounded.csv
-        csv12a: output/self_harmDebyReg_rounded.csv
-        csv13a: output/self_harmDebyIMD_rounded.csv
-        csv14a: output/self_harmDebyEth_rounded.csv
-        csv15a: output/self_harmDebyAge_rounded.csv
+        csv12a: output/self_harmDebyR_rounded.csv
+        csv13a: output/self_harmDebyI_rounded.csv
+        csv14a: output/self_harmDebyE_rounded.csv
+        csv15a: output/self_harmDebyA_rounded.csv
         fig1c: output/emot_distAE.png
         fig2c: output/emot_distAEbyReg.png
         fig3c: output/emot_distAEbyIMD.png
