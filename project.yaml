@@ -140,25 +140,25 @@ actions:
         csv4a: output/self_harmAEbyEth_rounded.csv
         csv5a: output/self_harmAEbyAge_rounded.csv
         fig6a: output/self_harmHo.png
-        fig7a: output/self_harmHobyR.png
-        fig8a: output/self_harmHobyI.png
-        fig9a: output/self_harmHobyE.png
-        fig10a: output/self_harmHobyA.png   
+        fig7a: output/self_harmHobyReg.png
+        fig8a: output/self_harmHobyIMD.png
+        fig9a: output/self_harmHobyEth.png
+        fig10a: output/self_harmHobyAge.png   
         csv6a: output/self_harmHo_rounded.csv
-        csv7a: output/self_harmHobyR_rounded.csv
-        csv8a: output/self_harmHobyI_rounded.csv
-        csv9a: output/self_harmHobyE_rounded.csv
-        csv10a: output/self_harmHobyA_rounded.csv
+        csv7a: output/self_harmHobyReg_rounded.csv
+        csv8a: output/self_harmHobyIMD_rounded.csv
+        csv9a: output/self_harmHobyEth_rounded.csv
+        csv10a: output/self_harmHobyAge_rounded.csv
         fig11a: output/self_harmDe.png
-        fig12a: output/self_harmDebyR.png
-        fig13a: output/self_harmDebyI.png
-        fig14a: output/self_harmDebyE.png
-        fig15a: output/self_harmDebyA.png   
+        fig12a: output/self_harmDebyReg.png
+        fig13a: output/self_harmDebyIMD.png
+        fig14a: output/self_harmDebyEth.png
+        fig15a: output/self_harmDebyAge.png   
         csv11a: output/self_harmDe_rounded.csv
-        csv12a: output/self_harmDebyR_rounded.csv
-        csv13a: output/self_harmDebyI_rounded.csv
-        csv14a: output/self_harmDebyE_rounded.csv
-        csv15a: output/self_harmDebyA_rounded.csv
+        csv12a: output/self_harmDebyReg_rounded.csv
+        csv13a: output/self_harmDebyIMD_rounded.csv
+        csv14a: output/self_harmDebyEth_rounded.csv
+        csv15a: output/self_harmDebyAge_rounded.csv
         fig1c: output/emot_distAE.png
         fig2c: output/emot_distAEbyReg.png
         fig3c: output/emot_distAEbyIMD.png
