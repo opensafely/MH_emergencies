@@ -1,0 +1,42 @@
+code,term
+E43,Unspecified severe protein-energy malnutrition
+E44,Protein-energy malnutrition of moderate and mild degree
+E440,Moderate protein-energy malnutrition
+E441,Mild protein-energy malnutrition
+E45,Retarded development following protein-energy malnutrition
+E46,Unspecified protein-energy malnutrition
+E64,Sequelae of malnutrition and other nutritional deficiencies
+E640,Sequelae of protein-energy malnutrition
+E641,Sequelae of vitamin A deficiency
+E642,Sequelae of vitamin C deficiency
+E643,Sequelae of rickets
+E648,Sequelae of other nutritional deficiencies
+E649,Sequelae of unspecified nutritional deficiency
+F50,Eating disorders
+F500,Anorexia nervosa
+F501,Atypical anorexia nervosa
+F502,Bulimia nervosa
+F503,Atypical bulimia nervosa
+F504,Overeating associated with other psychological disturbances
+F505,Vomiting associated with other psychological disturbances
+F508,Other eating disorders
+F509,"Eating disorder, unspecified"
+F982,Feeding disorder of infancy and childhood
+F983,Pica of infancy and childhood
+M833,Adult osteomalacia due to malnutrition
+O25,Malnutrition in pregnancy
+P05,Slow fetal growth and fetal malnutrition
+P050,Light for gestational age
+P051,Small for gestational age
+P052,Fetal malnutrition without mention of light or small for gestational age
+P059,"Slow fetal growth, unspecified"
+R63,Symptoms and signs concerning food and fluid intake
+R630,Anorexia
+R631,Polydipsia
+R632,Polyphagia
+R633,Feeding difficulties and mismanagement
+R634,Abnormal weight loss
+R635,Abnormal weight gain
+R636,Insufficient intake of food and water
+R638,Other symptoms and signs concerning food and fluid intake
+Z724,Inappropriate diet and eating habits

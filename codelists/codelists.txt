@@ -1,3 +1,9 @@
 opensafely/ethnicity/2020-04-27
 user/hjforbes/suicide-icd-10/3b53a18e
 ons/self-harm-intentional-and-undetermined-intent/74239017
+user/agleman/emotional-distress-snomed-ct/3b415afb
+user/agleman/emotional-distress/066fb49b
+user/hjforbes/diagnoses-eating-disorder/62a78820
+user/agleman/eating-disorders-icd10/57038e26
+user/agleman/lifestyle-problems-icd10/3df41af1
+user/agleman/assault_violence-icd10/24e4a7bc

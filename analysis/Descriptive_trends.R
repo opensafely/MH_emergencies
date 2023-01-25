@@ -12,7 +12,23 @@ library(plyr)
 
 start <- "2020-03-01"
 
-for (i in c("measure_self_harmAE_rate.csv")){
+for (i in c(
+  "measure_self_harmAE_rate.csv",
+  "measure_self_harmHosp_rate.csv",
+  "measure_self_harmDead_rate.csv",
+  "measure_emot_distAE_rate.csv",
+  "measure_emot_distHosp_rate.csv",
+  "measure_emot_distDead_rate.csv",
+  "measure_eat_disorAE_rate.csv",
+  "measure_eat_disorHosp_rate.csv",
+  "measure_eat_disorDead_rate.csv",
+  # "measure_lifestyleAE_rate.csv",
+  "measure_lifestyleHosp_rate.csv",
+  "measure_lifestyleDead_rate.csv",
+  # "measure_violence_AE_rate.csv",
+  "measure_violence_Hosp_rate.csv",
+  "measure_violence_Dead_rate.csv"
+)){
 
   Rates <- read_csv(here::here("output", "measures", i))
   Rates_rounded <- as.data.frame(Rates)
@@ -58,10 +74,68 @@ for (i in c("measure_self_harmAE_rate.csv")){
   )
 }
 
-for (i in c("measure_self_harmAEbyRegion_rate.csv",
-            "measure_self_harmAEbyIMD_rate.csv",
-            "measure_self_harmAEbyEthnicity_rate.csv",
-            "measure_self_harmAEbyAge_rate.csv")){
+for (i in c(
+  "measure_self_harmAEbyRegion_rate.csv",
+  "measure_self_harmAEbyIMD_rate.csv",
+  "measure_self_harmAEbyEthnicity_rate.csv",
+  "measure_self_harmAEbyAge_rate.csv",
+  "measure_self_harmHospbyRegion_rate.csv",
+  "measure_self_harmHospbyIMD_rate.csv",
+  "measure_self_harmHospbyEthnicity_rate.csv",
+  "measure_self_harmHospbyAge_rate.csv",
+  "measure_self_harmDeadbyRegion_rate.csv",
+  "measure_self_harmDeadbyIMD_rate.csv",
+  "measure_self_harmDeadbyEthnicity_rate.csv",
+  "measure_self_harmDeadbyAge_rate.csv",
+  "measure_emot_distAEbyRegion_rate.csv",
+  "measure_emot_distAEbyIMD_rate.csv",
+  "measure_emot_distAEbyEthnicity_rate.csv",
+  "measure_emot_distAEbyAge_rate.csv",
+  "measure_emot_distHospbyRegion_rate.csv",
+  "measure_emot_distHospbyIMD_rate.csv",
+  "measure_emot_distHospbyEthnicity_rate.csv",
+  "measure_emot_distHospbyAge_rate.csv",
+  "measure_emot_distDeadbyRegion_rate.csv",
+  "measure_emot_distDeadbyIMD_rate.csv",
+  "measure_emot_distDeadbyEthnicity_rate.csv",
+  "measure_emot_distDeadbyAge_rate.csv",
+  "measure_eat_disorAEbyRegion_rate.csv",
+  "measure_eat_disorAEbyIMD_rate.csv",
+  "measure_eat_disorAEbyEthnicity_rate.csv",
+  "measure_eat_disorAEbyAge_rate.csv",
+  "measure_eat_disorHospbyRegion_rate.csv",
+  "measure_eat_disorHospbyIMD_rate.csv",
+  "measure_eat_disorHospbyEthnicity_rate.csv",
+  "measure_eat_disorHospbyAge_rate.csv",
+  "measure_eat_disorDeadbyRegion_rate.csv",
+  "measure_eat_disorDeadbyIMD_rate.csv",
+  "measure_eat_disorDeadbyEthnicity_rate.csv",
+  "measure_eat_disorDeadbyAge_rate.csv",
+  # "measure_lifestyleAEbyRegion_rate.csv",
+  # "measure_lifestyleAEbyIMD_rate.csv",
+  # "measure_lifestyleAEbyEthnicity_rate.csv",
+  # "measure_lifestyleAEbyAge_rate.csv",
+  "measure_lifestyleHospbyRegion_rate.csv",
+  "measure_lifestyleHospbyIMD_rate.csv",
+  "measure_lifestyleHospbyEthnicity_rate.csv",
+  "measure_lifestyleHospbyAge_rate.csv",
+  "measure_lifestyleDeadbyRegion_rate.csv",
+  "measure_lifestyleDeadbyIMD_rate.csv",
+  "measure_lifestyleDeadbyEthnicity_rate.csv",
+  "measure_lifestyleDeadbyAge_rate.csv",
+  # "measure_violence_AEbyRegion_rate.csv",
+  # "measure_violence_AEbyIMD_rate.csv",
+  # "measure_violence_AEbyEthnicity_rate.csv",
+  # "measure_violence_AEbyAge_rate.csv",
+  "measure_violence_HospbyRegion_rate.csv",
+  "measure_violence_HospbyIMD_rate.csv",
+  "measure_violence_HospbyEthnicity_rate.csv",
+  "measure_violence_HospbyAge_rate.csv",
+  "measure_violence_DeadbyRegion_rate.csv",
+  "measure_violence_DeadbyIMD_rate.csv",
+  "measure_violence_DeadbyEthnicity_rate.csv",
+  "measure_violence_DeadbyAge_rate.csv"
+  )){
   
   Rates <- read_csv(here::here("output", "measures", i))
   Rates_rounded <- as.data.frame(Rates)
