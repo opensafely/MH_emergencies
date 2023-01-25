@@ -127,13 +127,10 @@ actions:
         measure_csv5n: output/measures/measure_violence_DeadbyEthnicity*_rate.csv
         measure_csv5o: output/measures/measure_violence_DeadbyAge*_rate.csv
 
-
   describe_trends:
     run: r:latest analysis/Descriptive_trends.R
     needs: 
-      [
-        generate_measures,
-      ]
+      [generate_measures]
     outputs:
       moderately_sensitive:
         fig1a: output/self_harmAE.png
@@ -290,3 +287,4 @@ actions:
         csv13e: output/violence_DebyIMD_rounded.csv
         csv14e: output/violence_DebyEth_rounded.csv
         csv15e: output/violence_DebyAge_rounded.csv
+        
