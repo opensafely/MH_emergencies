@@ -36,20 +36,20 @@ study = StudyDefinition(
             "Missing": "DEFAULT",
             "White": """ ethnicity_code=1 """,
             "Mixed": """ ethnicity_code=2 """,
-            "South Asian": """ ethnicity_code=3 """,
+            "Asian": """ ethnicity_code=3 """,
             "Black": """ ethnicity_code=4 """,
-            "Other": """ ethnicity_code=5 """,
+            "Chinese": """ ethnicity_code=5 """,
         },
         return_expectations={
             "rate": "universal",
             "category": {
                 "ratios": {
                     "Missing": 0.4,
-                    "White": 0.2,
+                    "White": 0.1,
                     "Mixed": 0.1,
-                    "South Asian": 0.1,
+                    "Asian": 0.1,
                     "Black": 0.1,
-                    "Other": 0.1,
+                    "Chinese": 0.2,
                 }
             },
         },
@@ -57,12 +57,40 @@ study = StudyDefinition(
             ethnicity_codes,
             returning="category",
             find_last_match_in_period=True,
-            on_or_before="index_date",
+            include_date_of_match=False,
             return_expectations={
-            "category": {"ratios": {"1": 0.4, "2": 0.4, "3": 0.2, "4":0.2,"5": 0.2}},
+            "category": {"ratios": {"1": 0.2, "2": 0.2, "3": 0.2, "4": 0.2, "5": 0.2}},
             "incidence": 0.75,
             },
         ),
+    ),
+    imd_cat=patients.categorised_as(
+        {
+            "Unknown": "DEFAULT",
+            "1 (most deprived)": "imd >= 0 AND imd < 32844*1/5",
+            "2": "imd >= 32844*1/5 AND imd < 32844*2/5",
+            "3": "imd >= 32844*2/5 AND imd < 32844*3/5",
+            "4": "imd >= 32844*3/5 AND imd < 32844*4/5",
+            "5 (least deprived)": "imd >= 32844*4/5 AND imd <= 32844",
+        },
+        imd=patients.address_as_of(
+            "first_day_of_month(index_date)",
+            returning="index_of_multiple_deprivation",
+            round_to_nearest=100,
+        ),
+        return_expectations={
+            "rate": "universal",
+            "category": {
+                "ratios": {
+                    "Unknown": 0.05,
+                    "1 (most deprived)": 0.19,
+                    "2": 0.19,
+                    "3": 0.19,
+                    "4": 0.19,
+                    "5 (least deprived)": 0.19,
+                }
+            },
+        },
     ),
 ### Variable 1 Self harm
 # A&E: SNOMED_codes

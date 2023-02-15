@@ -5,16 +5,10 @@ from cohortextractor import (
 
 # DEMOGRAPHIC CODELIST
 ethnicity_codes = codelist_from_csv(
-    "codelists/opensafely-ethnicity.csv",
-    system="ctv3",
-    column="Code",
+    "codelists/opensafely-ethnicity-snomed-0removed.csv",
+    system="snomed",
+    column="snomedcode",
     category_column="Grouping_6",
-)
-ethnicity_codes_16 = codelist_from_csv(
-    "codelists/opensafely-ethnicity.csv",
-    system="ctv3",
-    column="Code",
-    category_column="Grouping_16",
 )
 # Variable 1. Self harm
 self_harm_SNOMED = codelist_from_csv(

@@ -1,4 +1,4 @@
-opensafely/ethnicity/2020-04-27
+opensafely/ethnicity-snomed-0removed/2e641f61
 user/hjforbes/suicide-icd-10/3b53a18e
 ons/self-harm-intentional-and-undetermined-intent/74239017
 user/agleman/emotional-distress-snomed-ct/3b415afb
