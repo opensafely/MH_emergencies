@@ -41,10 +41,10 @@ study = StudyDefinition(
     age_group=patients.categorised_as(
         {
             "Missing": "DEFAULT",
-            "<=18": """ age <= 25""",
-            "19-25": """ age > 25 AND age <= 40""",
-            "26-64": """ age > 40 AND age <= 65""",
-            "65+": """ age > 65""",
+            "<=25": """ age <= 25""",
+            "26-40": """ age > 25 AND age <= 40""",
+            "41-65": """ age > 40 AND age <= 65""",
+            ">65": """ age > 65""",
         },
         return_expectations={
             "rate": "universal",
@@ -54,7 +54,7 @@ study = StudyDefinition(
                     "<=25": 0.2,
                     "26-40": 0.2,
                     "41-65": 0.2,
-                    ">=65": 0.2,
+                    ">65": 0.2,
                 }
             },
         },
