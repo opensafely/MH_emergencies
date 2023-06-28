@@ -36,8 +36,7 @@ for (i in c(
   ###
   # Redact and round counts 
   ###
-  # was redacted within the measures function - small number suppression 
-  # Round and recalc rates 
+  Rates_rounded[,1] <- redactor(Rates_rounded[,1])
   for (j in 1:2){
     Rates_rounded[,j] <- plyr::round_any(Rates_rounded[,j], 5, f = round)}
   
@@ -142,8 +141,8 @@ for (i in c(
   ###
   # Redact and round counts 
   ###
-  # was redacted within the measures function - small number suppression 
-  # Round and recalc rates 
+  Rates_rounded[which(is.na(Rates_rounded[,2])),2] <- 1
+  Rates_rounded[,2] <- redactor(Rates_rounded[,2])
   for (j in 2:3){
     Rates_rounded[,j] <- plyr::round_any(Rates_rounded[,j], 5, f = round)}
   
