@@ -36,8 +36,7 @@ for (i in c(
   ###
   # Redact and round counts 
   ###
-  # was redacted within the measures function - small number suppression 
-  # Round and recalc rates 
+  Rates_rounded[,1] <- redactor(Rates_rounded[,1])
   for (j in 1:2){
     Rates_rounded[,j] <- plyr::round_any(Rates_rounded[,j], 5, f = round)}
   
@@ -63,7 +62,7 @@ for (i in c(
   p <- p + geom_vline(xintercept=as.Date(start, format="%Y-%m-%d"), size=0.3, colour="red")
   p <- p +  geom_text(aes(x=as.Date(start, format="%Y-%m-%d")+5, y=min(value2)+(sd(value2)*2)), 
                       color = "red",label="Start of\nrestrictions", angle = 90, size = 3)
-  p <- p + labs(caption="OpenSafely-TPP January 2023")
+  p <- p + labs(caption="OpenSafely-TPP June 2023")
   p <- p + theme(plot.caption = element_text(size=8))
   p <- p + theme(plot.title = element_text(size = 10))
   
@@ -142,8 +141,8 @@ for (i in c(
   ###
   # Redact and round counts 
   ###
-  # was redacted within the measures function - small number suppression 
-  # Round and recalc rates 
+  Rates_rounded[which(is.na(Rates_rounded[,2])),2] <- 1
+  Rates_rounded[,2] <- redactor(Rates_rounded[,2])
   for (j in 2:3){
     Rates_rounded[,j] <- plyr::round_any(Rates_rounded[,j], 5, f = round)}
   
@@ -169,7 +168,7 @@ for (i in c(
   p <- p + geom_vline(xintercept=as.Date(start, format="%Y-%m-%d"), size=0.3, colour="red")
   p <- p +  geom_text(aes(x=as.Date(start, format="%Y-%m-%d")+5, y=min(value2)+(sd(value2)*2)), 
                       color = "red",label="Start of\nrestrictions", angle = 90, size = 3)
-  p <- p + labs(caption="OpenSafely-TPP January 2023")
+  p <- p + labs(caption="OpenSafely-TPP June 2023")
   p <- p + theme(plot.caption = element_text(size=8))
   p <- p + theme(plot.title = element_text(size = 10))
   

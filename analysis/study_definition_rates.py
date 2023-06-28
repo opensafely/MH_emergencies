@@ -7,7 +7,7 @@ from cohortextractor import (
 from codelists import *
 
 start_date = "2015-01-01"
-end_date = "2022-12-01"
+end_date = "2023-06-01"
 
 study = StudyDefinition(
     default_expectations={
