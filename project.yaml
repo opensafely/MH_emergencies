@@ -122,21 +122,21 @@ actions:
         # measure_csv5m: output/measures/measure_violence_DebyIMD*_rate.csv
         # measure_csv5n: output/measures/measure_violence_DebyEthnicity*_rate.csv
         # measure_csv5o: output/measures/measure_violence_DebyAge*_rate.csv
-        measure_csv6a: output/measures/measure_ser_m_ill_AE*_rate.csv
-        measure_csv6b: output/measures/measure_ser_m_ill_AEbyRegion*_rate.csv
-        measure_csv6c: output/measures/measure_ser_m_ill_AEbyIMD*_rate.csv
-        measure_csv6d: output/measures/measure_ser_m_ill_AEbyEthnicity*_rate.csv
-        measure_csv6e: output/measures/measure_ser_m_ill_AEbyAge*_rate.csv
-        measure_csv6f: output/measures/measure_ser_m_ill_Ho*_rate.csv
-        measure_csv6g: output/measures/measure_ser_m_ill_HobyRegion*_rate.csv
-        measure_csv6h: output/measures/measure_ser_m_ill_HobyIMD*_rate.csv
-        measure_csv6i: output/measures/measure_ser_m_ill_HobyEthnicity*_rate.csv
-        measure_csv6j: output/measures/measure_ser_m_ill_HobyAge*_rate.csv
-        measure_csv6k: output/measures/measure_ser_m_ill_De*_rate.csv
-        # measure_csv6l: output/measures/measure_ser_m_ill_DebyRegion*_rate.csv
-        # measure_csv6m: output/measures/measure_ser_m_ill_DebyIMD*_rate.csv
-        # measure_csv6n: output/measures/measure_ser_m_ill_DebyEthnicity*_rate.csv
-        # measure_csv6o: output/measures/measure_ser_m_ill_DebyAge*_rate.csv
+        measure_csv6a: output/measures/measure_s_m_illn_AE*_rate.csv
+        measure_csv6b: output/measures/measure_s_m_illn_AEbyRegion*_rate.csv
+        measure_csv6c: output/measures/measure_s_m_illn_AEbyIMD*_rate.csv
+        measure_csv6d: output/measures/measure_s_m_illn_AEbyEthnicity*_rate.csv
+        measure_csv6e: output/measures/measure_s_m_illn_AEbyAge*_rate.csv
+        measure_csv6f: output/measures/measure_s_m_illn_Ho*_rate.csv
+        measure_csv6g: output/measures/measure_s_m_illn_HobyRegion*_rate.csv
+        measure_csv6h: output/measures/measure_s_m_illn_HobyIMD*_rate.csv
+        measure_csv6i: output/measures/measure_s_m_illn_HobyEthnicity*_rate.csv
+        measure_csv6j: output/measures/measure_s_m_illn_HobyAge*_rate.csv
+        measure_csv6k: output/measures/measure_s_m_illn_De*_rate.csv
+        # measure_csv6l: output/measures/measure_s_m_illn_DebyRegion*_rate.csv
+        # measure_csv6m: output/measures/measure_s_m_illn_DebyIMD*_rate.csv
+        # measure_csv6n: output/measures/measure_s_m_illn_DebyEthnicity*_rate.csv
+        # measure_csv6o: output/measures/measure_s_m_illn_DebyAge*_rate.csv
   
   describe_trends:
     run: r:latest analysis/Descriptive_trends.R
@@ -294,32 +294,32 @@ actions:
         # csv13e: output/violence_DebyIMD_rounded.csv
         # csv14e: output/violence_DebyEth_rounded.csv
         # csv15e: output/violence_DebyAge_rounded.csv
-        fig1f: output/ser_m_ill_AE.png
-        fig2f: output/ser_m_ill_AEbyReg.png
-        fig3f: output/ser_m_ill_AEbyIMD.png
-        fig4f: output/ser_m_ill_AEbyEth.png
-        fig5f: output/ser_m_ill_AE_rounded.csv
-        csv2f: output/ser_m_ill_AEbyReg_rounded.csv
-        csv3f: output/ser_m_ill_AEbyIMD_rounded.csv
-        csv4f: output/ser_m_ill_AEbyEth_rounded.csv
-        csv5f: output/ser_m_ill_AEbyAge_rounded.csv
-        fig6f: output/ser_m_ill_Ho.png
-        fig7f: output/ser_m_ill_HobyReg.png
-        fig8f: output/ser_m_ill_HobyIMD.png
-        fig9f: output/ser_m_ill_HobyEth.png
-        fig10f: output/ser_m_ill_HobyAge.png   
-        csv6f: output/ser_m_ill_Ho_rounded.csv
-        csv7f: output/ser_m_ill_HobyReg_rounded.csv
-        csv8f: output/ser_m_ill_HobyIMD_rounded.csv
-        csv9f: output/ser_m_ill_HobyEth_rounded.csv
-        csv10f: output/ser_m_ill_HobyAge_rounded.csv
-        fig11f: output/ser_m_ill_De.png
-        # fig12f: output/ser_m_ill_DebyReg.png
-        # fig13f: output/ser_m_ill_DebyIMD.png
-        # fig14f: output/ser_m_ill_DebyEth.png
-        # fig15f: output/ser_m_ill_DebyAge.png   
-        csv11f: output/ser_m_ill_De_rounded.csv
-        # csv12f: output/ser_m_ill_DebyReg_rounded.csv
-        # csv13f: output/ser_m_ill_DebyIMD_rounded.csv
-        # csv14f: output/ser_m_ill_DebyEth_rounded.csv
-        # csv15f: output/ser_m_ill_DebyAge_rounded.csv
+        fig1f: output/s_m_illn_AE.png
+        fig2f: output/s_m_illn_AEbyReg.png
+        fig3f: output/s_m_illn_AEbyIMD.png
+        fig4f: output/s_m_illn_AEbyEth.png
+        fig5f: output/s_m_illn_AE_rounded.csv
+        csv2f: output/s_m_illn_AEbyReg_rounded.csv
+        csv3f: output/s_m_illn_AEbyIMD_rounded.csv
+        csv4f: output/s_m_illn_AEbyEth_rounded.csv
+        csv5f: output/s_m_illn_AEbyAge_rounded.csv
+        fig6f: output/s_m_illn_Ho.png
+        fig7f: output/s_m_illn_HobyReg.png
+        fig8f: output/s_m_illn_HobyIMD.png
+        fig9f: output/s_m_illn_HobyEth.png
+        fig10f: output/s_m_illn_HobyAge.png   
+        csv6f: output/s_m_illn_Ho_rounded.csv
+        csv7f: output/s_m_illn_HobyReg_rounded.csv
+        csv8f: output/s_m_illn_HobyIMD_rounded.csv
+        csv9f: output/s_m_illn_HobyEth_rounded.csv
+        csv10f: output/s_m_illn_HobyAge_rounded.csv
+        fig11f: output/s_m_illn_De.png
+        # fig12f: output/s_m_illn_DebyReg.png
+        # fig13f: output/s_m_illn_DebyIMD.png
+        # fig14f: output/s_m_illn_DebyEth.png
+        # fig15f: output/s_m_illn_DebyAge.png   
+        csv11f: output/s_m_illn_De_rounded.csv
+        # csv12f: output/s_m_illn_DebyReg_rounded.csv
+        # csv13f: output/s_m_illn_DebyIMD_rounded.csv
+        # csv14f: output/s_m_illn_DebyEth_rounded.csv
+        # csv15f: output/s_m_illn_DebyAge_rounded.csv

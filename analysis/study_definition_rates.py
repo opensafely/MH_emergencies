@@ -274,8 +274,8 @@ study = StudyDefinition(
     ),
 ### Variable 6. SMIs
 # A&E: SNOMED_codes
-    ser_m_ill_AE=patients.attended_emergency_care(
-        with_these_diagnoses=ser_m_ill_SNOMED,
+    s_m_illn_AE=patients.attended_emergency_care(
+        with_these_diagnoses=s_m_illn_SNOMED,
         between=[
             "first_day_of_month(index_date)",
             "last_day_of_month(index_date)",
@@ -284,8 +284,8 @@ study = StudyDefinition(
         return_expectations={"incidence": 0.50},
     ),
 # Hoital admissions: icd10_codelist
-    ser_m_ill_Ho=patients.admitted_to_hospital(
-        with_these_diagnoses=ser_m_ill_icd10,
+    s_m_illn_Ho=patients.admitted_to_hospital(
+        with_these_diagnoses=s_m_illn_icd10,
         between=[
             "first_day_of_month(index_date)",
             "last_day_of_month(index_date)",
@@ -294,8 +294,8 @@ study = StudyDefinition(
         return_expectations={"incidence": 0.50},
     ),
 # mortality
-    ser_m_ill_De=patients.with_these_codes_on_death_certificate(
-        ser_m_ill_icd10,
+    s_m_illn_De=patients.with_these_codes_on_death_certificate(
+        s_m_illn_icd10,
         match_only_underlying_cause=False,
         between=[
             "first_day_of_month(index_date)",
@@ -697,78 +697,78 @@ measures = [
     ),
 ### Variable 6. SMIs
     Measure(
-        id="ser_m_ill_AE_rate",
-        numerator="ser_m_ill_AE",
+        id="s_m_illn_AE_rate",
+        numerator="s_m_illn_AE",
         denominator="population",
         group_by="population",
         small_number_suppression=True,
     ),
     Measure(
-        id="ser_m_ill_AEbyRegion_rate",
-        numerator="ser_m_ill_AE",
+        id="s_m_illn_AEbyRegion_rate",
+        numerator="s_m_illn_AE",
         denominator="population",
         group_by="region",
         small_number_suppression=True,
     ),
     Measure(
-        id="ser_m_ill_AEbyIMD_rate",
-        numerator="ser_m_ill_AE",
+        id="s_m_illn_AEbyIMD_rate",
+        numerator="s_m_illn_AE",
         denominator="population",
         group_by="imd_cat",
         small_number_suppression=True,
     ),
     Measure(
-        id="ser_m_ill_AEbyEthnicity_rate",
-        numerator="ser_m_ill_AE",
+        id="s_m_illn_AEbyEthnicity_rate",
+        numerator="s_m_illn_AE",
         denominator="population",
         group_by="ethnicity",
         small_number_suppression=True,
     ),
     Measure(
-        id="ser_m_ill_AEbyAge_rate",
-        numerator="ser_m_ill_AE",
+        id="s_m_illn_AEbyAge_rate",
+        numerator="s_m_illn_AE",
         denominator="population",
         group_by="age_group",
         small_number_suppression=True,
     ),
     Measure(
-        id="ser_m_ill_Ho_rate",
-        numerator="ser_m_ill_Ho",
+        id="s_m_illn_Ho_rate",
+        numerator="s_m_illn_Ho",
         denominator="population",
         group_by="population",
         small_number_suppression=True,
     ),
     Measure(
-        id="ser_m_ill_HobyRegion_rate",
-        numerator="ser_m_ill_Ho",
+        id="s_m_illn_HobyRegion_rate",
+        numerator="s_m_illn_Ho",
         denominator="population",
         group_by="region",
         small_number_suppression=True,
     ),
     Measure(
-        id="ser_m_ill_HobyIMD_rate",
-        numerator="ser_m_ill_Ho",
+        id="s_m_illn_HobyIMD_rate",
+        numerator="s_m_illn_Ho",
         denominator="population",
         group_by="imd_cat",
         small_number_suppression=True,
     ),
     Measure(
-        id="ser_m_ill_HobyEthnicity_rate",
-        numerator="ser_m_ill_Ho",
+        id="s_m_illn_HobyEthnicity_rate",
+        numerator="s_m_illn_Ho",
         denominator="population",
         group_by="ethnicity",
         small_number_suppression=True,
     ),
     Measure(
-        id="ser_m_ill_HobyAge_rate",
-        numerator="ser_m_ill_Ho",
+        id="s_m_illn_HobyAge_rate",
+        numerator="s_m_illn_Ho",
         denominator="population",
         group_by="age_group",
         small_number_suppression=True,
     ),
     Measure(
-        id="ser_m_ill_De_rate",
-        numerator="ser_m_ill_De",
+        id="s_m_illn_De_rate",
+        numerator="s_m_illn_De",
         denominator="population",
         group_by="population",
         small_number_suppression=True,
