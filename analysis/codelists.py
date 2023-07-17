@@ -65,13 +65,13 @@ violence_icd10 = codelist_from_csv(
     system="icd10",
     column="code",
 )
-# Variable 5. Serious Menthal illness   
-ser_m_ill_SNOMED = codelist_from_csv(
+# Variable 6. Serious Menthal illness   
+s_m_illn_SNOMED = codelist_from_csv(
     "codelists/user-hjforbes-severe-mental-illness.csv",
     system="snomed",
     column="code",
 )
-ser_m_ill_icd10 = codelist_from_csv(
+s_m_illn_icd10 = codelist_from_csv(
     "codelists/user-agleman-smis-mh-emergencies.csv",
     system="icd10",
     column="code",

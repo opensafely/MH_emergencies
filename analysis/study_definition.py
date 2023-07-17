@@ -204,22 +204,22 @@ study = StudyDefinition(
     ),
 ### Variable 6. SMIs
 # A&E: SNOMED_codes
-    ser_m_illAE=patients.attended_emergency_care(
-        with_these_diagnoses=ser_m_ill_SNOMED, 
+    s_m_illnAE=patients.attended_emergency_care(
+        with_these_diagnoses=s_m_illn_SNOMED, 
         on_or_before="index_date",
         returning="binary_flag",
         return_expectations={"incidence": 0.20},
     ),
 # hospital admissions: icd10_codelist
-    ser_m_illHosp=patients.admitted_to_hospital(
-        with_these_diagnoses=ser_m_ill_icd10,
+    s_m_illnHosp=patients.admitted_to_hospital(
+        with_these_diagnoses=s_m_illn_icd10,
         on_or_before="index_date",
         returning="binary_flag",
         return_expectations={"incidence": 0.20},
     ),
 # mortality
-    ser_m_illDead=patients.with_these_codes_on_death_certificate(
-        ser_m_ill_icd10,
+    s_m_illnDead=patients.with_these_codes_on_death_certificate(
+        s_m_illn_icd10,
         match_only_underlying_cause=False,
         on_or_before="index_date",
         returning="binary_flag",

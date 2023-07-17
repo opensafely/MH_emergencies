@@ -46,9 +46,9 @@ for (i in c(
   "measure_violence_AE_rate.csv",
   "measure_violence_Ho_rate.csv",
   "measure_violence_De_rate.csv",
-  "measure_ser_m_ill_AE_rate.csv",
-  "measure_ser_m_ill_Ho_rate.csv",
-  "measure_ser_m_ill_De_rate.csv"
+  "measure_s_m_illn_AE_rate.csv",
+  "measure_s_m_illn_Ho_rate.csv",
+  "measure_s_m_illn_De_rate.csv"
 )){
 
   Rates <- read_csv(here::here("output", "measures", i))
@@ -154,18 +154,18 @@ for (i in c(
   # "measure_violence_DebyIMD_rate.csv",
   # "measure_violence_DebyEthnicity_rate.csv",
   # "measure_violence_DebyAge_rate.csv",
-  "measure_ser_m_ill_AEbyRegion_rate.csv",
-  "measure_ser_m_ill_AEbyIMD_rate.csv",
-  "measure_ser_m_ill_AEbyEthnicity_rate.csv",
-  "measure_ser_m_ill_AEbyAge_rate.csv",
-  "measure_ser_m_ill_HobyRegion_rate.csv",
-  "measure_ser_m_ill_HobyIMD_rate.csv",
-  "measure_ser_m_ill_HobyEthnicity_rate.csv",
-  "measure_ser_m_ill_HobyAge_rate.csv"################## use it ,
-  # "measure_ser_m_ill_DebyRegion_rate.csv",
-  # "measure_ser_m_ill_DebyIMD_rate.csv",
-  # "measure_ser_m_ill_DebyEthnicity_rate.csv",
-  # "measure_ser_m_ill_DebyAge_rate.csv"
+  "measure_s_m_illn_AEbyRegion_rate.csv",
+  "measure_s_m_illn_AEbyIMD_rate.csv",
+  "measure_s_m_illn_AEbyEthnicity_rate.csv",
+  "measure_s_m_illn_AEbyAge_rate.csv",
+  "measure_s_m_illn_HobyRegion_rate.csv",
+  "measure_s_m_illn_HobyIMD_rate.csv",
+  "measure_s_m_illn_HobyEthnicity_rate.csv",
+  "measure_s_m_illn_HobyAge_rate.csv"################## use it ,
+  # "measure_s_m_illn_DebyRegion_rate.csv",
+  # "measure_s_m_illn_DebyIMD_rate.csv",
+  # "measure_s_m_illn_DebyEthnicity_rate.csv",
+  # "measure_s_m_illn_DebyAge_rate.csv"
   )){
   
   Rates <- read_csv(here::here("output", "measures", i))
