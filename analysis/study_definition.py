@@ -160,12 +160,12 @@ study = StudyDefinition(
     ),
 ### Variable 4. Problems related to lifestyle
 # A&E: SNOMED_codes
-    # lifestyleAE=patients.attended_emergency_care(
-    #     with_these_diagnoses=lifestyle_SNOMED, 
-    #     on_or_before="index_date",
-    #     returning="binary_flag",
-    #     return_expectations={"incidence": 0.20},
-    # ),
+    lifestyleAE=patients.attended_emergency_care(
+        with_these_diagnoses=lifestyle_SNOMED, 
+        on_or_before="index_date",
+        returning="binary_flag",
+        return_expectations={"incidence": 0.20},
+    ),
 # hospital admissions: icd10_codelist
     lifestyleHosp=patients.admitted_to_hospital(
         with_these_diagnoses=lifestyle_icd10,
@@ -182,12 +182,12 @@ study = StudyDefinition(
     ),
 ### Variable 5. Assault and violence
 # A&E: SNOMED_codes
-    # violenceAE=patients.attended_emergency_care(
-    #     with_these_diagnoses=violence_SNOMED, 
-    #     on_or_before="index_date",
-    #     returning="binary_flag",
-    #     return_expectations={"incidence": 0.20},
-    # ),
+    violenceAE=patients.attended_emergency_care(
+        with_these_diagnoses=violence_SNOMED, 
+        on_or_before="index_date",
+        returning="binary_flag",
+        return_expectations={"incidence": 0.20},
+    ),
 # hospital admissions: icd10_codelist
     violenceHosp=patients.admitted_to_hospital(
         with_these_diagnoses=violence_icd10,
@@ -198,6 +198,28 @@ study = StudyDefinition(
 # mortality
     violenceDead=patients.with_these_codes_on_death_certificate(
         violence_icd10,
+        match_only_underlying_cause=False,
+        on_or_before="index_date",
+        returning="binary_flag",
+    ),
+### Variable 6. SMIs
+# A&E: SNOMED_codes
+    smiAE=patients.attended_emergency_care(
+        with_these_diagnoses=smi_SNOMED, 
+        on_or_before="index_date",
+        returning="binary_flag",
+        return_expectations={"incidence": 0.20},
+    ),
+# hospital admissions: icd10_codelist
+    smiHosp=patients.admitted_to_hospital(
+        with_these_diagnoses=smi_icd10,
+        on_or_before="index_date",
+        returning="binary_flag",
+        return_expectations={"incidence": 0.20},
+    ),
+# mortality
+    smiDead=patients.with_these_codes_on_death_certificate(
+        smi_icd10,
         match_only_underlying_cause=False,
         on_or_before="index_date",
         returning="binary_flag",
