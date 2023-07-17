@@ -137,6 +137,7 @@ actions:
         # measure_csv6m: output/measures/measure_smi_DebyIMD*_rate.csv
         # measure_csv6n: output/measures/measure_smi_DebyEthnicity*_rate.csv
         # measure_csv6o: output/measures/measure_smi_DebyAge*_rate.csv
+  
   describe_trends:
     run: r:latest analysis/Descriptive_trends.R
     needs: 
@@ -293,11 +294,6 @@ actions:
         # csv13e: output/violence_DebyIMD_rounded.csv
         # csv14e: output/violence_DebyEth_rounded.csv
         # csv15e: output/violence_DebyAge_rounded.csv
-
-
-
-
-
         fig1f: output/smi_AE.png
         fig2f: output/smi_AEbyReg.png
         fig3f: output/smi_AEbyIMD.png
@@ -327,4 +323,3 @@ actions:
         # csv13f: output/smi_DebyIMD_rounded.csv
         # csv14f: output/smi_DebyEth_rounded.csv
         # csv15f: output/smi_DebyAge_rounded.csv
-        
