@@ -210,15 +210,15 @@ study = StudyDefinition(
     ),
 ### Variable 4. Problems related to lifestyle
 # A&E: SNOMED_codes
-    # lifestyleAE=patients.attended_emergency_care(
-    #     with_these_diagnoses=lifestyle_SNOMED, 
-    #     between=[
-    #         "first_day_of_month(index_date)",
-    #         "last_day_of_month(index_date)",
-    #         ],
-    #     returning="binary_flag",
-    #     return_expectations={"incidence": 0.50},
-    # ),
+    lifestyleAE=patients.attended_emergency_care(
+        with_these_diagnoses=lifestyle_SNOMED, 
+        between=[
+            "first_day_of_month(index_date)",
+            "last_day_of_month(index_date)",
+            ],
+        returning="binary_flag",
+        return_expectations={"incidence": 0.50},
+    ),
 # Hoital admissions: icd10_codelist
     lifestyleHo=patients.admitted_to_hospital(
         with_these_diagnoses=lifestyle_icd10,
@@ -242,15 +242,15 @@ study = StudyDefinition(
     ),
 ### Variable 5. Assault and violence_
 # A&E: SNOMED_codes
-    # violence_AE=patients.attended_emergency_care(
-    #     with_these_diagnoses=violence_SNOMED, 
-    #     between=[
-    #         "first_day_of_month(index_date)",
-    #         "last_day_of_month(index_date)",
-    #         ],
-    #     returning="binary_flag",
-    #     return_expectations={"incidence": 0.50},
-    # ),
+    violence_AE=patients.attended_emergency_care(
+        with_these_diagnoses=violence_SNOMED, 
+        between=[
+            "first_day_of_month(index_date)",
+            "last_day_of_month(index_date)",
+            ],
+        returning="binary_flag",
+        return_expectations={"incidence": 0.50},
+    ),
 # Hoital admissions: icd10_codelist
     violence_Ho=patients.admitted_to_hospital(
         with_these_diagnoses=violence_icd10,
@@ -272,6 +272,38 @@ study = StudyDefinition(
         returning="binary_flag",
         return_expectations={"incidence": 0.50},
     ),
+### Variable 6. SMIs
+# A&E: SNOMED_codes
+    smi_AE=patients.attended_emergency_care(
+        with_these_diagnoses=smi_SNOMED,
+        between=[
+            "first_day_of_month(index_date)",
+            "last_day_of_month(index_date)",
+            ],
+        returning="binary_flag",
+        return_expectations={"incidence": 0.50},
+    ),
+# Hoital admissions: icd10_codelist
+    smi_Ho=patients.admitted_to_hospital(
+        with_these_diagnoses=smi_icd10,
+        between=[
+            "first_day_of_month(index_date)",
+            "last_day_of_month(index_date)",
+            ],
+        returning="binary_flag",
+        return_expectations={"incidence": 0.50},
+    ),
+# mortality
+    smi_De=patients.with_these_codes_on_death_certificate(
+        smi_icd10,
+        match_only_underlying_cause=False,
+        between=[
+            "first_day_of_month(index_date)",
+            "last_day_of_month(index_date)",
+            ],
+        returning="binary_flag",
+        return_expectations={"incidence": 0.50},
+    ),    
 )
 measures = [
     Measure(
@@ -349,34 +381,6 @@ measures = [
         numerator="self_harmDe",
         denominator="population",
         group_by="population",
-        small_number_suppression=True,
-    ),
-    Measure(
-        id="self_harmDebyRegion_rate",
-        numerator="self_harmDe",
-        denominator="population",
-        group_by="region",
-        small_number_suppression=True,
-    ),
-    Measure(
-        id="self_harmDebyIMD_rate",
-        numerator="self_harmDe",
-        denominator="population",
-        group_by="imd_cat",
-        small_number_suppression=True,
-    ),
-    Measure(
-        id="self_harmDebyEthnicity_rate",
-        numerator="self_harmDe",
-        denominator="population",
-        group_by="ethnicity",
-        small_number_suppression=True,
-    ),
-    Measure(
-        id="self_harmDebyAge_rate",
-        numerator="self_harmDe",
-        denominator="population",
-        group_by="age_group",
         small_number_suppression=True,
     ),
 ### Variable 2 Emotional distress
@@ -457,34 +461,6 @@ measures = [
         group_by="population",
         small_number_suppression=True,
     ),
-    Measure(
-        id="emot_distDebyRegion_rate",
-        numerator="emot_distDe",
-        denominator="population",
-        group_by="region",
-        small_number_suppression=True,
-    ),
-    Measure(
-        id="emot_distDebyIMD_rate",
-        numerator="emot_distDe",
-        denominator="population",
-        group_by="imd_cat",
-        small_number_suppression=True,
-    ),
-    Measure(
-        id="emot_distDebyEthnicity_rate",
-        numerator="emot_distDe",
-        denominator="population",
-        group_by="ethnicity",
-        small_number_suppression=True,
-    ),
-    Measure(
-        id="emot_distDebyAge_rate",
-        numerator="emot_distDe",
-        denominator="population",
-        group_by="age_group",
-        small_number_suppression=True,
-    ),
 ### Variable 3 eating disorder
     Measure(
         id="eat_disorAE_rate",
@@ -563,70 +539,42 @@ measures = [
         group_by="population",
         small_number_suppression=True,
     ),
+### Variable 4. Problems related to lifestyle
     Measure(
-        id="eat_disorDebyRegion_rate",
-        numerator="eat_disorDe",
+        id="lifestyleAE_rate",
+        numerator="lifestyleAE",
+        denominator="population",
+        group_by="population",
+        small_number_suppression=True,
+    ),
+    Measure(
+        id="lifestyleAEbyRegion_rate",
+        numerator="lifestyleAE",
         denominator="population",
         group_by="region",
         small_number_suppression=True,
     ),
     Measure(
-        id="eat_disorDebyIMD_rate",
-        numerator="eat_disorDe",
+        id="lifestyleAEbyIMD_rate",
+        numerator="lifestyleAE",
         denominator="population",
         group_by="imd_cat",
         small_number_suppression=True,
     ),
     Measure(
-        id="eat_disorDebyEthnicity_rate",
-        numerator="eat_disorDe",
+        id="lifestyleAEbyEthnicity_rate",
+        numerator="lifestyleAE",
         denominator="population",
         group_by="ethnicity",
         small_number_suppression=True,
     ),
     Measure(
-        id="eat_disorDebyAge_rate",
-        numerator="eat_disorDe",
+        id="lifestyleAEbyAge_rate",
+        numerator="lifestyleAE",
         denominator="population",
         group_by="age_group",
         small_number_suppression=True,
     ),
-### Variable 4. Problems related to lifestyle
-    # Measure(
-    #     id="lifestyleAE_rate",
-    #     numerator="lifestyleAE",
-    #     denominator="population",
-    #     group_by="population",
-    #     small_number_suppression=True,
-    # ),
-    # Measure(
-    #     id="lifestyleAEbyRegion_rate",
-    #     numerator="lifestyleAE",
-    #     denominator="population",
-    #     group_by="region",
-    #     small_number_suppression=True,
-    # ),
-    # Measure(
-    #     id="lifestyleAEbyIMD_rate",
-    #     numerator="lifestyleAE",
-    #     denominator="population",
-    #     group_by="imd_cat",
-    #     small_number_suppression=True,
-    # ),
-    # Measure(
-    #     id="lifestyleAEbyEthnicity_rate",
-    #     numerator="lifestyleAE",
-    #     denominator="population",
-    #     group_by="ethnicity",
-    #     small_number_suppression=True,
-    # ),
-    # Measure(
-    #     id="lifestyleAEbyAge_rate",
-    #     numerator="lifestyleAE",
-    #     denominator="population",
-    #     group_by="age_group",
-    #     small_number_suppression=True,
-    # ),
     Measure(
         id="lifestyleHo_rate",
         numerator="lifestyleHo",
@@ -669,70 +617,42 @@ measures = [
         group_by="population",
         small_number_suppression=True,
     ),
+### Variable 5. Assault and violence
     Measure(
-        id="lifestyleDebyRegion_rate",
-        numerator="lifestyleDe",
+        id="violence_AE_rate",
+        numerator="violence_AE",
+        denominator="population",
+        group_by="population",
+        small_number_suppression=True,
+    ),
+    Measure(
+        id="violence_AEbyRegion_rate",
+        numerator="violence_AE",
         denominator="population",
         group_by="region",
         small_number_suppression=True,
     ),
     Measure(
-        id="lifestyleDebyIMD_rate",
-        numerator="lifestyleDe",
+        id="violence_AEbyIMD_rate",
+        numerator="violence_AE",
         denominator="population",
         group_by="imd_cat",
         small_number_suppression=True,
     ),
     Measure(
-        id="lifestyleDebyEthnicity_rate",
-        numerator="lifestyleDe",
+        id="violence_AEbyEthnicity_rate",
+        numerator="violence_AE",
         denominator="population",
         group_by="ethnicity",
         small_number_suppression=True,
     ),
     Measure(
-        id="lifestyleDebyAge_rate",
-        numerator="lifestyleDe",
+        id="violence_AEbyAge_rate",
+        numerator="violence_AE",
         denominator="population",
         group_by="age_group",
         small_number_suppression=True,
     ),
-### Variable 5. Assault and violence
-    # Measure(
-    #     id="violence_AE_rate",
-    #     numerator="violence_AE",
-    #     denominator="population",
-    #     group_by="population",
-    #     small_number_suppression=True,
-    # ),
-    # Measure(
-    #     id="violence_AEbyRegion_rate",
-    #     numerator="violence_AE",
-    #     denominator="population",
-    #     group_by="region",
-    #     small_number_suppression=True,
-    # ),
-    # Measure(
-    #     id="violence_AEbyIMD_rate",
-    #     numerator="violence_AE",
-    #     denominator="population",
-    #     group_by="imd_cat",
-    #     small_number_suppression=True,
-    # ),
-    # Measure(
-    #     id="violence_AEbyEthnicity_rate",
-    #     numerator="violence_AE",
-    #     denominator="population",
-    #     group_by="ethnicity",
-    #     small_number_suppression=True,
-    # ),
-    # Measure(
-    #     id="violence_AEbyAge_rate",
-    #     numerator="violence_AE",
-    #     denominator="population",
-    #     group_by="age_group",
-    #     small_number_suppression=True,
-    # ),
     Measure(
         id="violence_Ho_rate",
         numerator="violence_Ho",
@@ -775,32 +695,82 @@ measures = [
         group_by="population",
         small_number_suppression=True,
     ),
+### Variable 6. SMIs
     Measure(
-        id="violence_DebyRegion_rate",
-        numerator="violence_De",
+        id="smi_AE_rate",
+        numerator="smi_AE",
+        denominator="population",
+        group_by="population",
+        small_number_suppression=True,
+    ),
+    Measure(
+        id="smi_AEbyRegion_rate",
+        numerator="smi_AE",
         denominator="population",
         group_by="region",
         small_number_suppression=True,
     ),
     Measure(
-        id="violence_DebyIMD_rate",
-        numerator="violence_De",
+        id="smi_AEbyIMD_rate",
+        numerator="smi_AE",
         denominator="population",
         group_by="imd_cat",
         small_number_suppression=True,
     ),
     Measure(
-        id="violence_DebyEthnicity_rate",
-        numerator="violence_De",
+        id="smi_AEbyEthnicity_rate",
+        numerator="smi_AE",
         denominator="population",
         group_by="ethnicity",
         small_number_suppression=True,
     ),
     Measure(
-        id="violence_DebyAge_rate",
-        numerator="violence_De",
+        id="smi_AEbyAge_rate",
+        numerator="smi_AE",
         denominator="population",
         group_by="age_group",
+        small_number_suppression=True,
+    ),
+    Measure(
+        id="smi_Ho_rate",
+        numerator="smi_Ho",
+        denominator="population",
+        group_by="population",
+        small_number_suppression=True,
+    ),
+    Measure(
+        id="smi_HobyRegion_rate",
+        numerator="smi_Ho",
+        denominator="population",
+        group_by="region",
+        small_number_suppression=True,
+    ),
+    Measure(
+        id="smi_HobyIMD_rate",
+        numerator="smi_Ho",
+        denominator="population",
+        group_by="imd_cat",
+        small_number_suppression=True,
+    ),
+    Measure(
+        id="smi_HobyEthnicity_rate",
+        numerator="smi_Ho",
+        denominator="population",
+        group_by="ethnicity",
+        small_number_suppression=True,
+    ),
+    Measure(
+        id="smi_HobyAge_rate",
+        numerator="smi_Ho",
+        denominator="population",
+        group_by="age_group",
+        small_number_suppression=True,
+    ),
+    Measure(
+        id="smi_De_rate",
+        numerator="smi_De",
+        denominator="population",
+        group_by="population",
         small_number_suppression=True,
     ),
 ]
