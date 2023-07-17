@@ -1,6 +1,8 @@
 code,term
 1004004007,Primary tocophobia
 1004005008,Secondary tocophobia
+1010649005,Acute vestibular syndrome due to anxiety and fear
+10211000132109,Perinatal depression
 102498003,Agony
 102893002,Excitability
 102894008,Feeling calm
@@ -31,6 +33,8 @@ code,term
 102930000,Gynephobia
 102931001,Fear of heart attack
 102932008,Fear of hypertension
+1037461000000100,Referral for psychological management of anxiety 
+1037481000000109,Referral for psychological management of anxiety declined 
 103749000,Sleep disorder assessment
 103750000,Sleep apnea assessment
 1047641000000102,Able to express emotion
@@ -61,8 +65,22 @@ code,term
 1074741000000103,Unable to be hopeful for future
 1074751000000100,Unable to be optimistic
 1075281000000102,Unable to manage own aggression
+10811121000119102,Major depressive disorder in mother complicating childbirth
+10811161000119107,Major depressive disorder in mother complicating pregnancy
 108243003,Sleep disorder test AND/OR procedure
+10835871000119104,Depressive disorder in mother complicating childbirth
+1084061000000106,Depressive personality disorder
+1086471000000103,"Recurrent reactive depressive episodes, severe, with psychosis"
+1086661000000108,"Reactive depression, prolonged single episode"
+1086671000000101,"Reactive depression, single episode"
+1086681000000104,"Reactive depression, recurrent"
+1086691000000102,"Reactive depression, first episode"
+1089511000000100,Recurrent depression with current severe episode and psychotic features
+1089631000000109,Recurrent depression with current severe episode without psychotic features
+1089641000000100,Recurrent depression with current moderate episode
 109006,Anxiety disorder of childhood OR adolescence
+11003002,Nervous diarrhea
+110161000000105,FH: Anxiety state
 110357006,Unrealistic dental phobia
 110358001,Heightened global phobia
 111487009,Dream anxiety disorder
@@ -78,8 +96,9 @@ code,term
 11458009,"Anticipatory anxiety, mild"
 1149081002,Feeling proud
 1149155004,Reduced level of agitation
-1149156003,Reduced level of anxiety
 1149159005,Reduced level of fear
+1153570009,Treatment resistant depression
+1153575004,Persistent depressive disorder
 11542009,Loss of affect
 1156331007,Excessive euphoria
 1157202002,Reduced level of persistent sadness
@@ -91,15 +110,18 @@ code,term
 1217332007,Persistent sadness
 1230392000,Not feeling lonely
 1234776000,Sleep disorder caused by ethanol
-12398201000119102,Anxiety disorder caused by methamphetamine
 1239831000000105,Bereavement due to conflagration in residential building or apartment
+1255960000,Anxiety about visiting dentist
+1260298008,Depression following menopause
 126943008,Separation anxiety
 129869000,Death anxiety
 130966005,Chronic sorrow following life event
 1325321000000108,Anxiety related to clinical environment
+133121000119109,Severe seasonal affective disorder
 13438001,Overanxious disorder of childhood
 134416003,Normal mood symptoms
 134417007,Level of mood - normal
+13448004,Nervousness
 135301000119103,Parasomnia caused by alcohol
 135311000119100,Insomnia caused by alcohol
 135321000119107,Hypersomnia caused by alcohol
@@ -107,38 +129,68 @@ code,term
 1362731000000108,Bereavement due to suicide
 13740005,"Powerlessness, low"
 1380006,Agoraphobia without history of panic disorder with limited symptom attacks
+138385000,Maternal: [concern] or [anxiety]
+139476005,Anxiousness (& symptom)
+139598003,Anxious cognitions
+139948007,O/E - anxious
 1402001,Fear
+14070001,Multi-infarct dementia with depression
+14183003,"Chronic major depressive disorder, single episode"
 142001000119106,Depressed mood in Alzheimer's disease
 14621004,Anticipatory grief
+147016002,Postnatal depressive disorder
+15193003,"Severe recurrent major depression with psychotic features, mood-incongruent"
+154882009,(Anxiety state (& [states] or [panic attack])) or (pseudocyesis)
+154884005,Phobic anxiety disorder
 154927001,Sleep disorders (& [insomnia] or [nightmares] or [sleepwalking (& somnambulism)])
+154964007,Mixed anxiety and depressive disorder
+15639000,"Moderate major depression, single episode"
+161072009,Maternal: [concern] or [anxiety]
 162189001,General nervous symptoms
 162190005,No nervous symptoms
+162192002,Anxiousness (& symptom)
 162204000,Late insomnia
 16264621000119109,Recurrent mild major depressive disorder co-occurrent with anxiety
 16264821000119108,Recurrent severe major depressive disorder co-occurrent with anxiety
 16264901000119109,Recurrent moderate major depressive disorder co-occurrent with anxiety
-16265061000119105,Recurrent major depressive disorder co-occurrent with anxiety in full remission
-16265301000119106,Recurrent major depressive disorder in partial remission co-occurrent with anxiety
+16265701000119107,Illness anxiety disorder
 16265951000119109,Mild major depressive disorder co-occurrent with anxiety single episode
 16266831000119100,Moderate major depressive disorder co-occurrent with anxiety single episode
 16266991000119108,Severe major depressive disorder co-occurrent with anxiety single episode
+162722001,On examination - depressed
+162723006,On examination - anxious
 16320008,Feeling mixed emotions
-1686006,"Sedative, hypnotic AND/OR anxiolytic-induced anxiety disorder"
 16962006,Feeling hatred
 17029006,Feeling despair
 17402007,Pavor diurnus
 17496003,Organic anxiety disorder
 1816003,"Panic disorder with agoraphobia, severe agoraphobic avoidance AND mild panic attacks"
 18318000,Infatuation
+18818009,Moderate recurrent major depression
 18963009,Mood swings
+191604000,"Single major depressive episode, severe, with psychosis"
+191610000,"Recurrent major depressive episodes, mild"
+191611001,"Recurrent major depressive episodes, moderate"
+191613003,"Recurrent major depressive episodes, severe, with psychosis"
+191616006,Recurrent depression
+191659001,Atypical depressive disorder
 191664002,Rebound mood swings
+191676002,Reactive depressive psychosis
+191703000,Anxiety disorder
+191704006,Anxiety state unspecified
+191705007,(Panic disorder) or (panic attack)
+191706008,Generalised anxiety disorder
+191707004,Mixed anxiety and depressive disorder
 191708009,Chronic anxiety
 191709001,Recurrent anxiety
+191711005,Anxiety state NOS
+191720001,Phobic disorders (& [social] or [phobic anxiety])
 191722009,Agoraphobia with panic attacks
 191724005,"Social phobia, fear of eating in public"
 191725006,"Social phobia, fear of public speaking"
 191726007,"Social phobia, fear of public washing"
 191728008,Fear of crowds
+191732002,Fear of death
 191733007,Fear of pregnancy
 191736004,Obsessive-compulsive disorder
 191737008,Compulsive neurosis
@@ -160,11 +212,45 @@ code,term
 192041001,Acute situational disturbance
 192042008,Acute post-trauma stress state
 192044009,Stress reaction causing mixed disturbance of emotion and conduct
+192046006,Brief depressive adjustment reaction
+192049004,Prolonged depressive adjustment reaction
+192078003,Depressive disorder NEC
+192079006,Postviral depression
+192080009,Chronic depression
+192108001,Disturbance of anxiety and fearfulness in childhood and adolescence
+192109009,Childhood overanxious disorder
+192110004,Childhood and adolescent fearfulness disturbance
+192111000,Disturbance of anxiety and fearfulness in childhood and adolescence NOS
+192372006,"[X] (Depression: [episode, unspecified] or [NOS (& reactive)] or [depressive disorder NOS]"
+192374007,[X]Recurrent depressive disorder (& [episodes of depressive reaction] or [episodes of psychogenic depression] or [episodes of reactive depression] or [seasonal depressive disorder])
+192375008,"[X]Recurrent depressive disorder, current episode mild"
+192376009,"[X]Recurrent depressive disorder, current episode moderate"
+192377000,"[X]Depression without psychotic symptoms: [recurrent: [major] or [manic-depressive psychosis, depressed type] or [vital] or [current severe episode]] or [endogenous]"
+192378005,"[X] Depression with psychotic symptoms: [recurrent: (current episode severe) or (manic-depressive, depressed type) or (severe major episodes) or (severe episodes)] or [endogenous]"
+192380004,[X]Other recurrent depressive disorders
+192381000,[X] Depression recurrent: [unspecified] or [monopolar NOS]
+192384008,Dysthymia
+192393009,[X]Phobic anxiety disorders
+192394003,[X] Agoraphobia (& [without history of panic disorder] or [with panic disorder])
+192397005,[X]Other phobic anxiety disorders
+192398000,"[X]Phobic anxiety disorder, unspecified"
+192399008,[X]Other anxiety disorders
+192400001,[X]Panic disorder [episodic paroxysmal anxiety]
+192401002,Generalised anxiety disorder
+192402009,[X]Mixed anxiety and depressive disorder (& mild anxiety depression)
+192403004,[X]Other mixed anxiety disorders
+192404005,[X] Anxiety disorders: [other specified] or [anxiety hysteria]
+192405006,"[X]Anxiety disorder, unspecified"
 192453005,Non-organic sleep disorder
 192454004,Nonorganic insomnia
+192459009,[X] Nightmares or dream anxiety disorder
 192460004,[X]Other nonorganic sleep disorders
 192462007,"[X]Nonorganic sleep disorder, unspecified"
+192491005,Anxious personality disorder
+192610003,[X]Separation anxiety disorder of childhood
 192611004,Childhood phobic anxiety disorder
+192612006,[X] Social anxiety disorder of childhood (avoidant disorder)
+192614007,[X] Childhood emotional disorder: [other] or [identity disorder] or [overanxious disorder]
 193042000,Cataplexy and narcolepsy
 193462001,Insomnia
 19391002,"Powerlessness, moderate"
@@ -172,14 +258,18 @@ code,term
 194439006,Disorder of excessive somnolence
 194498000,[X]Other sleep disorders
 19512009,Fear of insects
+19694002,Late onset dysthymia
 197480006,Anxiety disorder
 19766004,"Panic disorder with agoraphobia, mild agoraphobic avoidance AND severe panic attacks"
 198280005,Parasitophobia
 198288003,Anxiety state
 198437004,Menopausal sleeplessness
 19887002,Claustrophobia
+20250007,"Severe major depression, single episode, with psychotic features, mood-incongruent"
 20602000,Indifference
 207363009,Anxiety neurosis
+214311000000102,Referral for guided self-help for anxiety
+214321000000108,Referral for guided self-help for anxiety
 21897009,Generalized anxiety disorder
 22230001,"Panic disorder with agoraphobia, agoraphobic avoidance in partial remission AND panic attacks in full remission"
 224965009,Grief finding
@@ -261,7 +351,6 @@ code,term
 225873007,Finding relating to grief and dying
 225875000,Thoughts about dying
 225876004,Wanting to die
-22621000119103,Anxiety disorder caused by drug
 230485001,Nonorganic insomnia
 230488004,Hypersomnia of non-organic origin
 230489007,Excessive daytime sleepiness - normal night sleep
@@ -274,6 +363,9 @@ code,term
 230498005,Sleep-related painful erections
 230499002,Sleep-related respiratory failure
 230500006,Sleep-related dystonia
+231485007,Post-schizophrenic depression
+231499006,Endogenous depression first episode
+231500002,Masked depression
 231501003,Needle phobia
 231502005,Situational panic attack
 231503000,Non-situational panic attack
@@ -281,7 +373,11 @@ code,term
 231506008,Anxiety hysteria
 231507004,Stage fright
 231508009,Examination fear
+231528008,Anxious personality disorder
+231542000,Depressive conduct disorder
 23682002,Love
+237349002,Mild postnatal depression
+237350002,Severe postnatal depression
 23871000119106,Somnambulism co-occurrent with sleep terror disorder
 238965007,Venereophobia
 238966008,Syphilophobia
@@ -289,6 +385,7 @@ code,term
 24109003,Bromhidrosiphobia
 24121004,Insomnia disorder related to another mental disorder
 24199005,Feeling agitated
+247649009,Anxious cognitions
 247650009,Planning suicide
 247672006,Delusional mood
 247673001,Delusional perplexity
@@ -302,6 +399,7 @@ code,term
 247800004,Diurnal variation of mood
 247801000,Depression worse in morning
 247802007,Depression worse later in day
+247803002,Seasonal affective disorder
 247805009,Anxiety and fear
 247806005,Ill-at-ease
 247808006,Anxiety about body function or health
@@ -311,6 +409,7 @@ code,term
 247811007,Fear of vomiting in public
 247812000,Fear of having a fit
 247813005,Fear of choking
+247814004,Anxiety about blushing
 247815003,Fear of swallowing
 247816002,Fear of collapsing
 247817006,Fear of fainting
@@ -378,22 +477,34 @@ code,term
 248262001,Always sleepy
 24936000,Emotionally detached
 250070007,Feeling physically tense
+2506003,Early onset dysthymia
+251000119105,"Severe major depression, single episode"
 252566002,Sleep-related breathing test
 252567006,Sleep latency test
 252568001,Overnight pulse oximetry
 25467004,Hyperaffectivity
 25501002,Social phobia
 25753007,Amphetamine-induced sleep disorder
+25922000,"Major depressive disorder, single episode with postpartum onset"
+2618002,Chronic recurrent major depressive disorder
 263897001,Feeling tense
 267073005,Suicidal
 267076002,Feeling lonely
 267097001,Guilty ideas
+268621008,Recurrent major depressive episodes
+268627007,Panic disorder
 268652009,Transient insomnia
 268653004,Transient hypersomnia
 268654005,Repetitive intrusions of sleep
 268655006,Other non-organic sleep disorder
 268669006,Childhood and adolescent disturbance with elective mutism
+268707003,[X]Recurrent depressive disorder
+268708008,"[X]Recurrent depressive disorder, current episode severe without psychotic symptoms"
+268709000,"[X]Recurrent depressive disorder, current episode severe with psychotic symptoms"
+268710005,"[X]Recurrent depressive disorder, unspecified"
+268714001,[X]Other specified anxiety disorders
 268722008,Non-organic disorder of the sleep-wake schedule
+268752000,(Anxiety state (& [states] or [panic attack])) or (pseudocyesis)
 268775007,Sleep disorders (& [insomnia] or [nightmares] or [sleepwalking (& somnambulism)])
 270472006,Maternal concern
 270487001,Non-organic sleep disorder
@@ -406,6 +517,7 @@ code,term
 272024005,Complaining of feeling unhappy
 274646000,Irritability and anger
 274647009,Restlessness and agitation
+274948002,Endogenous depression - recurrent
 274950005,Sleep related bruxism
 27596001,Hyposensitivity
 276241001,Fear of heights
@@ -415,6 +527,7 @@ code,term
 276302000,Feeling of loss of feeling
 277180005,Sleep paralysis
 277181009,Sleep starts
+277538003,Atypical depressive disorder
 27764006,Nonacceptance of illness
 277816006,Fear relating to body function
 277818007,Anxiety about losing control of bowels
@@ -434,6 +547,7 @@ code,term
 277834005,Anxiety about having a heart attack
 277838008,Anxiety about appearing ridiculous
 277839000,Anxiety about saying the wrong thing
+279225001,Maternity blues
 279571009,Seasonal variation of mood
 279611005,Shell shock
 279622009,Performance anxiety
@@ -441,6 +555,7 @@ code,term
 27971000119105,Insomnia co-occurrent and due to medical condition
 279926005,Fear of needles
 280947008,Examination phobia
+281000119103,Severe recurrent major depression
 281129008,Variability of mood
 281143003,Passivity of affect
 281144009,Somatic passivity
@@ -449,6 +564,7 @@ code,term
 284486006,Emotionally deprived
 284487002,Extremely emotionally deprived
 284514000,Continuously shifting in seat
+28475009,Severe recurrent major depression with psychotic features
 285842004,Normal capacity for emotion
 285843009,Maintained capacity for enjoyment
 285844003,Able to understand own emotions
@@ -461,13 +577,13 @@ code,term
 285851007,Unable to control emotions
 285852000,Difficulty controlling emotions
 285853005,Mature emotional adjustment
+286544004,Panic
 286545003,Fear of birds
 286568007,Fear associated with healthcare
 286569004,Difficulty understanding own emotions
 286582007,Ecstatic
 286638005,Exhilaration
 286641001,Moody
-286644009,Level of anxiety
 28669007,Anhedonia
 288081000119106,"Behavioral insomnia of childhood, combined type"
 288091000119109,"Behavioral insomnia of childhood, limit setting type"
@@ -476,7 +592,9 @@ code,term
 288251000119107,Fear of injury
 288421000119100,Hyposomnia co-occurrent and due to psychological disorder
 288545008,Showing emotion
+288751000119101,"Reactive depressive psychosis, single episode"
 30059008,"Panic disorder with agoraphobia, severe agoraphobic avoidance AND moderate panic attacks"
+300706003,Endogenous depression
 300894000,Parental anxiety
 300895004,Anxiety attack
 300943008,Pre-examination nerves
@@ -496,6 +614,10 @@ code,term
 30819006,Dysphoric mood
 309838005,Emotional upset
 310480000,Complaining of tearfulness
+310495003,Mild depression
+310496002,Moderate depression
+310497006,Severe depression
+3109008,Secondary dysthymia early onset
 313182004,Chronic post-traumatic stress disorder
 313387002,Phonophobia
 31491000119109,Disruptions of 24 hour sleep-wake cycle
@@ -505,29 +627,37 @@ code,term
 31771000119102,Daytime hypersomnia
 31781004,"Panic disorder with agoraphobia, agoraphobic avoidance in partial remission AND mild panic attacks"
 318784009,"Posttraumatic stress disorder, delayed onset"
+319768000,Recurrent major depressive disorder with melancholic features
+320751009,"Major depression, melancholic type"
+321717001,Involutional depression
+323331000000106,Anxiety about loss of memory
 323341000000102,Anxiety about lethargy
 323351000000104,Anxiety about mood
 32388005,"Panic disorder with agoraphobia, agoraphobic avoidance in partial remission AND moderate panic attacks"
 325601000000107,Recent bereavement
 325611000000109,Feeling lonely occasionally
 32914008,Restless legs
+33078009,"Severe recurrent major depression with psychotic features, mood-congruent"
 33300005,Feeling powerless
 33314005,Hypoaffectivity
 33624008,Hyperirritability
+33736005,"Severe major depression with psychotic features, mood-congruent"
 34101000119105,Nocturnal myoclonus
 34116005,"Panic disorder with agoraphobia, agoraphobic avoidance in full remission AND severe panic attacks"
 34413007,Alexithymia
 34563004,Fear of getting cancer
 34652008,Xenophobia
 34822003,Elation
-34938008,Anxiety disorder caused by alcohol
 351861000000106,Stranger anxiety
 35209006,Sensitivity
 35429005,Anticipatory anxiety
+35489007,Depressive disorder
 35607004,Panic disorder with agoraphobia
 35991009,Aversion
 36124002,Primary hypersomnia
+36170009,Secondary dysthymia late onset
 363314000,Substance-induced sleep disorder
+36474008,Severe recurrent major depression without psychotic features
 365107007,Finding of level of mood
 365118007,Finding of stability of mood
 365129006,Finding of level of hope
@@ -541,8 +671,12 @@ code,term
 365230008,Finding of emotional adjustment
 365241005,Finding of grieving process stage
 36646009,"Anticipatory anxiety, moderate"
+366969001,Loss of capacity for enjoyment
 366979004,Depressed mood
+367193003,Loss of capacity for enjoyment
 367545001,Fearful mood
+36923009,"Major depression, single episode"
+370143000,Major depressive disorder
 370567003,Noise phobia
 370971007,Somnolence syndrome
 371631005,Panic disorder
@@ -551,7 +685,9 @@ code,term
 3763000,Expected bereavement due to life event
 37868008,Anxiety disorder of adolescence
 37872007,Avoidant disorder of childhood OR adolescence
+38237000,Feeling anxious
 38328002,"Panic disorder with agoraphobia, severe agoraphobic avoidance AND panic attacks in full remission"
+38451003,Primary dysthymia early onset
 38617005,Dental phobia
 386738004,Multiple somatic complaints
 386782008,Disturbance in affect
@@ -559,33 +695,45 @@ code,term
 386808001,Phobia
 386810004,Phobic disorder
 386816005,Emotional problems
+38694004,Recurrent major depressive disorder with atypical features
 39178003,Emotional impulsivity
 39370001,Restricted affect
 395017009,Complaining of panic attack
 3972004,Primary insomnia
 397775001,Fear of transport
 397847006,Family bereavement
+39809009,Recurrent major depressive disorder with catatonic features
 398304003,Fear of traveling in vehicles
 39898005,Sleep disorder
+399651000000100,[X]Separation anxiety disorder of childhood
 401010000,Patient concerned about eyesight
 401236004,Early morning waking
 401269004,Fear of falling
+402191000000101,[X] Anxiety disorders: [other specified] or [anxiety hysteria]
+402441000000102,"[X]Recurrent depressive disorder, current episode severe without psychotic symptoms"
+402951000000107,[X]Other phobic anxiety disorders
 403591002,Ritual hand washing
 403592009,Acarophobia
 403593004,Phobic fear of skin cancer
+40379007,Mild recurrent major depression
 404910002,Fear of falling while mobilizing
 405273008,Manic mood
+40568001,Recurrent brief depressive disorder
 40634001,Hyperemotivity
 407666007,Nocturnal sleep-related eating disorder
 409029008,Finding related to dying process
 409068001,Normal emotional state
 41083005,Sleep disorder caused by ingestible alcohol
+41201000000107,Chronic anxiety
+41211000000109,Recurrent anxiety
 413301003,Feels at risk of crime in the neighborhood
 413638006,Benign neonatal sleep myoclonus
 414731000000105,[X]Other nonorganic sleep disorders
 415136009,Ponophobia
 415238003,Rapid eye movement sleep behavior disorder
 416383008,Abnormal affect
+416621000000108,[X]Panic disorder [episodic paroxysmal anxiety]
+417676004,On examination - panic attack
 418424006,Post-radiotherapy somnolence syndrome
 418475009,Drug-induced sleep disorder
 418763003,Periodic limb movement disorder
@@ -615,26 +763,33 @@ code,term
 426943005,Hypersomnia disorder related to menstruation
 427426006,Sleep attack
 427589004,Complicated grieving
+427781000000106,[X]Other recurrent depressive disorders
 428687006,Nightmares associated with chronic post-traumatic stress disorder
 428708005,Secondary parasomnia
+42925002,"Major depressive disorder, single episode with atypical features"
 429266002,Sleep-related groaning
 429276004,Environmental sleep disorder
 429571005,Sleep-related dissociative disorder
+430051000000100,"[X]Recurrent depressive disorder, current episode mild"
 430641005,Markedly diminished pleasure
+430852001,"Severe major depression, single episode, with psychotic features"
 430893009,Sleep related rhythmic movement disorder
 431432003,Anxiety about loss of memory
 43150009,Panic disorder without agoraphobia with severe panic attacks
+431821000000108,[X]Recurrent depressive disorder (& [episodes of depressive reaction] or [episodes of psychogenic depression] or [episodes of reactive depression] or [seasonal depressive disorder])
 439576009,Fear of drinking liquids due to dysphagia
 441830002,Confusional arousal disorder
 44186003,Dyssomnia
 441877007,Sleep dysfunction with sleep stage disturbance
 441976002,Organic parasomnia
+442057004,Chronic depressive personality disorder
 442120007,Recurrent isolated sleep paralysis
 442176004,Sleep dysfunction with arousal disturbance
 442292004,Idiopathic hypersomnia without long sleep time
 442416002,Idiopathic hypersomnia associated with long sleep time
 443664006,Long sleeper syndrome
 443919007,Complex posttraumatic stress disorder
+444051000000108,"[X]Recurrent depressive disorder, current episode severe with psychotic symptoms"
 44455001,Hypersomnia disorder related to a known organic factor
 446175003,Acute posttraumatic stress disorder following military combat
 446180007,Delayed posttraumatic stress disorder following military combat
@@ -643,23 +798,40 @@ code,term
 449160007,Exploding head syndrome
 449413009,Decline in Edinburgh postnatal depression scale score at 8 months
 449892005,Feeling safe
+450714000,Severe major depression
+450751000000102,"[X]Anxiety disorder, unspecified"
+455421000000106,[X] Depression recurrent: [unspecified] or [monopolar NOS]
 456351000000103,"[X]Nonorganic sleep disorder, unspecified"
 456421000000100,[X]Other sleep disorders
+456601000000107,[X]Recurrent depressive disorder
 45763006,Demoralization
 45991007,Loss of capacity to feel emotions
 46460004,Hypomanic personality trait
+464911000000101,"[X]Phobic anxiety disorder, unspecified"
+465451000000106,"[X]Recurrent depressive disorder, current episode moderate"
+46581000000108,H/O: manic depressive disorder
+467231000000106,[X] Childhood emotional disorder: [other] or [identity disorder] or [overanxious disorder]
 4681000119100,Sleep disturbance in infancy
+468761000000105,[X]Other anxiety disorders
+469151000000104,[X]Other specified anxiety disorders
+470951000000103,"[X] (Depression: [episode, unspecified] or [NOS (& reactive)] or [depressive disorder NOS]"
+471451000000102,"[X]Recurrent depressive disorder, unspecified"
+472131000000109,[X]Phobic anxiety disorders
+473126001,Suspected depressive disorder
+47372000,Adjustment disorder with anxious mood
 47505003,Posttraumatic stress disorder
 47544006,Exaltation
+478661000000105,[X]Other mixed anxiety disorders
 48079002,Disturbance in mood
+48589009,Minor depressive disorder
 48694002,Anxiety
 4932002,"Panic disorder with agoraphobia, moderate agoraphobic avoidance AND mild panic attacks"
 49564006,"Panic disorder with agoraphobia, mild agoraphobic avoidance AND moderate panic attacks"
 49971008,Apprehension
-50026000,Organic anxiety disorder caused by psychoactive substance
+507521000000101,Major depressive disorder
 50983008,"Panic disorder with agoraphobia, mild agoraphobic avoidance AND panic attacks in partial remission"
 51078006,Laughing
-51493001,Anxiety disorder caused by cocaine
+52039009,Phobia
 5240007,Inappropriate jocularity
 52910006,Anxiety disorder due to a general medical condition
 53339009,Dysfunctional grieving
@@ -674,38 +846,49 @@ code,term
 54746005,Erotophobia
 5509004,Panic disorder with agoraphobia AND severe panic attacks
 55929007,Feeling irritable
-55967005,Anxiety disorder caused by phencyclidine
 56194001,Sleep disorder caused by caffeine
 56576003,Panic disorder without agoraphobia
+57194009,Adjustment disorder with depressed mood
 574401000000107,Other non-organic sleep disorder
 57588009,"Sedative, hypnotic AND/OR anxiolytic-induced sleep disorder"
 58535001,Physical AND emotional exhaustion state
 58690002,Parasomnia
+58703003,Postpartum depression
 5874002,"Anticipatory anxiety, severe"
 58963008,Acrophobia
 59050008,Initial insomnia
+596004,Premenstrual dysphoric disorder
 59602008,"Powerlessness, severe"
 59923000,Panic disorder with agoraphobia AND panic attacks in full remission
+60099002,"Severe major depression with psychotic features, mood-incongruent"
 60380001,Narcolepsy
 60554003,Polysomnography
 608221000000109,Unspecified non-organic sleep disorder
+609311000000100,Depressive disorder NEC
 61157009,Combat fatigue
 61212007,"Panic disorder with agoraphobia, severe agoraphobic avoidance AND severe panic attacks"
-61387006,Moderate anxiety
 6140007,Blunted affect
 61569007,Agoraphobia without history of panic disorder
+621271000000109,Anxiety state unspecified
 62351001,Generalized social phobia
+633361000000109,Anxiety state NOS
 63701002,"Panic disorder with agoraphobia, mild agoraphobic avoidance AND mild panic attacks"
+63778009,"Major depressive disorder, single episode with melancholic features"
 63909006,Panic disorder with agoraphobia AND panic attacks in partial remission
 64060000,"Panic disorder with agoraphobia, moderate agoraphobic avoidance AND panic attacks in full remission"
 64165008,Avoidant disorder of childhood
 6471006,Suicidal thoughts
 65064003,Panic disorder without agoraphobia with moderate panic attacks
+65673007,Anxiety disorder
+657791000000107,Disturbance of anxiety and fearfulness in childhood and adolescence NOS
+66344007,Recurrent major depression
 665901000000102,Non-organic sleep disorder NOS
 67062000,Terminal insomnia
 67195008,Acute stress disorder
 67233009,Middle insomnia
+67711008,Primary dysthymia late onset
 67877007,Ecstasy
+69392006,"Major depressive disorder, single episode with catatonic features"
 69479009,Anxiety hyperventilation
 699241002,Chronic post-traumatic stress disorder following military combat
 699389008,Fear of medical treatment
@@ -719,10 +902,11 @@ code,term
 705047004,Fear of contagion
 70691001,Agoraphobia
 708891002,Emotionally stable
-70997004,Mild anxiety
 710965006,Management of negative emotional state
 711561004,Has access to planned means of suicide
 711565008,Dream enactment behavior
+712823008,Acute depression
+71336009,Recurrent major depressive disorder with postpartum onset
 713460009,Denial about illness severity
 713498009,Circadian rhythm sleep disorder of shift work type
 713524002,Sleep disorder caused by reverse transcriptase inhibitor
@@ -731,9 +915,17 @@ code,term
 716397008,Able to be optimistic
 716807006,Able to manage own aggression
 717696001,Fear of complications of pregnancy
+718636001,Minimal depression
 719143004,Able to be hopeful for future
 71959007,Elective mutism
+719592004,Moderately severe major depression
+719593009,Moderately severe depression
 719976001,Glaucoma and sleep apnea syndrome
+720451004,Minimal recurrent major depression
+720452006,Moderately severe recurrent major depression
+720453001,Moderately severe major depression single episode
+720454007,Minimal major depression single episode
+720455008,Minimal major depression
 722293005,"Autosomal dominant cerebellar ataxia, deafness and narcolepsy syndrome"
 722842006,Fear of having digestive disease
 722843001,Fear of having cancer of digestive system
@@ -759,13 +951,7 @@ code,term
 724450008,Fear of genital cancer
 724451007,Fear of breast cancer
 724452000,Fear of sexual dysfunction
-724654009,Anxiety disorder caused by opioid
-724693000,Obsessive compulsive disorder caused by cocaine
 724699001,Sleep disorder caused by nicotine
-724708007,Anxiety disorder caused by methylenedioxymethamphetamine
-724722007,Anxiety disorder caused by dissociative drug
-724723002,Anxiety disorder caused by ketamine
-724730008,Obsessive compulsive disorder caused by psychoactive substance
 724732000,Sleep disorder caused by psychoactive substance
 724733005,Oppositional defiant disorder co-occurrent with chronic irritability-anger
 724734004,Oppositional defiant disorder co-occurrent with chronic irritability-anger with normal prosocial emotions
@@ -781,33 +967,42 @@ code,term
 724824002,Fear of neurological disease
 724879005,Fear of skin disease
 726403001,Fear of eye disease
+726772006,Major depression with psychotic features
 72861004,Panic disorder without agoraphobia with mild panic attacks
 733818008,Decreased despair
 733819000,Improved mood
 73430006,Sleep apnea
 735676003,Narcolepsy type 1
 735688001,Fear of urinary disease
-737341006,Anxiety disorder caused by synthetic cannabinoid
 737342004,Sleep disorder caused by synthetic cannabinoid
+73867007,Severe major depression with psychotic features
 74010007,"Panic disorder with agoraphobia, severe agoraphobic avoidance AND panic attacks in partial remission"
 74506000,Bereavement due to life event
 75007009,Algophobia
+75084000,Severe major depression without psychotic features
 75408008,Feeling angry
+755331000000108,"Recurrent major depressive episodes, severe, with psychosis, psychosis in remission"
 7571003,Feeling guilt
 76187003,Emotional immaturity
-762331007,Anxiety disorder caused by stimulant
-762332000,Obsessive compulsive disorder caused by stimulant
 762334004,Sleep disorder caused by stimulant
 762348004,Acute insomnia
 762349007,Fear of mental disorder
-762515000,Anxiety disorder caused by synthetic cathinone
-762516004,Obsessive compulsive disorder caused by synthetic cathinone
 762518003,Sleep disorder caused by synthetic cathinone
+76441001,"Severe major depression, single episode, without psychotic features"
+764611000000100,"Recurrent major depressive episodes, severe"
 76812003,"Panic disorder with agoraphobia, moderate agoraphobic avoidance AND panic attacks in partial remission"
 76868007,"Panic disorder with agoraphobia, agoraphobic avoidance in full remission AND mild panic attacks"
 77416000,Jealousy
 77692006,Hypersomnia
+77911002,"Severe major depression, single episode, with psychotic features, mood-congruent"
+782501005,Adjustment disorder with mixed anxiety and depressed mood
+78541000000103,Chronic anxiety
+78551000000100,Recurrent anxiety
+78667006,Dysthymia
 787175002,"Ankyrin 3 related intellectual disability, sleep disturbance syndrome"
+787521000000101,Panic disorder severity scale score
+788120007,Antenatal depression
+78841000000100,H/O: manic depressive disorder
 788862002,Agitation due to dementia
 788866004,Anxiety due to dementia
 788867008,Apathetic behavior due to dementia
@@ -816,7 +1011,9 @@ code,term
 789047008,Sleep-related movement disorder caused by substance
 79015004,Worried
 79280005,Hypersomnia with sleep apnea
+79298009,"Mild major depression, single episode"
 79823003,Panic
+79842004,Stuporous depression
 80495009,Sleep walking disorder
 80583007,Severe anxiety (panic)
 80608005,Appropriate affect
@@ -826,27 +1023,38 @@ code,term
 81548002,Elevated mood
 81608000,Insomnia disorder related to known organic factor
 8185002,Panic disorder with agoraphobia AND moderate panic attacks
+82218004,Postoperative depression
 82248001,Euthymic mood
-82339009,Anxiety disorder caused by amfetamine
 82415003,Agoraphobia without history of panic disorder without limited symptom attacks
 82494000,Panic disorder without agoraphobia with panic attacks in full remission
 82738004,"Panic disorder with agoraphobia, moderate agoraphobic avoidance AND moderate panic attacks"
 82808001,Sleep apnea monitoring with alarm
 83157008,Fatal familial insomnia
+83176005,Primary dysthymia
+832007,Moderate major depression
 83253003,Shyness disorder of childhood
+83458005,Agitated depression
 83631006,"Panic disorder with agoraphobia, moderate agoraphobic avoidance AND severe panic attacks"
 836473006,Normal level of emotional excitability
 83765003,Boredom
 840635008,Decreased emotional excitability
 840636009,Increased emotional excitability
 844583007,Irritability after vaccination
+84760002,"Schizoaffective disorder, depressive type"
+84788008,Menopausal depression
 84991000119105,Sleep related movement disorder
 85061001,"Separation anxiety disorder of childhood, early onset"
+85080004,Secondary dysthymia
 85949006,Euphoria
 871840004,Episode of depression
+87414006,Reactive depression (situational)
+87512008,Mild major depression
 87521009,Dispiritment
 87798009,"Panic disorder with agoraphobia, agoraphobic avoidance in full remission AND moderate panic attacks"
+87842000,Generalized neuromuscular exhaustion syndrome
 88729006,Labile affect
+887741000000102,Anxiety about breathlessness
+887751000000104,Anxiety about breathlessness 
 887881000000101,On melatonin for sleep disorder
 887891000000104,On melatonin for child sleep disorder 
 88926005,Opioid-induced sleep disorder
@@ -866,6 +1074,9 @@ code,term
 91521000119104,Narcolepsy without cataplexy
 91561000119109,Parasomnia caused by drug
 932006,Flat affect
+933471000000107,Referral for guided self-help for anxiety declined 
 93681000119102,Insomnia co-occurrent and due to nocturnal myoclonus
 93831000119104,Adjustment to life threatening illness
+94631000119100,Depressive disorder in mother complicating pregnancy
+94641000119109,Anxiety in pregnancy
 99711000119104,Organic sleep-wake cycle disorder
