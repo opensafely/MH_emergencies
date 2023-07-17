@@ -44,24 +44,35 @@ eating_disorders_icd10 = codelist_from_csv(
     column="code",
 )
 # Variable 4. Problems related to lifestyle
-# lifestyle_SNOMED = codelist_from_csv(
-#     "codelists/.csv",
-#     system="snomed",
-#     column="code",
-# )
+lifestyle_SNOMED = codelist_from_csv(
+    "codelists/user-agleman-lifestyle-snomed-ct.csv",
+    system="snomed",
+    column="code",
+)
 lifestyle_icd10 = codelist_from_csv(
     "codelists/user-agleman-lifestyle-problems-icd10.csv",
     system="icd10",
     column="code",
 )
 # Variable 5. Assault and violence   
-# violence_SNOMED = codelist_from_csv(
-#     "codelists/.csv",
-#     system="snomed",
-#     column="code",
-# )
+violence_SNOMED = codelist_from_csv(
+    "codelists/user-agleman-assault_violence-snomed-ct.csv",
+    system="snomed",
+    column="code",
+)
 violence_icd10 = codelist_from_csv(
     "codelists/user-agleman-assault_violence-icd10.csv",
+    system="icd10",
+    column="code",
+)
+# Variable 5. Serious Menthal illness   
+smi_SNOMED = codelist_from_csv(
+    "codelists/user-hjforbes-severe-mental-illness.csv",
+    system="snomed",
+    column="code",
+)
+smi_icd10 = codelist_from_csv(
+    "codelists/user-agleman-smis-mh-emergencies.csv",
     system="icd10",
     column="code",
 )

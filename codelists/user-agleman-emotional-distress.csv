@@ -100,6 +100,9 @@ F515,Nightmares
 F518,Other nonorganic sleep disorders
 F519,"Nonorganic sleep disorder, unspecified"
 F59,Unspecified behavioural syndromes associated with physiological disturbances and physical factors
+F930,Separation anxiety disorder of childhood
+F931,Phobic anxiety disorder of childhood
+F932,Social anxiety disorder of childhood
 F99,"Mental disorder, not otherwise specified"
 R45,Symptoms and signs involving emotional state
 R450,Nervousness
