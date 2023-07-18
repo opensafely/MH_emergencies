@@ -160,19 +160,19 @@ study = StudyDefinition(
 #     ),
 # ### Variable 4. Problems related to lifestyle
 # A&E: SNOMED_codes
-    # lifestyleAE=patients.attended_emergency_care(
-    #     with_these_diagnoses=lifestyle_SNOMED,
-    #     on_or_before="index_date",
-    #     returning="binary_flag",
-    #     return_expectations={"incidence": 0.20},
-    # ),
-# hospital admissions: icd10_codelist
-    lifestyleHosp=patients.admitted_to_hospital(
-        with_these_diagnoses=lifestyle_icd10,
+    lifestyleAE=patients.attended_emergency_care(
+        with_these_diagnoses=lifestyle_SNOMED,
         on_or_before="index_date",
         returning="binary_flag",
         return_expectations={"incidence": 0.20},
     ),
+# hospital admissions: icd10_codelist
+    # lifestyleHosp=patients.admitted_to_hospital(
+    #     with_these_diagnoses=lifestyle_icd10,
+    #     on_or_before="index_date",
+    #     returning="binary_flag",
+    #     return_expectations={"incidence": 0.20},
+    # ),
 # # mortality
 #     lifestyleDead=patients.with_these_codes_on_death_certificate(
 #         lifestyle_icd10,
