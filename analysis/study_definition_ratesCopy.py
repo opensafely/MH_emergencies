@@ -6,16 +6,16 @@ from cohortextractor import (
 
 from codelists import *
 
-start_date = "2015-01-01"
+start_date = "2017-01-01"
 end_date = "2023-06-01"
 
 study = StudyDefinition(
     default_expectations={
-        "date": {"earliest": "2015-01-01", "latest": "today"},
+        "date": {"earliest": "2017-01-01", "latest": "today"},
         "rate": "uniform",
         "incidence": 0.5,
         },
-    index_date="2015-01-01", # for measures
+    index_date="2017-01-01", # for measures
     population=patients.satisfying(
         """
         registered
@@ -31,87 +31,87 @@ study = StudyDefinition(
         returning="binary_flag",
     ),
 # demographics
-    age=patients.age_as_of(
-        "index_date",
-        return_expectations={
-            "rate": "exponential_increase",
-            "int": {"distribution": "population_ages"},
-        },
-    ),
-    age_group=patients.categorised_as(
-        {
-            "Missing": "DEFAULT",
-            "<=25": """ age <= 25""",
-            "26-40": """ age > 25 AND age <= 40""",
-            "41-65": """ age > 40 AND age <= 65""",
-            ">65": """ age > 65""",
-        },
-        return_expectations={
-            "rate": "universal",
-            "category": {
-                "ratios": {
-                    "Missing": 0.2, 
-                    "<=25": 0.2,
-                    "26-40": 0.2,
-                    "41-65": 0.2,
-                    ">65": 0.2,
-                }
-            },
-        },
-    ),
-    sex=patients.sex(
-        return_expectations={
-            "rate": "universal",
-            "category": {"ratios": {"M": 0.49, "F": 0.51}},
-        }
-    ),
-    region=patients.registered_practice_as_of(
-        "index_date",
-        returning="nuts1_region_name",
-        return_expectations={
-            "rate": "universal",
-            "category": {
-                "ratios": {
-                    "North East": 0.1,
-                    "North West": 0.1,
-                    "Yorkshire and the Humber": 0.2,
-                    "East Midlands": 0.1,
-                    "West Midlands": 0.1,
-                    "East of England": 0.1,
-                    "London": 0.1,
-                    "South East": 0.2,
-                },
-            },
-        },
-    ),
-    imd_cat=patients.categorised_as(
-        {
-            "Unknown": "DEFAULT",
-            "1 (most deprived)": "imd >= 0 AND imd < 32844*1/5",
-            "2": "imd >= 32844*1/5 AND imd < 32844*2/5",
-            "3": "imd >= 32844*2/5 AND imd < 32844*3/5",
-            "4": "imd >= 32844*3/5 AND imd < 32844*4/5",
-            "5 (least deprived)": "imd >= 32844*4/5 AND imd <= 32844",
-        },
-        imd=patients.address_as_of(
-            "first_day_of_month(index_date)",
-            returning="index_of_multiple_deprivation",
-            round_to_nearest=100,
-        ),
-        return_expectations={
-            "rate": "universal",
-            "category": {
-                "ratios": {
-                    "Unknown": 0.05,
-                    "1 (most deprived)": 0.19,
-                    "2": 0.19,
-                    "3": 0.19,
-                    "4": 0.19,
-                    "5 (least deprived)": 0.19,
-                }
-            },
-        },
-    ),
+    # age=patients.age_as_of(
+    #     "index_date",
+    #     return_expectations={
+    #         "rate": "exponential_increase",
+    #         "int": {"distribution": "population_ages"},
+    #     },
+    # ),
+    # age_group=patients.categorised_as(
+    #     {
+    #         "Missing": "DEFAULT",
+    #         "<=25": """ age <= 25""",
+    #         "26-40": """ age > 25 AND age <= 40""",
+    #         "41-65": """ age > 40 AND age <= 65""",
+    #         ">65": """ age > 65""",
+    #     },
+    #     return_expectations={
+    #         "rate": "universal",
+    #         "category": {
+    #             "ratios": {
+    #                 "Missing": 0.2, 
+    #                 "<=25": 0.2,
+    #                 "26-40": 0.2,
+    #                 "41-65": 0.2,
+    #                 ">65": 0.2,
+    #             }
+    #         },
+    #     },
+    # ),
+    # sex=patients.sex(
+    #     return_expectations={
+    #         "rate": "universal",
+    #         "category": {"ratios": {"M": 0.49, "F": 0.51}},
+    #     }
+    # ),
+    # region=patients.registered_practice_as_of(
+    #     "index_date",
+    #     returning="nuts1_region_name",
+    #     return_expectations={
+    #         "rate": "universal",
+    #         "category": {
+    #             "ratios": {
+    #                 "North East": 0.1,
+    #                 "North West": 0.1,
+    #                 "Yorkshire and the Humber": 0.2,
+    #                 "East Midlands": 0.1,
+    #                 "West Midlands": 0.1,
+    #                 "East of England": 0.1,
+    #                 "London": 0.1,
+    #                 "South East": 0.2,
+    #             },
+    #         },
+    #     },
+    # ),
+    # imd_cat=patients.categorised_as(
+    #     {
+    #         "Unknown": "DEFAULT",
+    #         "1 (most deprived)": "imd >= 0 AND imd < 32844*1/5",
+    #         "2": "imd >= 32844*1/5 AND imd < 32844*2/5",
+    #         "3": "imd >= 32844*2/5 AND imd < 32844*3/5",
+    #         "4": "imd >= 32844*3/5 AND imd < 32844*4/5",
+    #         "5 (least deprived)": "imd >= 32844*4/5 AND imd <= 32844",
+    #     },
+    #     imd=patients.address_as_of(
+    #         "first_day_of_month(index_date)",
+    #         returning="index_of_multiple_deprivation",
+    #         round_to_nearest=100,
+    #     ),
+    #     return_expectations={
+    #         "rate": "universal",
+    #         "category": {
+    #             "ratios": {
+    #                 "Unknown": 0.05,
+    #                 "1 (most deprived)": 0.19,
+    #                 "2": 0.19,
+    #                 "3": 0.19,
+    #                 "4": 0.19,
+    #                 "5 (least deprived)": 0.19,
+    #             }
+    #         },
+    #     },
+    # ),
 ### Variable 1 Self harm
 # A&E: SNOMED_codes
     self_harmAE=patients.attended_emergency_care(
@@ -303,8 +303,8 @@ study = StudyDefinition(
 #             ],
 #         returning="binary_flag",
 #         return_expectations={"incidence": 0.50},
-#     ),  
-# )
+#     ),
+)
 measures = [
     Measure(
         id="self_harmAE_rate",
@@ -313,34 +313,34 @@ measures = [
         group_by="population",
         small_number_suppression=True,
     ),
-    Measure(
-        id="self_harmAEbyRegion_rate",
-        numerator="self_harmAE",
-        denominator="population",
-        group_by="region",
-        small_number_suppression=True,
-    ),
-    Measure(
-        id="self_harmAEbyIMD_rate",
-        numerator="self_harmAE",
-        denominator="population",
-        group_by="imd_cat",
-        small_number_suppression=True,
-    ),
-    Measure(
-        id="self_harmAEbyEthnicity_rate",
-        numerator="self_harmAE",
-        denominator="population",
-        group_by="ethnicity",
-        small_number_suppression=True,
-    ),
-    Measure(
-        id="self_harmAEbyAge_rate",
-        numerator="self_harmAE",
-        denominator="population",
-        group_by="age_group",
-        small_number_suppression=True,
-    ),
+    # Measure(
+    #     id="self_harmAEbyRegion_rate",
+    #     numerator="self_harmAE",
+    #     denominator="population",
+    #     group_by="region",
+    #     small_number_suppression=True,
+    # ),
+    # Measure(
+    #     id="self_harmAEbyIMD_rate",
+    #     numerator="self_harmAE",
+    #     denominator="population",
+    #     group_by="imd_cat",
+    #     small_number_suppression=True,
+    # ),
+    # Measure(
+    #     id="self_harmAEbyEthnicity_rate",
+    #     numerator="self_harmAE",
+    #     denominator="population",
+    #     group_by="ethnicity",
+    #     small_number_suppression=True,
+    # ),
+    # Measure(
+    #     id="self_harmAEbyAge_rate",
+    #     numerator="self_harmAE",
+    #     denominator="population",
+    #     group_by="age_group",
+    #     small_number_suppression=True,
+    # ),
 #     Measure(
 #         id="self_harmHo_rate",
 #         numerator="self_harmHo",
