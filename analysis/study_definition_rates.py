@@ -303,7 +303,7 @@ study = StudyDefinition(
             ],
         returning="binary_flag",
         return_expectations={"incidence": 0.50},
-    ),    
+    ),
 )
 measures = [
     Measure(
