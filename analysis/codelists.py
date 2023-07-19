@@ -76,3 +76,9 @@ s_m_illn_icd10 = codelist_from_csv(
     system="icd10",
     column="code",
 )
+# Variable 7. Psycho emergencies 
+psyc_eme_SNOMED = codelist_from_csv(
+    "codelists/user-agleman-psych-emergencies-snomed.csv",
+    system="snomed",
+    column="code",
+)

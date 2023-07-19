@@ -83,6 +83,12 @@
       "url": "https://codelists.opensafely.org/codelist/user/agleman/lifestyle-snomed-ct-short/21b70786/",
       "downloaded_at": "2023-07-19 10:44:45.889606Z",
       "sha": "e6d3240c717a0790e3cc85783b954cd9619c7df1"
+    },
+    "user-agleman-psych-emergencies-snomed.csv": {
+      "id": "user/agleman/psych-emergencies-snomed/593b6ddc",
+      "url": "https://codelists.opensafely.org/codelist/user/agleman/psych-emergencies-snomed/593b6ddc/",
+      "downloaded_at": "2023-07-19 21:34:17.360220Z",
+      "sha": "5cc00f2baddc8d2fcf2efc9da278c27d6430bf24"
     }
   }
 }

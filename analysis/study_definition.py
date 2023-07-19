@@ -224,4 +224,11 @@ study = StudyDefinition(
         on_or_before="index_date",
         returning="binary_flag",
     ),
+#### A&E: psych emergencies
+    psyc_emeAE=patients.attended_emergency_care(
+        with_these_diagnoses=psyc_eme_SNOMED,
+        on_or_before="index_date",
+        returning="binary_flag",
+        return_expectations={"incidence": 0.20},
+    ),
 )
