@@ -304,6 +304,15 @@ study = StudyDefinition(
         returning="binary_flag",
         return_expectations={"incidence": 0.50},
     ),
+    psyc_eme_AE=patients.attended_emergency_care(
+        with_these_diagnoses=psyc_eme_SNOMED,
+        between=[
+            "first_day_of_month(index_date)",
+            "last_day_of_month(index_date)",
+            ],
+        returning="binary_flag",
+        return_expectations={"incidence": 0.50},
+    ),
 )
 measures = [
     Measure(
@@ -771,6 +780,42 @@ measures = [
         numerator="s_m_illn_De",
         denominator="population",
         group_by="population",
+        small_number_suppression=True,
+    ),
+##### psych emergencies 
+    Measure(
+        id="psyc_eme_AE_rate",
+        numerator="psyc_eme_AE",
+        denominator="population",
+        group_by="population",
+        small_number_suppression=True,
+    ),
+    Measure(
+        id="psyc_eme_AEbyRegion_rate",
+        numerator="psyc_eme_AE",
+        denominator="population",
+        group_by="region",
+        small_number_suppression=True,
+    ),
+    Measure(
+        id="psyc_eme_AEbyIMD_rate",
+        numerator="psyc_eme_AE",
+        denominator="population",
+        group_by="imd_cat",
+        small_number_suppression=True,
+    ),
+    Measure(
+        id="psyc_eme_AEbyEthnicity_rate",
+        numerator="psyc_eme_AE",
+        denominator="population",
+        group_by="ethnicity",
+        small_number_suppression=True,
+    ),
+    Measure(
+        id="psyc_eme_AEbyAge_rate",
+        numerator="psyc_eme_AE",
+        denominator="population",
+        group_by="age_group",
         small_number_suppression=True,
     ),
 ]
