@@ -48,7 +48,8 @@ for (i in c(
   "measure_violence_De_rate.csv",
   "measure_s_m_illn_AE_rate.csv",
   "measure_s_m_illn_Ho_rate.csv",
-  "measure_s_m_illn_De_rate.csv"
+  "measure_s_m_illn_De_rate.csv",
+  "measure_psyc_eme_AE_rate.csv"
 )){
 
   Rates <- read_csv(here::here("output", "measures", i))
@@ -161,11 +162,15 @@ for (i in c(
   "measure_s_m_illn_HobyRegion_rate.csv",
   "measure_s_m_illn_HobyIMD_rate.csv",
   "measure_s_m_illn_HobyEthnicity_rate.csv",
-  "measure_s_m_illn_HobyAge_rate.csv"################## use it ,
+  "measure_s_m_illn_HobyAge_rate.csv",
   # "measure_s_m_illn_DebyRegion_rate.csv",
   # "measure_s_m_illn_DebyIMD_rate.csv",
   # "measure_s_m_illn_DebyEthnicity_rate.csv",
-  # "measure_s_m_illn_DebyAge_rate.csv"
+  # "measure_s_m_illn_DebyAge_rate.csv",
+  "measure_psyc_eme_AEbyRegion_rate.csv",
+  "measure_psyc_eme_AEbyIMD_rate.csv",
+  "measure_psyc_eme_AEbyEthnicity_rate.csv",
+  "measure_psyc_eme_AEbyAge_rate.csv"
   )){
   
   Rates <- read_csv(here::here("output", "measures", i))
