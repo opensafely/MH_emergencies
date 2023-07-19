@@ -137,11 +137,11 @@ actions:
         # measure_csv6m: output/measures/measure_s_m_illn_DebyIMD*_rate.csv
         # measure_csv6n: output/measures/measure_s_m_illn_DebyEthnicity*_rate.csv
         # measure_csv6o: output/measures/measure_s_m_illn_DebyAge*_rate.csv
-        measure_csv6a: output/measures/measure_psyc_eme_AE*_rate.csv
-        measure_csv6b: output/measures/measure_psyc_eme_AEbyRegion*_rate.csv
-        measure_csv6c: output/measures/measure_psyc_eme_AEbyIMD*_rate.csv
-        measure_csv6d: output/measures/measure_psyc_eme_AEbyEthnicity*_rate.csv
-        measure_csv6e: output/measures/measure_psyc_eme_AEbyAge*_rate.csv
+        measure_csv7a: output/measures/measure_psyc_eme_AE*_rate.csv
+        measure_csv7b: output/measures/measure_psyc_eme_AEbyRegion*_rate.csv
+        measure_csv7c: output/measures/measure_psyc_eme_AEbyIMD*_rate.csv
+        measure_csv7d: output/measures/measure_psyc_eme_AEbyEthnicity*_rate.csv
+        measure_csv7e: output/measures/measure_psyc_eme_AEbyAge*_rate.csv
 
   describe_trends:
     run: r:latest analysis/Descriptive_trends.R
