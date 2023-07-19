@@ -328,3 +328,12 @@ actions:
         # csv13f: output/s_m_illn_DebyIMD_rounded.csv
         # csv14f: output/s_m_illn_DebyEth_rounded.csv
         # csv15f: output/s_m_illn_DebyAge_rounded.csv
+        fig1g: output/psyc_eme_AE.png
+        fig2g: output/psyc_eme_AEbyReg.png
+        fig3g: output/psyc_eme_AEbyIMD.png
+        fig4g: output/psyc_eme_AEbyEth.png
+        fig5g: output/psyc_eme_AE_rounded.csv
+        csv2g: output/psyc_eme_AEbyReg_rounded.csv
+        csv3g: output/psyc_eme_AEbyIMD_rounded.csv
+        csv4g: output/psyc_eme_AEbyEth_rounded.csv
+        csv5g: output/psyc_eme_AEbyAge_rounded.csv
