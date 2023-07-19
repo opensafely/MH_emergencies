@@ -95,7 +95,7 @@ study = StudyDefinition(
 ### Variable 1 Self harm
 # A&E: SNOMED_codes
     self_harmAE=patients.attended_emergency_care(
-        with_these_diagnoses=self_harm_SNOMED, 
+        with_these_diagnoses=self_harm_SNOMED,
         on_or_before="index_date",
         returning="binary_flag",
         return_expectations={"incidence": 0.20},
@@ -159,14 +159,14 @@ study = StudyDefinition(
         returning="binary_flag",
     ),
 ### Variable 4. Problems related to lifestyle
-A&E: SNOMED_codes
+# A&E: SNOMED_codes
     lifestyleAE=patients.attended_emergency_care(
         with_these_diagnoses=lifestyle_SNOMED,
         on_or_before="index_date",
         returning="binary_flag",
         return_expectations={"incidence": 0.20},
     ),
-hospital admissions: icd10_codelist
+# hospital admissions: icd10_codelist
     lifestyleHosp=patients.admitted_to_hospital(
         with_these_diagnoses=lifestyle_icd10,
         on_or_before="index_date",

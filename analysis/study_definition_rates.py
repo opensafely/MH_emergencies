@@ -115,7 +115,7 @@ study = StudyDefinition(
 ### Variable 1 Self harm
 # A&E: SNOMED_codes
     self_harmAE=patients.attended_emergency_care(
-        with_these_diagnoses=self_harm_SNOMED, 
+        with_these_diagnoses=self_harm_SNOMED,
         between=[
             "first_day_of_month(index_date)",
             "last_day_of_month(index_date)",
