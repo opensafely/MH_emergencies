@@ -17,7 +17,7 @@ study = StudyDefinition(
     },
     index_date="2023-06-01",
     population=patients.all(),
-demographics
+### demographics
     age=patients.age_as_of(
         "index_date",
         return_expectations={
