@@ -171,8 +171,9 @@ for (i in c(
   "measure_psyc_eme_AEbyIMD_rate.csv",
   "measure_psyc_eme_AEbyEthnicity_rate.csv",
   "measure_psyc_eme_AEbyAge_rate.csv"
-  )){
+  ))
   
+  {
   Rates <- read_csv(here::here("output", "measures", i))
   Rates_rounded <- as.data.frame(Rates)
   
