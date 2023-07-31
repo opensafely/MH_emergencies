@@ -9,6 +9,7 @@ library(tidyverse)
 library(here)
 library(MASS)
 library(plyr)
+library(dplyr)
 
 ## Redactor code (W.Hulme)
 redactor <- function(n, threshold=7,e_overwrite=NA_integer_){
