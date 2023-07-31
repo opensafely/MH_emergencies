@@ -303,7 +303,8 @@ actions:
         fig2f: output/s_m_illn_AEbyReg.png
         fig3f: output/s_m_illn_AEbyIMD.png
         fig4f: output/s_m_illn_AEbyEth.png
-        fig5f: output/s_m_illn_AE_rounded.csv
+        fig5f: output/s_m_illn_AEbyAge.png   
+        csv1f: output/s_m_illn_AE_rounded.csv
         csv2f: output/s_m_illn_AEbyReg_rounded.csv
         csv3f: output/s_m_illn_AEbyIMD_rounded.csv
         csv4f: output/s_m_illn_AEbyEth_rounded.csv
@@ -332,7 +333,8 @@ actions:
         fig2g: output/psyc_eme_AEbyReg.png
         fig3g: output/psyc_eme_AEbyIMD.png
         fig4g: output/psyc_eme_AEbyEth.png
-        fig5g: output/psyc_eme_AE_rounded.csv
+        fig5g: output/psyc_eme_AEbyAge.png   
+        csv1g: output/psyc_eme_AE_rounded.csv
         csv2g: output/psyc_eme_AEbyReg_rounded.csv
         csv3g: output/psyc_eme_AEbyIMD_rounded.csv
         csv4g: output/psyc_eme_AEbyEth_rounded.csv
