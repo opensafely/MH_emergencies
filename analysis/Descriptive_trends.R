@@ -56,10 +56,15 @@ for (i in c(
   Rates <- read_csv(here::here("output", "measures", i))
   Rates_rounded <- as.data.frame(Rates)
   
+  ### Apply the fix for missing data
+  Rates_rounded$self_harmAE[is.na(Rates$self_harmAE)] <- 0
+  
   ###
   # Redact and round counts 
   ###
   Rates_rounded[,1] <- redactor(Rates_rounded[,1])
+  ### apply the fix for missing data 
+  Rates_rounded$self_harmAE[is.na(Rates$self_harmAE)] <- NA
   for (j in 1:2){
     Rates_rounded[,j] <- plyr::round_any(Rates_rounded[,j], 5, f = round)}
   
@@ -178,11 +183,15 @@ for (i in c(
   Rates <- read_csv(here::here("output", "measures", i))
   Rates_rounded <- as.data.frame(Rates)
   
+  ### Apply the fix for missing data
+  Rates_rounded[which(is.na(Rates_rounded[,2])),2] <- 0
+  
   ###
   # Redact and round counts 
   ###
-  Rates_rounded[which(is.na(Rates_rounded[,2])),2] <- 1
   Rates_rounded[,2] <- redactor(Rates_rounded[,2])
+  Rates_rounded[which(is.na(Rates_rounded[,2])),2] <- NA
+  
   for (j in 2:3){
     Rates_rounded[,j] <- plyr::round_any(Rates_rounded[,j], 5, f = round)}
   
