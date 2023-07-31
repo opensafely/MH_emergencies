@@ -57,14 +57,14 @@ for (i in c(
   Rates_rounded <- as.data.frame(Rates)
   
   ### Apply the fix for missing data
-  Rates_rounded$self_harmAE[is.na(Rates$self_harmAE)] <- 0
+  Rates_rounded[which(is.na(Rates_rounded[,1])),1] <- 0
   
   ###
   # Redact and round counts 
   ###
   Rates_rounded[,1] <- redactor(Rates_rounded[,1])
   ### apply the fix for missing data 
-  Rates_rounded$self_harmAE[is.na(Rates$self_harmAE)] <- NA
+  Rates_rounded[which(is.na(Rates_rounded[,1])),1] <- NA
   for (j in 1:2){
     Rates_rounded[,j] <- plyr::round_any(Rates_rounded[,j], 5, f = round)}
   
