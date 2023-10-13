@@ -48,6 +48,12 @@
       "downloaded_at": "2023-07-17 21:48:01.493035Z",
       "sha": "aef16ff76bb89236edaf6d54cfeac3fef678a21a"
     },
+    "user-agleman-lifestyle-snomed-ct-short.csv": {
+      "id": "user/agleman/lifestyle-snomed-ct-short/21b70786",
+      "url": "https://codelists.opensafely.org/codelist/user/agleman/lifestyle-snomed-ct-short/21b70786/",
+      "downloaded_at": "2023-10-13 21:08:43.772663Z",
+      "sha": "e6d3240c717a0790e3cc85783b954cd9619c7df1"
+    },
     "user-agleman-lifestyle-problems-icd10.csv": {
       "id": "user/agleman/lifestyle-problems-icd10/3df41af1",
       "url": "https://codelists.opensafely.org/codelist/user/agleman/lifestyle-problems-icd10/3df41af1/",
