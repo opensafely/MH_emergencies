@@ -11,20 +11,20 @@ actions:
       highly_sensitive:
         cohort: output/input_ethnicity.feather
 
-  generate_study_population:
-    run: cohortextractor:latest generate_cohort --study-definition study_definition
-    outputs:
-      highly_sensitive:
-        cohort: output/input.csv
-
+  # generate_study_population:
+  #   run: cohortextractor:latest generate_cohort --study-definition study_definition
+  #   outputs:
+  #     highly_sensitive:
+  #       cohort: output/input.csv
+  #
   generate_rates_1:    
-    run: cohortextractor:latest generate_cohort --study-definition study_definition_rates --index-date-range "2017-01-01 to 2019-06-01 by month" --skip-existing --output-dir=output --output-format=csv.gz
+    run: cohortextractor:latest generate_cohort --study-definition study_definition_rates --index-date-range "2023-01-01 to 2023-06-01 by month" --skip-existing --output-dir=output --output-format=csv.gz
     outputs:      
       highly_sensitive:
         cohort: output/measures/inpu*.csv.gz
   
   generate_rates_2:    
-    run: cohortextractor:latest generate_cohort --study-definition study_definition_rates --index-date-range "2019-07-01 to 2023-06-01 by month" --skip-existing --output-dir=output --output-format=csv.gz
+    run: cohortextractor:latest generate_cohort --study-definition study_definition_rates --index-date-range "2023-07-01 to 2023-10-01 by month" --skip-existing --output-dir=output --output-format=csv.gz
     outputs:      
       highly_sensitive:
         cohort: output/measures/inp*.csv.gz
@@ -57,7 +57,7 @@ actions:
         measure_csv1h: output/measures/measure_self_harmHobyIMD*_rate.csv
         measure_csv1i: output/measures/measure_self_harmHobyEthnicity*_rate.csv
         measure_csv1j: output/measures/measure_self_harmHobyAge*_rate.csv
-        measure_csv1k: output/measures/measure_self_harmDe*_rate.csv
+        # measure_csv1k: output/measures/measure_self_harmDe*_rate.csv
         # measure_csv1l: output/measures/measure_self_harmDebyRegion*_rate.csv
         # measure_csv1m: output/measures/measure_self_harmDebyIMD*_rate.csv
         # measure_csv1n: output/measures/measure_self_harmDebyEthnicity*_rate.csv
@@ -72,7 +72,7 @@ actions:
         measure_csv2h: output/measures/measure_emot_distHobyIMD*_rate.csv
         measure_csv2i: output/measures/measure_emot_distHobyEthnicity*_rate.csv
         measure_csv2j: output/measures/measure_emot_distHobyAge*_rate.csv
-        measure_csv2k: output/measures/measure_emot_distDe*_rate.csv
+        # measure_csv2k: output/measures/measure_emot_distDe*_rate.csv
         # measure_csv2l: output/measures/measure_emot_distDebyRegion*_rate.csv
         # measure_csv2m: output/measures/measure_emot_distDebyIMD*_rate.csv
         # measure_csv2n: output/measures/measure_emot_distDebyEthnicity*_rate.csv
@@ -87,7 +87,7 @@ actions:
         measure_csv3h: output/measures/measure_eat_disorHobyIMD*_rate.csv
         measure_csv3i: output/measures/measure_eat_disorHobyEthnicity*_rate.csv
         measure_csv3j: output/measures/measure_eat_disorHobyAge*_rate.csv
-        measure_csv3k: output/measures/measure_eat_disorDe*_rate.csv
+        # measure_csv3k: output/measures/measure_eat_disorDe*_rate.csv
         # measure_csv3l: output/measures/measure_eat_disorDebyRegion*_rate.csv
         # measure_csv3m: output/measures/measure_eat_disorDebyIMD*_rate.csv
         # measure_csv3n: output/measures/measure_eat_disorDebyEthnicity*_rate.csv
@@ -102,7 +102,7 @@ actions:
         measure_csv4h: output/measures/measure_lifestyleHobyIMD*_rate.csv
         measure_csv4i: output/measures/measure_lifestyleHobyEthnicity*_rate.csv
         measure_csv4j: output/measures/measure_lifestyleHobyAge*_rate.csv
-        measure_csv4k: output/measures/measure_lifestyleDe*_rate.csv
+        # measure_csv4k: output/measures/measure_lifestyleDe*_rate.csv
         # measure_csv4l: output/measures/measure_lifestyleDebyRegion*_rate.csv
         # measure_csv4m: output/measures/measure_lifestyleDebyIMD*_rate.csv
         # measure_csv4n: output/measures/measure_lifestyleDebyEthnicity*_rate.csv
@@ -117,7 +117,7 @@ actions:
         measure_csv5h: output/measures/measure_violence_HobyIMD*_rate.csv
         measure_csv5i: output/measures/measure_violence_HobyEthnicity*_rate.csv
         measure_csv5j: output/measures/measure_violence_HobyAge*_rate.csv
-        measure_csv5k: output/measures/measure_violence_De*_rate.csv
+        # measure_csv5k: output/measures/measure_violence_De*_rate.csv
         # measure_csv5l: output/measures/measure_violence_DebyRegion*_rate.csv
         # measure_csv5m: output/measures/measure_violence_DebyIMD*_rate.csv
         # measure_csv5n: output/measures/measure_violence_DebyEthnicity*_rate.csv
@@ -132,7 +132,7 @@ actions:
         measure_csv6h: output/measures/measure_s_m_illn_HobyIMD*_rate.csv
         measure_csv6i: output/measures/measure_s_m_illn_HobyEthnicity*_rate.csv
         measure_csv6j: output/measures/measure_s_m_illn_HobyAge*_rate.csv
-        measure_csv6k: output/measures/measure_s_m_illn_De*_rate.csv
+        # measure_csv6k: output/measures/measure_s_m_illn_De*_rate.csv
         # measure_csv6l: output/measures/measure_s_m_illn_DebyRegion*_rate.csv
         # measure_csv6m: output/measures/measure_s_m_illn_DebyIMD*_rate.csv
         # measure_csv6n: output/measures/measure_s_m_illn_DebyEthnicity*_rate.csv
@@ -169,12 +169,12 @@ actions:
         csv8a: output/self_harmHobyIMD_rounded.csv
         csv9a: output/self_harmHobyEth_rounded.csv
         csv10a: output/self_harmHobyAge_rounded.csv
-        fig11a: output/self_harmDe.png
+        # fig11a: output/self_harmDe.png
         # fig12a: output/self_harmDebyReg.png
         # fig13a: output/self_harmDebyIMD.png
         # fig14a: output/self_harmDebyEth.png
         # fig15a: output/self_harmDebyAge.png   
-        csv11a: output/self_harmDe_rounded.csv
+        # csv11a: output/self_harmDe_rounded.csv
         # csv12a: output/self_harmDebyReg_rounded.csv
         # csv13a: output/self_harmDebyIMD_rounded.csv
         # csv14a: output/self_harmDebyEth_rounded.csv
@@ -199,12 +199,12 @@ actions:
         csv8c: output/emot_distHobyIMD_rounded.csv
         csv9c: output/emot_distHobyEth_rounded.csv
         csv10c: output/emot_distHobyAge_rounded.csv
-        fig11c: output/emot_distDe.png
+        # fig11c: output/emot_distDe.png
         # fig12c: output/emot_distDebyReg.png
         # fig13c: output/emot_distDebyIMD.png
         # fig14c: output/emot_distDebyEth.png
         # fig15c: output/emot_distDebyAge.png   
-        csv11c: output/emot_distDe_rounded.csv
+        # csv11c: output/emot_distDe_rounded.csv
         # csv12c: output/emot_distDebyReg_rounded.csv
         # csv13c: output/emot_distDebyIMD_rounded.csv
         # csv14c: output/emot_distDebyEth_rounded.csv
@@ -229,12 +229,12 @@ actions:
         csv8b: output/eat_disorHobyIMD_rounded.csv
         csv9b: output/eat_disorHobyEth_rounded.csv
         csv10b: output/eat_disorHobyAge_rounded.csv
-        fig11b: output/eat_disorDe.png
+        # fig11b: output/eat_disorDe.png
         # fig12b: output/eat_disorDebyReg.png
         # fig13b: output/eat_disorDebyIMD.png
         # fig14b: output/eat_disorDebyEth.png
         # fig15b: output/eat_disorDebyAge.png   
-        csv11b: output/eat_disorDe_rounded.csv
+        # csv11b: output/eat_disorDe_rounded.csv
         # csv12b: output/eat_disorDebyReg_rounded.csv
         # csv13b: output/eat_disorDebyIMD_rounded.csv
         # csv14b: output/eat_disorDebyEth_rounded.csv
@@ -259,12 +259,12 @@ actions:
         csv8d: output/lifestyleHobyIMD_rounded.csv
         csv9d: output/lifestyleHobyEth_rounded.csv
         csv10d: output/lifestyleHobyAge_rounded.csv
-        fig11d: output/lifestyleDe.png
+        # fig11d: output/lifestyleDe.png
         # fig12d: output/lifestyleDebyReg.png
         # fig13d: output/lifestyleDebyIMD.png
         # fig14d: output/lifestyleDebyEth.png
         # fig15d: output/lifestyleDebyAge.png   
-        csv11d: output/lifestyleDe_rounded.csv
+        # csv11d: output/lifestyleDe_rounded.csv
         # csv12d: output/lifestyleDebyReg_rounded.csv
         # csv13d: output/lifestyleDebyIMD_rounded.csv
         # csv14d: output/lifestyleDebyEth_rounded.csv
@@ -289,12 +289,12 @@ actions:
         csv8e: output/violence_HobyIMD_rounded.csv
         csv9e: output/violence_HobyEth_rounded.csv
         csv10e: output/violence_HobyAge_rounded.csv
-        fig11e: output/violence_De.png
+        # fig11e: output/violence_De.png
         # fig12e: output/violence_DebyReg.png
         # fig13e: output/violence_DebyIMD.png
         # fig14e: output/violence_DebyEth.png
         # fig15e: output/violence_DebyAge.png   
-        csv11e: output/violence_De_rounded.csv
+        # csv11e: output/violence_De_rounded.csv
         # csv12e: output/violence_DebyReg_rounded.csv
         # csv13e: output/violence_DebyIMD_rounded.csv
         # csv14e: output/violence_DebyEth_rounded.csv
@@ -319,12 +319,12 @@ actions:
         csv8f: output/s_m_illn_HobyIMD_rounded.csv
         csv9f: output/s_m_illn_HobyEth_rounded.csv
         csv10f: output/s_m_illn_HobyAge_rounded.csv
-        fig11f: output/s_m_illn_De.png
+        # fig11f: output/s_m_illn_De.png
         # fig12f: output/s_m_illn_DebyReg.png
         # fig13f: output/s_m_illn_DebyIMD.png
         # fig14f: output/s_m_illn_DebyEth.png
         # fig15f: output/s_m_illn_DebyAge.png   
-        csv11f: output/s_m_illn_De_rounded.csv
+        # csv11f: output/s_m_illn_De_rounded.csv
         # csv12f: output/s_m_illn_DebyReg_rounded.csv
         # csv13f: output/s_m_illn_DebyIMD_rounded.csv
         # csv14f: output/s_m_illn_DebyEth_rounded.csv
