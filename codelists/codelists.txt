@@ -11,5 +11,4 @@ user/agleman/assault_violence-snomed-ct/2ffb7ae3/
 user/agleman/assault_violence-icd10/24e4a7bc/
 user/hjforbes/severe-mental-illness/2dd5e1c0/
 user/agleman/smis-mh-emergencies/46582e22/
-user/agleman/lifestyle-snomed-ct-short/21b70786/
 user/agleman/psych-emergencies-snomed/593b6ddc/

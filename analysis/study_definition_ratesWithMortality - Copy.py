@@ -133,10 +133,21 @@ study = StudyDefinition(
         returning="binary_flag",
         return_expectations={"incidence": 0.50},
     ),
+# mortality
+    self_harmDe=patients.with_these_codes_on_death_certificate(
+        self_harm_icd10,
+        match_only_underlying_cause=False,
+        between=[
+            "first_day_of_month(index_date)",
+            "last_day_of_month(index_date)",
+            ],
+        returning="binary_flag",
+        return_expectations={"incidence": 0.50},
+    ),
 ### Variable 2. Emotional distress
 # A&E: SNOMED_codes
     emot_distAE=patients.attended_emergency_care(
-        with_these_diagnoses=emotional_distress_SNOMED,
+        with_these_diagnoses=emotional_distress_SNOMED, 
         between=[
             "first_day_of_month(index_date)",
             "last_day_of_month(index_date)",
@@ -154,10 +165,21 @@ study = StudyDefinition(
         returning="binary_flag",
         return_expectations={"incidence": 0.50},
     ),
+# mortality
+    emot_distDe=patients.with_these_codes_on_death_certificate(
+        emotional_distress_icd10,
+        match_only_underlying_cause=False,
+        between=[
+            "first_day_of_month(index_date)",
+            "last_day_of_month(index_date)",
+            ],
+        returning="binary_flag",
+        return_expectations={"incidence": 0.50},
+    ),
 ### Variable 3. Eating disorders
 # A&E: SNOMED_codes
     eat_disorAE=patients.attended_emergency_care(
-        with_these_diagnoses=eating_disorders_SNOMED,
+        with_these_diagnoses=eating_disorders_SNOMED, 
         between=[
             "first_day_of_month(index_date)",
             "last_day_of_month(index_date)",
@@ -175,10 +197,21 @@ study = StudyDefinition(
         returning="binary_flag",
         return_expectations={"incidence": 0.50},
     ),
+# mortality
+    eat_disorDe=patients.with_these_codes_on_death_certificate(
+        eating_disorders_icd10,
+        match_only_underlying_cause=False,
+        between=[
+            "first_day_of_month(index_date)",
+            "last_day_of_month(index_date)",
+            ],
+        returning="binary_flag",
+        return_expectations={"incidence": 0.50},
+    ),
 ### Variable 4. Problems related to lifestyle
 # A&E: SNOMED_codes
     lifestyleAE=patients.attended_emergency_care(
-        with_these_diagnoses=lifestyle_SNOMED,
+        with_these_diagnoses=lifestyle_SNOMED, 
         between=[
             "first_day_of_month(index_date)",
             "last_day_of_month(index_date)",
@@ -196,10 +229,21 @@ study = StudyDefinition(
         returning="binary_flag",
         return_expectations={"incidence": 0.50},
     ),
+# mortality
+    lifestyleDe=patients.with_these_codes_on_death_certificate(
+        lifestyle_icd10,
+        match_only_underlying_cause=False,
+        between=[
+            "first_day_of_month(index_date)",
+            "last_day_of_month(index_date)",
+            ],
+        returning="binary_flag",
+        return_expectations={"incidence": 0.50},
+    ),
 ### Variable 5. Assault and violence_
 # A&E: SNOMED_codes
     violence_AE=patients.attended_emergency_care(
-        with_these_diagnoses=violence_SNOMED,
+        with_these_diagnoses=violence_SNOMED, 
         between=[
             "first_day_of_month(index_date)",
             "last_day_of_month(index_date)",
@@ -210,6 +254,17 @@ study = StudyDefinition(
 # Hoital admissions: icd10_codelist
     violence_Ho=patients.admitted_to_hospital(
         with_these_diagnoses=violence_icd10,
+        between=[
+            "first_day_of_month(index_date)",
+            "last_day_of_month(index_date)",
+            ],
+        returning="binary_flag",
+        return_expectations={"incidence": 0.50},
+    ),
+# mortality
+    violence_De=patients.with_these_codes_on_death_certificate(
+        violence_icd10,
+        match_only_underlying_cause=False,
         between=[
             "first_day_of_month(index_date)",
             "last_day_of_month(index_date)",
@@ -238,7 +293,17 @@ study = StudyDefinition(
         returning="binary_flag",
         return_expectations={"incidence": 0.50},
     ),
-# for Joe
+# mortality
+    s_m_illn_De=patients.with_these_codes_on_death_certificate(
+        s_m_illn_icd10,
+        match_only_underlying_cause=False,
+        between=[
+            "first_day_of_month(index_date)",
+            "last_day_of_month(index_date)",
+            ],
+        returning="binary_flag",
+        return_expectations={"incidence": 0.50},
+    ),
     psyc_eme_AE=patients.attended_emergency_care(
         with_these_diagnoses=psyc_eme_SNOMED,
         between=[
@@ -320,6 +385,13 @@ measures = [
         group_by="age_group",
         small_number_suppression=True,
     ),
+    Measure(
+        id="self_harmDe_rate",
+        numerator="self_harmDe",
+        denominator="population",
+        group_by="population",
+        small_number_suppression=True,
+    ),
 ### Variable 2 Emotional distress
     Measure(
         id="emot_distAE_rate",
@@ -389,6 +461,13 @@ measures = [
         numerator="emot_distHo",
         denominator="population",
         group_by="age_group",
+        small_number_suppression=True,
+    ),
+    Measure(
+        id="emot_distDe_rate",
+        numerator="emot_distDe",
+        denominator="population",
+        group_by="population",
         small_number_suppression=True,
     ),
 ### Variable 3 eating disorder
@@ -462,6 +541,13 @@ measures = [
         group_by="age_group",
         small_number_suppression=True,
     ),
+    Measure(
+        id="eat_disorDe_rate",
+        numerator="eat_disorDe",
+        denominator="population",
+        group_by="population",
+        small_number_suppression=True,
+    ),
 ### Variable 4. Problems related to lifestyle
     Measure(
         id="lifestyleAE_rate",
@@ -531,6 +617,13 @@ measures = [
         numerator="lifestyleHo",
         denominator="population",
         group_by="age_group",
+        small_number_suppression=True,
+    ),
+    Measure(
+        id="lifestyleDe_rate",
+        numerator="lifestyleDe",
+        denominator="population",
+        group_by="population",
         small_number_suppression=True,
     ),
 ### Variable 5. Assault and violence
@@ -604,6 +697,13 @@ measures = [
         group_by="age_group",
         small_number_suppression=True,
     ),
+    Measure(
+        id="violence_De_rate",
+        numerator="violence_De",
+        denominator="population",
+        group_by="population",
+        small_number_suppression=True,
+    ),
 ### Variable 6. SMIs
     Measure(
         id="s_m_illn_AE_rate",
@@ -675,7 +775,14 @@ measures = [
         group_by="age_group",
         small_number_suppression=True,
     ),
-##### psych emergencies
+    Measure(
+        id="s_m_illn_De_rate",
+        numerator="s_m_illn_De",
+        denominator="population",
+        group_by="population",
+        small_number_suppression=True,
+    ),
+##### psych emergencies 
     Measure(
         id="psyc_eme_AE_rate",
         numerator="psyc_eme_AE",

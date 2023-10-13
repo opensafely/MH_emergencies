@@ -34,22 +34,16 @@ start <- "2020-03-01"
 for (i in c(
   "measure_self_harmAE_rate.csv",
   "measure_self_harmHo_rate.csv",
-  "measure_self_harmDe_rate.csv",
   "measure_emot_distAE_rate.csv",
   "measure_emot_distHo_rate.csv",
-  "measure_emot_distDe_rate.csv",
   "measure_eat_disorAE_rate.csv",
   "measure_eat_disorHo_rate.csv",
-  "measure_eat_disorDe_rate.csv",
   "measure_lifestyleAE_rate.csv",
   "measure_lifestyleHo_rate.csv",
-  "measure_lifestyleDe_rate.csv",
   "measure_violence_AE_rate.csv",
   "measure_violence_Ho_rate.csv",
-  "measure_violence_De_rate.csv",
   "measure_s_m_illn_AE_rate.csv",
   "measure_s_m_illn_Ho_rate.csv",
-  "measure_s_m_illn_De_rate.csv",
   "measure_psyc_eme_AE_rate.csv"
 )){
 
