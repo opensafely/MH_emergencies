@@ -1,18 +1,15 @@
 code,term
 10327003,Cocaine-induced mood disorder
-1034441000000105,Paternal alcohol abuse
-10483001,"Toxic effect of other alcohol, NEC"
-10486009,Poisoning caused by medazepam
 10650000,Poisoning caused by ketamine
 1065321000000102,Injury following organic hallucinogen use
 1066421000000104,Injury following industrial alcohol use
-10741871000119101,Alcohol dependence in pregnancy
-10755041000119100,Alcohol dependence in childbirth
-1078491000000105,Urine novel psychoactive substance positive
 1082601000119104,Ascites due to alcoholic cirrhosis
 1082611000119101,Ascites due to alcoholic hepatitis
 1082621000119108,Hepatic coma due to alcoholic liver failure
+10847541000119100,Adverse reaction caused by valproic acid
 1085021000119106,Hepatic ascites due to chronic alcoholic hepatitis
+10851061000119101,Adverse reaction caused by methamphetamine
+10851141000119101,Adverse reaction caused by psychotropic agent
 1087451000000109,Late onset alcohol-induced psychosis
 1087481000000103,Late onset cocaine-induced psychosis
 1087491000000101,Late onset lysergic acid diethylamide-induced psychosis
@@ -32,51 +29,27 @@ code,term
 1094261000000104,Harmful use of stimulant
 1094271000000106,Harmful use of synthetic cannabinoid
 1094281000000108,Harmful use of synthetic cathinone
+10976971000119109,Metamfetamine overdose
 11047881000119101,Cannabis hyperemesis syndrome co-occurrent and due to cannabis abuse
 11048011000119103,Cannabis hyperemesis syndrome co-occurrent and due to cannabis dependence
-11061003,Psychoactive substance use disorder
-111370006,Cirrhosis of liver not due to alcohol
-111460005,Fetal or neonatal effect of hallucinogenic agent transmitted via placenta and/or breast milk
 111480006,Psychoactive substance-induced organic dementia
-111765001,Poisoning caused by prochlorperazine
 111766000,Poisoning caused by tranquilizer
 11387009,Organic mental disorder caused by psychoactive substance
-1144831005,Accidental triclofos poisoning
-1144832003,Triclofos poisoning
-1144835001,Accidental poisoning caused by valproate
 1144836000,Poisoning caused by valproate
-1145057000,Accidental clorazepate overdose
-1145058005,Clorazepate overdose
-1145066001,Accidental triclofos overdose
-1145067005,Triclofos overdose
-1145075004,Intentional clorazepate poisoning
-1145076003,Accidental clorazepate poisoning
-1145077007,Clorazepate poisoning
-1145152008,Accidental poisoning caused by carbromal
-1148567001,Poisoning caused by sedative
 1148671008,Amfetamine and/or amfetamine derivative overdose
 1148674000,Accidental amfetamine and/or amfetamine derivative overdose
 1149239002,Overdose of lysergic acid diethylamide
-1149240000,Accidental overdose by lysergic acid diethylamide
 1149328002,Cannabis poisoning
 1149333003,Acute alcohol intoxication
 1149353004,Psychoactive substance-induced intoxication
 1153338005,Osteonecrosis caused by alcohol
-1153508003,Chloral and/or chloral derivative overdose
 1155772001,Intoxication caused by central stimulant
-1157257000,Poisoning by hypnotic agent
+1157240004,Amfetamine and/or amfetamine derivative intoxication
 1162803009,Valproate overdose
-1162805002,Accidental valproate overdose
-1162817000,Lithium and/or lithium compound overdose
-1162818005,Accidental lithium and/or lithium compound overdose
-1162819002,Intentional lithium and/or lithium compound overdose
-1163013005,Adverse reaction to carbromal
-1187205008,Organic mental disorder caused by sedative
 1187219008,Disorder caused by psychoactive substance
 1187220002,Disorder caused by cocaine
 1197698005,Esophageal varices with bleeding due to alcoholic liver disease
 1197724009,Duodenal ulcer caused by alcohol
-122611000000106,Alcohol-induced epilepsy
 1230071005,"Amfetamine and/or amfetamine derivative abuse, episodic"
 1230072003,"Amfetamine and/or amfetamine derivative abuse, continuous"
 1230074002,"Nondependent hypnotic abuse, episodic"
@@ -94,19 +67,6 @@ code,term
 1230087008,"Nondependent amfetamine and/or amfetamine derivative abuse, episodic"
 1230088003,Nondependent amfetamine and/or amfetamine derivative abuse
 1230089006,Nondependent psychostimulant abuse
-123050003,Alcohol-induced polyneuropathy
-1231158003,Hypnotic dependence in remission
-1231159006,Anxiolytic dependence in remission
-1231160001,"Hypnotic dependence, episodic"
-1231161002,"Anxiolytic dependence, episodic"
-1231162009,"Hypnotic dependence, continuous"
-1231163004,"Anxiolytic dependence, continuous"
-1231319004,Methylenedioxymethamphetamine dependence
-1231327008,Amfetamine and/or amfetamine derivative dependence episodic
-1231328003,Amfetamine and/or amfetamine derivative dependence continuous
-1231331002,Psychostimulant dependence in remission
-1231333004,Psychostimulant dependence episodic
-1231336007,Psychostimulant dependence continuous
 1231846001,Psychosis caused by ethanol
 1234750000,Dilated cardiomyopathy caused by ethanol
 1234767007,Duodenitis caused by ethanol
@@ -118,21 +78,19 @@ code,term
 1234779007,Mood disorder caused by ethanol
 1234780005,Mood disorder with mixed manic and depressive symptoms caused by ethanol
 1234781009,Mood disorder with manic symptoms caused by ethanol
-1234782002,Mood disorder with depressive symptoms caused by ethanol
 1234783007,Organic mental disorder caused by ethanol
-1237202006,Amfetamine and/or amfetamine derivative withdrawal syndrome
 12380008,"Sedative, hypnotic AND/OR anxiolytic-induced sexual dysfunction"
 12398201000119102,Anxiety disorder caused by methamphetamine
-12398281000119105,Methamphetamine withdrawal syndrome
 12398321000119100,Mood disorder caused by methamphetamine
 12398361000119105,Mental disorder caused by methamphetamine
-1254818005,Selective serotonin re-uptake inhibitor dependence
-1255066009,Perceptual disturbance due to alcohol withdrawal
+12398571000119105,Methamphetamine intoxication
 1255408003,Adverse reaction caused by ethanol
 1255409006,Adverse reaction caused by alcoholic beverage
 125851000119106,Continuous sedative abuse
 1259867005,Delayed headache caused by alcohol
-1260346008,Headache due to caffeine withdrawal syndrome
+1264073006,Neonatal disorder caused by hallucinogenic agent transmitted via breast milk
+1264172003,Fetal disorder caused by maternal alcohol dependence transmitted via placenta
+1268343004,Poisoning caused by opium
 12898000,Poisoning caused by pentazocine
 129878006,Dysfunctional family due to alcoholism
 13187008,Poisoning caused by heroin
@@ -143,401 +101,74 @@ code,term
 135321000119107,Hypersomnia caused by alcohol
 135331000119105,Disorder of sleep-wake cycle caused by alcohol
 135761000119101,Cerebral degeneration due to alcoholism
-137968008,Alcohol intake above recommended sensible limits
-1383008,Hallucinogen mood disorder
-140395006,O/E - breath - alcohol smell
 145101000119102,Intravenous cocaine abuse
 145841000119107,Episodic phencyclidine abuse
 1465231000000100,Cystitis caused by ketamine
 15167005,Alcohol abuse
-15233006,Poisoning caused by cannabis derivative
 15244003,Neuroleptic malignant syndrome
 15277004,Hallucinogen-induced anxiety disorder
 154211000119108,Chronic pancreatitis due to chronic alcoholism
-154852003,Alcoholic psychoses
-154854002,(Alcoholic psychosis: [Korsakov's] or [other]) or (withdrawal syndrome - alcohol)
-154908007,Alcohol dependence syndrome (& [dipsomania])
-154910009,Dependence: [cocaine] or [morphine]
-154912001,Dependence: [cannabis (including marihuana)] or [hallucinogen]
-154916003,(Non-dependent abuse of alcohol) or (drunkenness) or (hangover)
-155083006,Alcohol-related polyneuropathy
-155352001,Alcohol-induced heart muscle disease
-155714000,Alcoholic gastritis
-155809006,(Cirrhosis &/or chronic liver dis) or (alcoholic liver disease)
-155810001,Acute alcoholic hepatitis
-155811002,Alcoholic cirrhosis of liver
-155812009,Alcoholic liver damage NOS
-155814005,Cirrhosis - non-alcoholic
-157683008,Alcohol causing toxic effect
-157684002,Ethyl alcohol causing toxic effect
-157685001,Methyl alcohol causing toxic effect
-157686000,Alcohol causing toxic effect NOS
-157824003,Accidental poisoning by alcohol
-157825002,Accidental poisoning with ethyl alcohol
-157826001,Accidental poisoning by methyl alcohol
-157827005,Accidental poisoning by alcohol NOS
 15921731000119106,Psychotic disorder caused by methamphetamine
-16077051000119102,Tobacco dependence caused by cigarettes in remission
-16077091000119107,Tobacco dependence caused by cigarettes
-16077171000119107,Tobacco dependence caused by chewing tobacco
 16236661000119100,Delirium due to methamphetamine intoxication
-16238181000119101,Depressive disorder caused by amphetamine
-16238221000119109,Depressive disorder caused by methamphetamine
-16248006,Poisoning caused by butyrophenone-based tranquilizer
 16292008,Cannabis sativa poisoning
 163184002,On examination - breath - alcohol smell
 1686006,"Sedative, hypnotic AND/OR anxiolytic-induced anxiety disorder"
-17231009,Fetal valproate syndrome
-176171000000106,[X]Mental and behavioural disorders due to use of crack cocaine
-176181000000108,[X]Mental and behavioural disorders due to use of crack cocaine: acute intoxication
-176191000000105,[X]Mental and behavioural disorders due to use of crack cocaine: harmful use
-176201000000107,[X]Mental and behavioural disorders due to use of crack cocaine: dependence syndrome
-176211000000109,[X]Mental and behavioural disorders due to use of crack cocaine: withdrawal state
-176221000000103,[X]Mental and behavioural disorders due to use of crack cocaine: withdrawal state with delirium
-176231000000101,[X]Mental and behavioural disorders due to use of crack cocaine: psychotic disorder
-176241000000105,[X]Mental and behavioural disorders due to use of crack cocaine: amnesic syndrome
-176251000000108,[X]Mental and behavioural disorders due to use of crack cocaine: residual and late-onset psychotic disorder
-176261000000106,[X]Mental and behavioural disorders due to use of crack cocaine: other mental and behavioural disorders
-176271000000104,[X]Mental and behavioural disorders due to use of crack cocaine: unspecified mental and behavioural disorder
-176661000000108,[X]Adverse reaction to caffeine
 18052008,Poisoning caused by meperidine
-185851000000109,Prolonged high dose use of cannabis
-186101000000107,Alcohol induced hallucinations
 18653004,Alcohol intoxication delirium
 18689007,Inhalant intoxication delirium
 18768006,Phenanthrene derivative poisoning
 18869009,Chlorpromazine pigmentation
-189291000000103,Prolonged high dose use of cannabis
-189541000000106,Alcohol induced hallucinations
-190504000,Alcohol-induced pseudo-Cushing's syndrome
 191471000,Korsakov's alcoholic psychosis with peripheral neuritis
-191473002,Alcohol amnestic syndrome NOS
-191474008,Alcoholic dementia: [other] or [NOS]
 191475009,Chronic alcoholic brain syndrome
 191476005,Alcohol withdrawal hallucinosis
-191477001,Pathological alcohol intoxication
 191478006,Alcoholic paranoia
-191479003,Other alcoholic psychosis
-191480000,Alcohol withdrawal syndrome
-191481001,Other alcoholic psychosis NOS
-191482008,Alcoholic psychosis NOS
-191495003,Depressive disorder caused by drug
-191801006,(Alcohol dependence syndrome [including alcoholism]) or (alcohol problem drinking)
-191802004,Acute alcoholic intoxication in alcoholism
-191803009,"Acute alcoholic intoxication, unspecified, in alcoholism"
-191804003,Continuous acute alcoholic intoxication in alcoholism
-191805002,Episodic acute alcoholic intoxication in alcoholism
-191806001,"Acute alcoholic intoxication in remission, in alcoholism"
-191807005,Acute alcoholic intoxication in alcoholism NOS
-191808000,Chronic alcoholism (& [dipsomania])
-191809008,Unspecified chronic alcoholism
-191811004,Continuous chronic alcoholism
-191812006,Episodic chronic alcoholism
-191813001,Chronic alcoholism in remission
-191814007,Chronic alcoholism NOS
-191815008,Alcohol dependence syndrome NOS
-191829009,Cocaine type drug dependence
-191830004,"Cocaine dependence, unspecified"
-191831000,"Cocaine dependence, continuous"
-191832007,"Cocaine dependence, episodic"
-191833002,Cocaine dependence in remission
-191834008,Cocaine drug dependence NOS
-191835009,Cannabis type drug dependence (& [hashish] or [hemp] or [marihuana])
-191836005,"Cannabis dependence, unspecified"
-191837001,"Cannabis dependence, continuous"
-191838006,"Cannabis dependence, episodic"
-191839003,Cannabis dependence in remission
-191840001,Cannabis drug dependence NOS
-191842009,"Amphetamine or psychostimulant dependence, unspecified"
-191843004,"Amphetamine or psychostimulant dependence, continuous"
-191844005,"Amphetamine or psychostimulant dependence, episodic"
-191846007,Amphetamine or psychostimulant dependence NOS
-191847003,Hallucinogen dependence (& [LSD] or [lysergic acid diethylamide] or [mescaline])
-191848008,"Hallucinogen dependence, unspecified"
-191849000,"Hallucinogen dependence, continuous"
-191850000,"Hallucinogen dependence, episodic"
-191851001,Hallucinogen dependence in remission
-191852008,Hallucinogen dependence NOS
-191880005,(Alcohol intoxication) or (hangover following alcohol consumption) or (nondependent alcohol abuse) or (drunkenness NOS) or (inebriety NOS)
-191881009,"Nondependent alcohol abuse, unspecified"
 191882002,"Nondependent alcohol abuse, continuous"
 191883007,"Nondependent alcohol abuse, episodic"
 191884001,Nondependent alcohol abuse in remission
-191885000,Nondependent alcohol abuse NOS
-191887008,"Tobacco dependence, continuous"
-191888003,"Tobacco dependence, episodic"
-191889006,Tobacco dependence in remission
 191891003,Nondependent cannabis abuse
-191892005,"Nondependent cannabis abuse, unspecified"
 191893000,"Nondependent cannabis abuse, continuous"
 191894006,"Nondependent cannabis abuse, episodic"
 191895007,Nondependent cannabis abuse in remission
-191896008,Nondependent cannabis abuse NOS
-191897004,"(Nondependent hallucinogen abuse) or (""bad trips"") or"
-191898009,"Nondependent hallucinogen abuse, unspecified"
 191899001,"Nondependent hallucinogen abuse, continuous"
 191900006,"Nondependent hallucinogen abuse, episodic"
 191901005,Nondependent hallucinogen abuse in remission
-191902003,Nondependent hallucinogen abuse NOS
-191903008,Psychoactive substance abuse: [hypnotic (including non-dependent)] or [anxiolytic (including non-dependent)] or [barbiturate] or [sedative] or [tranquilliser]
 191916008,Nondependent cocaine abuse
-191917004,"Nondependent cocaine abuse, unspecified"
 191918009,"Nondependent cocaine abuse, continuous"
 191919001,"Nondependent cocaine abuse, episodic"
 191920007,Nondependent cocaine abuse in remission
-191921006,Nondependent cocaine abuse NOS
-191923009,"Nondependent amphetamine or psychostimulant abuse, unspecified"
-191924003,"Nondependent amphetamine or psychostimulant abuse, continuous"
-191925002,"Nondependent amphetamine or psychostimulant abuse, episodic"
-191927005,Nondependent amphetamine or psychostimulant abuse NOS
 191928000,Abuse of antidepressant drug
 191930003,"Nondependent antidepressant type drug abuse, continuous"
 191931004,"Nondependent antidepressant type drug abuse, episodic"
 191932006,Nondependent antidepressant type drug abuse in remission
-192205009,[X]Mental and behavioral disorders due to psychoactive substance use
-192206005,[X]Mental and behavioral disorders due to use of alcohol
-192207001,[X]Mental and behavioral disorders due to use of alcohol: acute intoxication
-192208006,[X]Mental and behavioral disorders due to use of alcohol: harmful use
-192209003,[X] (Mental and behavioural disorders due to use of alcohol: dependence syndrome) or (chronic alcoholism [& (addiction) or (dipsomania)])
-192210008,[X]Mental and behavioral disorders due to use of alcohol: withdrawal state
-192211007,[X]Mental and behavioral disorders due to use of alcohol: withdrawal state with delirium
-192212000,[X] Mental and behavioural disorders due to use of alcohol: psychotic disorder (& [hallucinosis] or [jealousy] or [paranoia] or [psychosis NOS])
-192213005,[X]Mental and behavioral disorders due to use of alcohol: amnesic syndrome
-192214004,[X] (Mental and behavioural disorders due to use of alcohol: residual and late-onset psychotic disorder) or (chronic alcoholic brain syndrome [& dementia NOS])
-192215003,[X]Mental and behavioral disorders due to use of alcohol: other mental and behavioral disorders
-192216002,[X]Mental and behavioral disorders due to use of alcohol: unspecified mental and behavioral disorder
-192251005,[X]Mental and behavioral disorders due to use of cocaine
-192252003,[X]Mental and behavioral disorders due to use of cocaine: acute intoxication
-192253008,[X]Mental and behavioral disorders due to use of cocaine: harmful use
-192254002,[X]Mental and behavioral disorders due to use of cocaine: dependence syndrome
-192255001,[X]Mental and behavioral disorders due to use of cocaine: withdrawal state
-192256000,[X]Mental and behavioral disorders due to use of cocaine: withdrawal state with delirium
-192257009,[X]Mental and behavioral disorders due to use of cocaine: psychotic disorder
-192258004,[X]Mental and behavioral disorders due to use of cocaine: amnesic syndrome
-192259007,[X]Mental and behavioral disorders due to use of cocaine: residual and late-onset psychotic disorder
-192260002,[X]Mental and behavioral disorders due to use of cocaine: other mental and behavioral disorders
-192261003,[X]Mental and behavioral disorders due to use of cocaine: unspecified mental and behavioral disorder
-192262005,"[X]Mental and behavioral disorders due to use of other stimulants, including caffeine"
-192263000,"[X]Mental and behavioral disorders due to use of other stimulants, including caffeine: acute intoxication"
-192264006,"[X]Mental and behavioral disorders due to use of other stimulants, including caffeine: harmful use"
-192265007,"[X] (Mental and behavioural disorders due to use of other stimulants, including caffeine: dependence syndrome) or (drug addiction - other stimulant)"
-192266008,"[X]Mental and behavioral disorders due to use of other stimulants, including caffeine: withdrawal state"
-192267004,"[X]Mental and behavioral disorders due to use of other stimulants, including caffeine: withdrawal state with delirium"
-192268009,"[X]Mental and behavioral disorders due to use of other stimulants, including caffeine: psychotic disorder"
-192269001,"[X]Mental and behavioral disorders due to use of other stimulants, including caffeine: amnesic syndrome"
-192270000,"[X]Mental and behavioral disorders due to use of other stimulants, including caffeine: residual and late-onset psychotic disorder"
-192271001,"[X]Mental and behavioral disorders due to use of other stimulants, including caffeine: other mental and behavioral disorders"
-192272008,"[X]Mental and behavioral disorders due to use of other stimulants, including caffeine: unspecified mental and behavioral disorder"
-192273003,[X]Mental and behavioral disorders due to use of hallucinogens
-192275005,[X]Mental and behavioral disorders due to use of hallucinogens: acute intoxication
-192276006,[X]Mental and behavioral disorders due to use of hallucinogens: harmful use
-192277002,[X]Mental and behavioural disorders due to use of hallucinogens: dependence syndrome
-192278007,[X]Mental and behavioral disorders due to use of hallucinogens: withdrawal state
-192279004,[X]Mental and behavioral disorders due to use of hallucinogens: withdrawal state with delirium
-192280001,[X]Mental and behavioral disorders due to use of hallucinogens: psychotic disorder
-192281002,[X]Mental and behavioral disorders due to use of hallucinogens: amnesic syndrome
-192282009,[X] Mental and behavioural disorders due to use of hallucinogens: residual and late-onset psychotic disorder (& [post hallucinogen perception disorder])
-192283004,[X]Mental and behavioral disorders due to use of hallucinogens: other mental and behavioral disorders
-192284005,[X]Mental and behavioral disorders due to use of hallucinogens: unspecified mental and behavioral disorder
-192307004,[X]Mental and behavioral disorders due to multiple drug use and use of other psychoactive substances
-192308009,[X]Mental and behavioral disorders due to multiple drug use and use of other psychoactive substances: acute intoxication
-192309001,[X]Mental and behavioral disorders due to multiple drug use and use of other psychoactive substances: harmful use
-192310006,[X] (Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances: dependence syndrome) or (drug addiction NOS)
-192311005,[X]Mental and behavioral disorders due to multiple drug use and use of other psychoactive substances: withdrawal state
-192312003,[X]Mental and behavioral disorders due to multiple drug use and use of other psychoactive substances: withdrawal state with delirium
-192313008,[X]Mental and behavioral disorders due to multiple drug use and use of other psychoactive substances: psychotic disorder
-192314002,[X]Mental and behavioral disorders due to multiple drug use and use of other psychoactive substances: amnesic syndrome
-192315001,[X]Mental and behavioral disorders due to multiple drug use and use of other psychoactive substances: residual and late-onset psychotic
-192316000,[X]Mental and behavioral disorders due to multiple drug use and use of other psychoactive substances: other mental and behavioral disorders
-192317009,[X]Mental and behavioral disorders due to multiple drug use and use of other psychoactive substances: unspecified mental and behavioral disorder
 192811002,Alcoholic encephalopathy
-192875004,Alcoholic cerebellar degeneration
 19303008,Alcohol myopathy
-193243001,Alcoholic myopathy
-197280008,Cirrhosis: [florid] or [alcoholic]
-197281007,Alcoholic fibrosis and sclerosis of liver
-197282000,Alcoholic liver damage unspecified
-197283005,Alcoholic hepatic failure
 1973000,"Sedative, hypnotic AND/OR anxiolytic-induced psychotic disorder with delusions"
-197309008,(Liver cirrhosis: [named variants] or [NOS]) or (hepatic fibrosis)
-197312006,Alcoholic hepatitis
-197313001,Chronic alcoholic hepatitis
-197463007,Alcohol-induced chronic pancreatitis
-199542000,Fetus with damage due to other maternal disease (& suspect from: [alcohol] or [toxoplasmosis])
-199551008,Maternal care for (suspected) damage to fetus from alcohol
 201371000000107,Urine cocaine positive
 2043009,Alcoholic gastritis
 204641000000107,Episodic nondependent crack cocaine abuse
-205351000000101,[X]Alcohol withdrawal-induced seizure
 205788004,Fetal alcohol syndrome
-205791004,Fetal or neonatal effect of maternal use of alcohol
-206016009,(Fetus or neonate affected by placental or breast transfer of alcohol) or (fetal alcohol syndrome)
-206018005,Fetal or neonatal effect of placental or breast transfer of hallucinogen
-206129006,Fetal or neonatal effect of maternal tranquilizers during labor and delivery
-206130001,Fetal or neonatal effect of maternal pethidine during labor and delivery
 20871009,Phencyclidine intoxication
 20876004,Inhalant-induced anxiety disorder
-208761000000107,[X]Alcohol withdrawal-induced seizure
-21000000,Idiosyncratic intoxication
 21007002,Wernicke's disease
-2121004,Poisoning caused by ethopropazine
-212633008,Carbromal poisoning
-212636000,Glutethimide poisoning
-212658003,Spiperone poisoning
-212664005,Hydroxyzine poisoning
-212666007,Cannabis poisoning
-212667003,Hallucinogen poisoning NOS
-212669000,(Caffeine poisoning) or (caffeinism) or (excessive coffee drinker)
-212806006,Ethyl alcohol causing toxic effect
-212807002,Grain alcohol causing toxic effect
-212808007,Ethyl alcohol causing toxic effect NOS
-212812001,Methyl alcohol causing toxic effect NOS
-212817007,Isopropyl alcohol causing toxic effect NOS
-212819005,Other alcohol causing toxic effect
-212820004,Alcohol causing toxic effect NOS
-21305004,Suspected damage to fetus from maternal alcohol addiction
-213441000000109,Hazardous alcohol use
-213451000000107,Hazardous alcohol use
-213461000000105,Harmful alcohol use
-213471000000103,Harmful alcohol use
-213661005,[X]Poisoning by other and unspecified psychodysleptics [hallucinogens]
 216463005,Accidental poisoning caused by heroin
 216466002,Accidental poisoning caused by codeine
 216467006,Accidental poisoning caused by pethidine
 216468001,Accidental poisoning caused by morphine
 216469009,Accidental poisoning caused by opium
-21647008,Amphetamine dependence
 216494005,Accidental poisoning caused by pentazocine
-216498008,Accidental poisoning caused by amylobarbitone
-216499000,Accidental poisoning caused by barbitone
-216501008,Accidental poisoning caused by pentobarbitone
-216503006,Accidental poisoning caused by quinalbarbitone
-216506003,Accidental poisoning caused by chloral hydrate
-216507007,Accidental poisoning caused by paraldehyde
-216514009,Accidental poisoning caused by glutethimide
-216518007,Accidental poisoning caused by tranquilizers
-216519004,Accidental poisoning caused by phenothiazine-based tranquilizer
-216520005,Accidental poisoning caused by chlorpromazine
-216521009,Accidental poisoning caused by fluphenazine
-216522002,Accidental poisoning caused by prochlorperazine
-216523007,Accidental poisoning caused by promazine
-216525000,Accidental poisoning caused by butyrophenone-based tranquilizer
-216526004,Accidental poisoning caused by haloperidol
-216527008,Accidental poisoning caused by spiperone
-216528003,Accidental poisoning caused by trifluperidol
-216530001,Accidental poisoning caused by benzodiazepine-based tranquilizer
-216531002,Accidental poisoning caused by chlordiazepoxide
-216532009,Accidental poisoning caused by diazepam
-216533004,Accidental poisoning caused by flurazepam
-216534005,Accidental poisoning caused by lorazepam
-216535006,Accidental poisoning caused by medazepam
-216536007,Accidental poisoning caused by nitrazepam
-216539000,Accidental poisoning caused by hydroxyzine
-216541004,Accidental poisoning caused by meprobamate
-216545008,Accidental poisoning caused by antidepressants
-216546009,Accidental poisoning caused by amitriptyline
-216547000,Accidental poisoning caused by imipramine
-216550002,Accidental poisoning caused by hallucinogens
-216551003,Accidental poisoning caused by cannabis derivatives
-216554006,Accidental poisoning caused by mescaline
-216555007,Accidental poisoning caused by psilocin
-216556008,Accidental poisoning caused by psilocybin
-216557004,Accidental poisoning by hallucinogen NOS
-216559001,Accidental poisoning caused by amphetamine
-216560006,Accidental poisoning caused by caffeine
 216583009,Accidental poisoning caused by cocaine
-216632000,"Accidental poisoning by alcohol, NEC"
 216633005,Accidental poisoning caused by alcoholic beverage
-216634004,Accidental poisoning by other ethyl alcohol and its products
 216635003,Accidental poisoning caused by denatured alcohol
 216636002,Accidental poisoning caused by methylated spirit
-216637006,Accidental poisoning by grain alcohol NOS
-216639009,Accidental poisoning by ethyl alcohol NOS
-216642003,Accidental poisoning by methyl alcohol
-216643008,Accidental poisoning by wood alcohol
-216644002,Accidental poisoning by methyl alcohol NOS
-216648004,Accidental poisoning caused by rubbing alcohol substitute
-216649007,Accidental poisoning by secondary propyl alcohol
-216650007,Accidental poisoning by isopropyl alcohol NOS
-216652004,Accidental poisoning by other alcohols
-216653009,Accidental poisoning by alcohol NOS
 21831000119109,Psychotic disorder caused by phencyclidine
 21841000119100,Organic mental disorder caused by phencyclidine
-218663005,Adverse reaction caused by barbitone
-218665003,Adverse reaction caused by pentobarbitone
-218719009,Adverse reaction to cocaine
 218764006,Adverse reaction caused by spiperone
 218790009,Adverse reaction caused by hallucinogen
 218791008,Adverse reaction caused by cannabis
 218792001,Adverse reaction caused by lysergide
-218793006,Adverse reaction to cannabis
 218794000,Adverse reaction caused by mescaline
 218795004,Adverse reaction caused by psilocin
 218796003,Adverse reaction caused by psilocybin
-218797007,Adverse reaction to hallucinogen NOS
-218799005,Adverse reaction caused by caffeine
-221809003,[X]Accidental poisoning by and exposure to hallucinogens
-221810008,"[X]Accidental poisoning by and exposure to hallucinogens, occurrence at home"
-221811007,"[X]Accidental poisoning by and exposure to hallucinogens, occurrence in residential institution"
-221812000,"[X]Accidental poisoning by and exposure to hallucinogens, occurrence at school, other institution and public administrative area"
-221813005,"[X]Accidental poisoning by and exposure to hallucinogens, occurrence at sports and athletics area"
-221814004,"[X]Accidental poisoning by and exposure to hallucinogens, occurrence on street and highway"
-221815003,"[X]Accidental poisoning by and exposure to hallucinogens, occurrence at trade and service area"
-221816002,"[X]Accidental poisoning by and exposure to hallucinogens, occurrence at industrial and construction area"
-221817006,"[X]Accidental poisoning by and exposure to hallucinogens, occurrence on farm"
-221818001,"[X]Accidental poisoning by and exposure to hallucinogens, occurrence at other specified place"
-221819009,"[X]Accidental poisoning by and exposure to hallucinogens, occurrence at unspecified place"
-221842002,[X]Accidental poisoning by and exposure to alcohol
-221843007,"[X]Accidental poisoning by and exposure to alcohol, occurrence at home"
-221844001,"[X]Accidental poisoning by and exposure to alcohol, occurrence in residential institution"
-221845000,"[X]Accidental poisoning by and exposure to alcohol, occurrence at school, other institution and public administrative area"
-221846004,"[X]Accidental poisoning by and exposure to alcohol, occurrence at sports and athletics area"
-221847008,"[X]Accidental poisoning by and exposure to alcohol, occurrence on street and highway"
-221848003,"[X]Accidental poisoning by and exposure to alcohol, occurrence at trade and service area"
-221849006,"[X]Accidental poisoning by and exposure to alcohol, occurrence at industrial and construction area"
-221850006,"[X]Accidental poisoning by and exposure to alcohol, occurrence on farm"
-221851005,"[X]Accidental poisoning by and exposure to alcohol, occurrence at other specified place"
-221852003,"[X]Accidental poisoning by and exposure to alcohol, occurrence at unspecified place"
-222668009,"[X]Poisoning by and exposure to hallucinogens, undetermined intent"
-222669001,"[X]Poisoning by and exposure to hallucinogens, occurrence at home, undetermined intent"
-222670000,"[X]Poisoning by and exposure to hallucinogens, occurrence in residential institution, undetermined intent"
-222671001,"[X]Poisoning by and exposure to hallucinogens, occurrence at school, other institution and public administrative area, undetermined intent"
-222672008,"[X]Poisoning by and exposure to hallucinogens, occurrence at sports and athletics area, undetermined intent"
-222673003,"[X]Poisoning by and exposure to hallucinogens, occurrence on street and highway, undetermined intent"
-222674009,"[X]Poisoning by and exposure to hallucinogens, occurrence at trade and service area, undetermined intent"
-222675005,"[X]Poisoning by and exposure to hallucinogens, occurrence at industrial and construction area, undetermined intent"
-222676006,"[X]Poisoning by and exposure to hallucinogens, occurrence on farm, undetermined intent"
-222677002,"[X]Poisoning by and exposure to hallucinogens, occurrence at other specified place, undetermined intent"
-222678007,"[X]Poisoning by and exposure to hallucinogens, occurrence at unspecified place, undetermined intent"
-222702003,"[X]Poisoning by and exposure to alcohol, undetermined intent"
-222703008,"[X]Poisoning by and exposure to alcohol, occurrence at home, undetermined intent"
-222704002,"[X]Poisoning by and exposure to alcohol, occurrence in residential institution, undetermined intent"
-222705001,"[X]Poisoning by and exposure to alcohol, occurrence at school, other institution and public administrative area, undetermined intent"
-222706000,"[X]Poisoning by and exposure to alcohol, occurrence at sports and athletics area, undetermined intent"
-222707009,"[X]Poisoning by and exposure to alcohol, occurrence on street and highway, undetermined intent"
-222708004,"[X]Poisoning by and exposure to alcohol, occurrence at trade and service area, undetermined intent"
-222709007,"[X]Poisoning by and exposure to alcohol, occurrence at industrial and construction area, undetermined intent"
-222710002,"[X]Poisoning by and exposure to alcohol, occurrence on farm, undetermined intent"
-222711003,"[X]Poisoning by and exposure to alcohol, occurrence at other specified place, undetermined intent"
-222713000,"[X]Poisoning by and exposure to alcohol, occurrence at unspecified place, undetermined intent"
-223046009,[X]Psychodysleptics [hallucinogens] causing adverse effects in therapeutic use
-223333005,[X]Evidence of alcohol involvement determined by blood alcohol level
-223334004,[X]Evidence of alcohol involvement determined by blood alcohol level of less than 20 mg/100 ml
-223335003,[X]Evidence of alcohol involvement determined by blood alcohol level of 20-39 mg/100 ml
-223336002,[X]Evidence of alcohol involvement determined by blood alcohol level of 40-59 mg/100 ml
-223337006,[X]Evidence of alcohol involvement determined by blood alcohol level of 60-79 mg/100 ml
-223338001,[X]Evidence of alcohol involvement determined by blood alcohol level of 80-99 mg/100 ml
-223339009,[X]Evidence of alcohol involvement determined by blood alcohol level of 100-119 mg/100 ml
-223340006,[X]Evidence of alcohol involvement determined by blood alcohol level of 120-199 mg/100 ml
-223341005,[X]Evidence of alcohol involvement determined by blood alcohol level of 200-239 mg/100 ml
-223342003,[X]Evidence of alcohol involvement determined by blood alcohol level of 240 mg/100 ml or more
-223343008,"[X]Evidence of alcohol involvement determined by presence of alcohol in blood, level not specified"
-223344002,[X]Evidence of alcohol involvement determined by level of intoxication
-223345001,"[X]Evidence of alcohol involvement determined by level of intoxication, mild alcohol intoxication"
-223346000,"[X]Evidence of alcohol involvement determined by level of intoxication, moderate alcohol intoxication"
-223347009,"[X]Evidence of alcohol involvement determined by level of intoxication, severe alcohol intoxication"
-223348004,"[X]Evidence of alcohol involvement determined by level of intoxication, very severe alcohol intoxication"
-223349007,"[X]Evidence of alcohol involvement determined by level of intoxication, alcohol involvement, not otherwise specified"
 22574000,Cocaine-induced sleep disorder
 22719003,Acute akathisia caused by neuroleptic
 228322009,Drinking episode
@@ -550,122 +181,43 @@ code,term
 228355004,Charged with drunk driving offence
 228356003,Convicted of drunk driving
 230353003,Morel laminar sclerosis
-230442005,Alcohol-induced epilepsy
 230800004,Alcoholic coma
-231463001,Alcoholic dementia NOS
-231467000,Absinthe addiction
-231468005,Lysergic acid diethylamide dependence
-231469002,Mescaline dependence
-231470001,Anxiolytic dependence
-231473004,Benzodiazepine dependence
-231474005,Diazepam dependence
-231477003,Dependence on diamorphine
-231478008,Methadone dependence
-231479000,Morphine dependence
-231480002,Opium dependence
 234341005,Alcohol-related macrocytosis
 234366009,Alcohol-related sideroblastic anemia
 23527004,Cannabis intoxication
 235875008,Alcoholic hepatitis
 235880004,Alcoholic fibrosis and sclerosis of liver
 235881000,Alcoholic hepatic failure
-235894003,Portal cirrhosis
 235942001,Alcohol-induced acute pancreatitis
 235952002,Alcohol-induced chronic pancreatitis
-23601000119102,Sedative withdrawal syndrome
-237147007,Suspect fetal damage from maternal alcohol
 237641009,Alcohol-induced hypoglycemia
 237738005,Alcohol-induced pseudo-Cushing's syndrome
-2403008,Psychoactive substance dependence
 241750009,Poisoning caused by dihydrocodeine
-241757007,Poisoning caused by temazepam
-241760000,Cocaine poisoning
 241761001,Poisoning caused by crack cocaine
-242256000,Accidental overdose of tricyclic antidepressant
 242263000,Accidental exposure to alcohol
 242265007,Accidental exposure to ethanol
 242358002,Accidental ingestion of hallucinogenic mushrooms
 242830002,Intentional dihydrocodeine overdose
 242831003,Intentional methadone overdose
-242841000000106,Patient admits to alcohol use
 254247000,Fetal benzodiazepine syndrome
 254250002,Fetal cocaine syndrome
 25702006,Alcohol intoxication
 25753007,Amphetamine-induced sleep disorder
-25966003,Metabolic acidosis caused by methanol
-25980005,Poisoning caused by secobarbital
-264301008,Psychoactive substance of abuse - non-pharmaceutical
-266467008,Alcoholic cirrhosis of liver
-266537000,(Cirrhosis &/or chronic liver dis) or (alcoholic liver disease)
-266538005,Alcoholic liver damage NOS
 26714005,Cannabis-induced psychotic disorder with hallucinations
-268615009,Other alcoholic dementia
-268639004,Chronic alcoholism
-268641003,Cannabis type drug dependence
-268642005,Amphetamine or other psychostimulant dependence
-268643000,Hallucinogen dependence
 268645007,Nondependent alcohol abuse
 268646008,Nondependent hallucinogen abuse
-268648009,Nondependent amphetamine or other psychostimulant abuse
-268683008,[X]Mental and behavioral disorders due to use of alcohol: dependence syndrome
-268684002,[X]Mental and behavioral disorders due to use of alcohol: psychotic disorder
-268685001,[X]Mental and behavioral disorders due to use of alcohol: residual and late-onset psychotic disorder
-268688004,"[X]Mental and behavioral disorders due to use of other stimulants, including caffeine: dependence syndrome"
-268689007,[X]Mental and behavioral disorders due to use of hallucinogens: residual and late-onset psychotic disorder
-268690003,[X]Mental and behavioral disorders due to multiple drug use and use of other psychoactive substances: dependence syndrome
-268745002,(Alcoholic psychosis: [Korsakov's] or [other]) or (withdrawal syndrome - alcohol)
-268764008,Alcohol dependence syndrome (& [dipsomania])
-268766005,Dependence: [cannabis (including marihuana)] or [hallucinogen]
-268767001,(Non-dependent abuse of alcohol) or (drunkenness) or (hangover)
-268796000,Fetal or neonatal effect of placental or breast transfer of alcohol
-269765000,Accidental poisoning caused by alcohol
-27134008,Poisoning caused by alcohol deterrent
-271439001,[X]Mental and behavioral disorders due to use of hallucinogens: dependence syndrome
-27331008,Phenothiazine poisoning
 274777009,Finding of cocaine in blood
-275471001,Psychostimulant dependence
-278071000000105,H/O cocaine misuse - daily 
-278081000000107,H/O cocaine misuse - daily 
-278101000000101,H/O cocaine misuse - weekly 
-278111000000104,H/O cocaine misuse - weekly 
-278131000000107,H/O cocaine misuse - infrequent
-278141000000103,H/O cocaine misuse - infrequent 
-278191000000108,H/O crack cocaine misuse - daily 
-278201000000105,H/O crack cocaine misuse - daily 
-278221000000101,H/O crack cocaine misuse - weekly 
-278231000000104,H/O crack cocaine misuse - weekly 
-278251000000106,H/O crack cocaine misuse - infrequent 
-278261000000109,H/O crack cocaine misuse - infrequent 
-278311000000102,H/O hallucinogen misuse - daily 
-278321000000108,H/O hallucinogen misuse - daily 
-278341000000101,H/O hallucinogen misuse - weekly 
-278351000000103,H/O hallucinogen misuse - weekly 
 278363000,Alcoholic macrocytosis
-278371000000107,H/O hallucinogen misuse - infrequent 
-278381000000109,H/O hallucinogen misuse - infrequent 
-278551000000109,H/O cannabis misuse - daily 
-278561000000107,H/O cannabis misuse - daily 
-278581000000103,H/O cannabis misuse - weekly 
-278591000000101,H/O cannabis misuse - weekly 
-278611000000109,H/O cannabis misuse - infrequent 
-278621000000103,H/O cannabis misuse - infrequent 
 27956007,Cocaine intoxication
 279651000000104,Disqualified from driving due to excess alcohol
-279661000000101,Disqualified from driving due to excess alcohol 
-279671000000108,Disqualified from driving due to excess alcohol 
 28045007,Smell of alcohol on breath
 281004,Dementia associated with alcoholism
 28368009,Organic hallucinosis caused by psychoactive substance
 284591009,Persistent alcohol abuse
-28504009,Poisoning caused by meprobamate
-286934009,Dependence: [cocaine] or [morphine]
-286935005,Cannabis/hallucinogen dependency
 287166006,Accidental poisoning with ethyl alcohol
 288021000119107,Disorder due to alcohol abuse
 288031000119105,Alcohol induced disorder co-occurrent and due to alcohol dependence
-288041000119101,Perceptual disturbance due to alcohol withdrawal
 288461000119105,Psychosis caused by inhalant
-28864000,"Sedative, hypnotic AND/OR anxiolytic-induced mood disorder"
 290153007,Phenazocine poisoning
 290154001,Accidental phenazocine poisoning
 290157008,Methadone analog poisoning
@@ -695,266 +247,38 @@ code,term
 290208000,Phenoperidine poisoning
 290209008,Accidental phenoperidine poisoning
 290210003,Intentional phenoperidine poisoning
-290212006,Meptazinol poisoning
-290213001,Accidental meptazinol poisoning
 290412009,Nabilone poisoning
 290413004,Accidental nabilone poisoning
 290414005,Intentional nabilone poisoning
-290491001,Accidental ketamine poisoning
 290520009,Trichloroethylene poisoning
 290521008,Accidental trichloroethylene poisoning
-290543000,Accidental cocaine poisoning
-290545007,Cocaine poisoning of undetermined intent
-290799000,Accidental ethopropazine poisoning
-290800001,Intentional ethopropazine poisoning
-290802009,Lithium poisoning
-290803004,Accidental lithium poisoning
-290804005,Intentional lithium poisoning
-290808008,Intentional amitriptyline poisoning
-290810005,Amoxapine poisoning
-290811009,Accidental amoxapine poisoning
-290812002,Intentional amoxapine poisoning
-290814001,Butriptyline poisoning
-290815000,Accidental butriptyline poisoning
-290816004,Intentional butriptyline poisoning
-290818003,Clomipramine poisoning
-290819006,Accidental clomipramine poisoning
-290820000,Intentional clomipramine poisoning
-290822008,Desipramine poisoning
-290823003,Accidental desipramine poisoning
-290824009,Intentional desipramine poisoning
-290826006,Dothiepin poisoning
-290827002,Accidental dothiepin poisoning
-290828007,Intentional dothiepin poisoning
-290830009,Doxepin poisoning
-290831008,Accidental doxepin poisoning
-290835004,Intentional imipramine poisoning
-290837007,Iprindole poisoning
-290838002,Accidental iprindole poisoning
-290839005,Intentional iprindole poisoning
-290841006,Lofepramine poisoning
-290842004,Accidental lofepramine poisoning
-290843009,Intentional lofepramine poisoning
-290845002,Nortriptyline poisoning
-290846001,Accidental nortriptyline poisoning
-290847005,Intentional nortriptyline poisoning
-290849008,Protriptyline poisoning
-290850008,Accidental protriptyline poisoning
-290851007,Intentional protriptyline poisoning
-290853005,Trimipramine poisoning
-290854004,Accidental trimipramine poisoning
-290855003,Intentional trimipramine poisoning
-290860004,Phenelzine poisoning
-290861000,Accidental phenelzine poisoning
-290862007,Intentional phenelzine poisoning
-290864008,Iproniazid poisoning
-290865009,Accidental iproniazid poisoning
-290866005,Intentional iproniazid poisoning
-290868006,Isocarboxazid poisoning
-290869003,Accidental isocarboxazid poisoning
-290870002,Intentional isocarboxazid poisoning
-290872005,Tranylcypromine poisoning
-290873000,Accidental tranylcypromine poisoning
-290874006,Intentional tranylcypromine poisoning
-290876008,Moclobemide poisoning
-290877004,Accidental moclobemide poisoning
-290878009,Intentional moclobemide poisoning
-290884007,Venlafaxine poisoning
-290885008,Accidental venlafaxine poisoning
 290888005,Selective serotonin re-uptake inhibitor poisoning
-290889002,Sertraline poisoning
-290890006,Accidental sertraline poisoning
-290891005,Intentional sertraline poisoning
-290893008,Paroxetine poisoning
-290894002,Accidental paroxetine poisoning
-290897009,Nefazodone poisoning
-290898004,Accidental nefazodone poisoning
-290899007,Intentional nefazodone poisoning
-290901003,Citalopram poisoning
-290902005,Accidental citalopram poisoning
-290903000,Intentional citalopram poisoning
-290905007,Fluoxetine poisoning
-290906008,Accidental fluoxetine poisoning
-290908009,Intentional fluoxetine poisoning
-290910006,Fluvoxamine poisoning
-290911005,Accidental fluvoxamine poisoning
-290912003,Intentional fluvoxamine poisoning
-290915001,Maprotiline poisoning
-290916000,Accidental maprotiline poisoning
-290917009,Intentional maprotiline poisoning
-290919007,Mianserin poisoning
-290920001,Accidental mianserin poisoning
-290921002,Intentional mianserin poisoning
-290923004,Trazodone poisoning
-290924005,Accidental trazodone poisoning
-290925006,Intentional trazodone poisoning
-290927003,Viloxazine poisoning
-290928008,Accidental viloxazine poisoning
-290929000,Intentional viloxazine poisoning
-290951008,Methylphenobarbitone poisoning
-290952001,Accidental methylphenobarbitone poisoning
-290953006,Intentional methylphenobarbitone poisoning
-290980004,Clonazepam poisoning
-290981000,Accidental clonazepam poisoning
-290982007,Intentional clonazepam poisoning
-290985009,Zopiclone poisoning
-290986005,Accidental zopiclone poisoning
-290987001,Intentional zopiclone poisoning
-290989003,Zolpidem poisoning
-290990007,Accidental zolpidem poisoning
-290991006,Intentional zolpidem poisoning
-290994003,Chlormezanone poisoning
-290995002,Accidental chlormezanone poisoning
-290996001,Intentional chlormezanone poisoning
-290998000,Methyprylone poisoning
-290999008,Accidental methyprylone poisoning
-291000007,Intentional methyprylone poisoning
-291003009,Intentional paraldehyde poisoning
-291006001,Intentional amylobarbitone poisoning
-291015008,Cyclobarbitone poisoning
-291016009,Accidental cyclobarbitone poisoning
-291017000,Intentional cyclobarbitone poisoning
-291020008,Intentional quinalbarbitone poisoning
-291023005,Intentional barbitone poisoning
-291026002,Intentional pentobarbitone poisoning
-291028001,Flunitrazepam poisoning
-291029009,Accidental flunitrazepam poisoning
-291030004,Intentional flunitrazepam poisoning
-291033002,Intentional flurazepam poisoning
-291035009,Loprazolam poisoning
-291036005,Accidental loprazolam poisoning
-291037001,Intentional loprazolam poisoning
-291039003,Lormetazepam poisoning
-291040001,Accidental lormetazepam poisoning
-291041002,Intentional lormetazepam poisoning
-291044005,Intentional nitrazepam poisoning
-291046007,Triazolam poisoning
-291047003,Accidental triazolam poisoning
-291048008,Intentional triazolam poisoning
-291050000,Alprazolam poisoning
-291051001,Accidental alprazolam poisoning
-291052008,Intentional alprazolam poisoning
-291054009,Bromazepam poisoning
-291055005,Accidental bromazepam poisoning
-291056006,Intentional bromazepam poisoning
-291059004,Intentional chlordiazepoxide poisoning
-291061008,Clobazam poisoning
-291062001,Accidental clobazam poisoning
-291069005,Ketazolam poisoning
-291070006,Accidental ketazolam poisoning
-291071005,Intentional ketazolam poisoning
-291074002,Intentional medazepam poisoning
-291076000,Oxazepam poisoning
-291077009,Accidental oxazepam poisoning
-291078004,Intentional oxazepam poisoning
-291080005,Prazepam poisoning
-291081009,Accidental prazepam poisoning
-291082002,Intentional prazepam poisoning
-291084001,Midazolam poisoning
-291085000,Accidental midazolam poisoning
-291086004,Intentional midazolam poisoning
-291089006,Intentional diazepam poisoning
-291092005,Intentional lorazepam poisoning
-291094006,Accidental poisoning caused by temazepam
-291095007,Intentional poisoning caused by temazepam
-291098009,Intentional meprobamate poisoning
-291104000,Dichloralphenazone poisoning
-291105004,Accidental dichloralphenazone poisoning
-291106003,Intentional dichloralphenazone poisoning
-291113003,Buspirone poisoning
-291114009,Accidental buspirone poisoning
-291115005,Intentional buspirone poisoning
-291117002,Chlormethiazole poisoning
-291118007,Accidental chlormethiazole poisoning
-291119004,Intentional chlormethiazole poisoning
 291121009,Neuroleptic poisoning
-291122002,Sulpiride poisoning
-291123007,Accidental sulpiride poisoning
-291124001,Intentional sulpiride poisoning
 291126004,Loxapine poisoning
-291127008,Accidental loxapine poisoning
 291128003,Intentional loxapine poisoning
 291130001,Clozapine poisoning
 291131002,Accidental clozapine poisoning
 291132009,Intentional clozapine poisoning
-291134005,Risperidone poisoning
-291135006,Accidental risperidone poisoning
-291136007,Intentional risperidone poisoning
-291142006,Benperidol poisoning
-291143001,Accidental benperidol poisoning
-291144007,Intentional benperidol poisoning
-291147000,Intentional trifluperidol poisoning
-291150002,Intentional haloperidol poisoning
-291152005,Droperidol poisoning
-291153000,Accidental droperidol poisoning
-291154006,Intentional droperidol poisoning
 291156008,Diphenylbutylpiperidine poisoning
 291157004,Pimozide poisoning
-291158009,Accidental pimozide poisoning
 291159001,Intentional pimozide poisoning
 291161005,Fluspirilene poisoning
-291162003,Accidental fluspirilene poisoning
 291163008,Intentional fluspirilene poisoning
 291165001,Methotrimeprazine poisoning
-291166000,Accidental methotrimeprazine poisoning
 291167009,Intentional methotrimeprazine poisoning
-291169007,Pericyazine poisoning
-291170008,Accidental pericyazine poisoning
-291171007,Intentional pericyazine poisoning
-291174004,Intentional fluphenazine poisoning
-291181006,Intentional chlorpromazine poisoning
-291183009,Pipothiazine poisoning
-291184003,Accidental pipothiazine poisoning
-291185002,Intentional pipothiazine poisoning
-291188000,Intentional promazine poisoning
-291190004,Thioridazine poisoning
-291191000,Accidental thioridazine poisoning
-291192007,Intentional thioridazine poisoning
-291194008,Perphenazine poisoning
-291195009,Accidental perphenazine poisoning
-291196005,Intentional perphenazine poisoning
-291199003,Intentional prochlorperazine poisoning
-291201001,Trifluoperazine poisoning
-291202008,Accidental trifluoperazine poisoning
-291203003,Intentional trifluoperazine poisoning
-291205005,Thioxanthene poisoning
-291206006,Chlorprothixene poisoning
-291207002,Accidental chlorprothixene poisoning
-291208007,Intentional chlorprothixene poisoning
-291227001,Oxypertine poisoning
-291228006,Accidental oxypertine poisoning
-291229003,Intentional oxypertine poisoning
-291231007,Remoxipride poisoning
-291232000,Accidental remoxipride poisoning
-291233005,Intentional remoxipride poisoning
-291240006,Accidental amphetamine poisoning
-291242003,Amphetamine poisoning of undetermined intent
 291246000,Accidental cannabis poisoning
-291248004,Cannabis poisoning of undetermined intent
 291261004,Accidental poisoning caused by crack cocaine
-291264007,Poisoning caused by crack cocaine of undetermined intent
-291265008,Accidental caffeine poisoning
-291267000,Caffeine poisoning of undetermined intent
 291284006,Accidental nicotine poisoning
 292046005,Pentazocine adverse reaction
 292047001,Phenazocine adverse reaction
-292048006,Methadone analog adverse reaction
-292049003,Dextromoramide adverse reaction
-292050003,Dextropropoxyphene adverse reaction
-292051004,Dipipanone adverse reaction
-292052006,Methadone adverse reaction
 292054007,Buprenorphine adverse reaction
 292055008,Codeine adverse reaction
-292056009,Diamorphine adverse reaction
-292057000,Dihydrocodeine adverse reaction
 292059002,Morphine adverse reaction
 292061006,Pethidine analog adverse reaction
 292062004,Alfentanil adverse reaction
 292063009,Fentanyl adverse reaction
 292064003,Pethidine adverse reaction
 292065002,Phenoperidine adverse reaction
-292066001,Meptazinol adverse reaction
-29212009,Organic mental disorder caused by ingestible alcohol
 292131000,Nabilone adverse reaction
 292165004,Ketamine adverse reaction
 292174002,Trichloroethylene adverse reaction
@@ -965,43 +289,6 @@ code,term
 292264005,Fenfluramine adverse reaction
 292302009,Selective serotonin re-uptake inhibitor adverse reaction
 292319006,Sodium valproate adverse reaction
-292322008,Methylphenobarbitone adverse reaction
-292329004,Clonazepam adverse reaction
-292331008,Sedative adverse reaction
-292332001,Zopiclone adverse reaction
-292333006,Zolpidem adverse reaction
-292334000,Chlormezanone adverse reaction
-292335004,Methyprylone adverse reaction
-292336003,Paraldehyde adverse reaction
-292338002,Amylobarbitone adverse reaction
-292339005,Butobarbitone adverse reaction
-292340007,Cyclobarbitone adverse reaction
-292342004,Quinalbarbitone adverse reaction
-292344003,Flunitrazepam adverse reaction
-292345002,Flurazepam adverse reaction
-292346001,Loprazolam adverse reaction
-292347005,Lormetazepam adverse reaction
-292348000,Nitrazepam adverse reaction
-292349008,Triazolam adverse reaction
-292350008,Alprazolam adverse reaction
-292351007,Bromazepam adverse reaction
-292352000,Chlordiazepoxide adverse reaction
-292353005,Clobazam adverse reaction
-292355003,Ketazolam adverse reaction
-292356002,Medazepam adverse reaction
-292357006,Oxazepam adverse reaction
-292358001,Prazepam adverse reaction
-292359009,Midazolam adverse reaction
-292360004,Diazepam adverse reaction
-292361000,Lorazepam adverse reaction
-292362007,Temazepam adverse reaction
-292363002,Carbamate sedative adverse reaction
-292364008,Meprobamate adverse reaction
-292366005,Chloral hydrate adverse reaction
-292367001,Dichloralphenazone adverse reaction
-292368006,Triclofos sodium adverse reaction
-292369003,Buspirone adverse reaction
-292370002,Chlormethiazole adverse reaction
 292371003,Neuroleptic adverse reaction
 292373000,Loxapine adverse reaction
 292374006,Clozapine adverse reaction
@@ -1038,23 +325,10 @@ code,term
 292413006,Prolintane adverse reaction
 292414000,Amphetamine group adverse reaction
 292415004,Dexamphetamine adverse reaction
-292416003,Alcohol metabolism modifier adverse reaction
 292451006,Nicotine adverse reaction
 292486008,Methoxamine adverse reaction
-292593009,Hydroxyzine adverse reaction
 292598000,Trimeprazine adverse reaction
 292610002,Pholcodine adverse reaction
-292880007,Alcohol products adverse reaction
-293723005,Allergy to cocaine
-293803000,Allergy to phentermine
-293804006,Allergy to dexfenfluramine
-293806008,Allergy to fenfluramine
-293956004,Allergy to prolintane
-293957008,Allergy to amfetamine and/or amfetamine derivative
-293958003,Allergy to dexamfetamine
-294027005,Allergy to methoxamine
-294419006,Alcoholic disinfectant allergy
-294420000,Alcohol products allergy
 295140007,Pentazocine overdose
 295141006,Accidental pentazocine overdose
 295144003,Phenazocine overdose
@@ -1094,431 +368,65 @@ code,term
 295201009,Phenoperidine overdose
 295202002,Accidental phenoperidine overdose
 295203007,Intentional phenoperidine overdose
-295205000,Meptazinol overdose
-295206004,Accidental meptazinol overdose
 295415009,Nabilone overdose
 295416005,Accidental nabilone overdose
 295417001,Intentional nabilone overdose
 295507009,Ketamine overdose
-295508004,Accidental ketamine overdose
 295541001,Trichloroethylene overdose
-295542008,Accidental trichloroethylene overdose
-295566002,Local cocaine overdose
-295567006,Accidental local cocaine overdose
-295568001,Intentional local cocaine overdose
-295570005,Local cocaine overdose of undetermined intent
-295830007,Overdose of antidepressant drug
-295835002,Amitriptyline overdose
-295836001,Accidental amitriptyline overdose
-295837005,Intentional amitriptyline overdose
-295839008,Amoxapine overdose
-295840005,Accidental amoxapine overdose
-295841009,Intentional amoxapine overdose
-295843007,Butriptyline overdose
-295844001,Accidental butriptyline overdose
-295845000,Intentional butriptyline overdose
-295847008,Clomipramine overdose
-295848003,Accidental clomipramine overdose
-295849006,Intentional clomipramine overdose
-295852003,Desipramine overdose
-295853008,Accidental desipramine overdose
-295854002,Intentional desipramine overdose
-295856000,Dothiepin overdose
-295857009,Accidental dothiepin overdose
-295858004,Intentional dothiepin overdose
-295860002,Doxepin overdose
-295861003,Accidental doxepin overdose
-295864006,Imipramine overdose
-295865007,Accidental imipramine overdose
-295866008,Intentional imipramine overdose
-295868009,Iprindole overdose
-295869001,Accidental iprindole overdose
-295870000,Intentional iprindole overdose
-295872008,Lofepramine overdose
-295873003,Accidental lofepramine overdose
-295874009,Intentional lofepramine overdose
-295877002,Nortriptyline overdose
-295878007,Accidental nortriptyline overdose
-295879004,Intentional nortriptyline overdose
-295881002,Protriptyline overdose
-295882009,Accidental protriptyline overdose
-295883004,Intentional protriptyline overdose
-295885006,Trimipramine overdose
-295886007,Accidental trimipramine overdose
-295887003,Intentional trimipramine overdose
-295890009,Phenelzine overdose
-295891008,Accidental phenelzine overdose
-295892001,Intentional phenelzine overdose
-295894000,Iproniazid overdose
-295895004,Accidental iproniazid overdose
-295896003,Intentional iproniazid overdose
-295898002,Isocarboxazid overdose
-295899005,Accidental isocarboxazid overdose
-295900000,Intentional isocarboxazid overdose
-295902008,Tranylcypromine overdose
-295903003,Accidental tranylcypromine overdose
-295904009,Intentional tranylcypromine overdose
-295906006,Moclobemide overdose
-295907002,Accidental moclobemide overdose
-295908007,Intentional moclobemide overdose
-295914000,Venlafaxine overdose
-295915004,Accidental venlafaxine overdose
 295918002,Selective serotonin re-uptake inhibitor overdose
-295919005,Sertraline overdose
-295920004,Accidental sertraline overdose
-295921000,Intentional sertraline overdose
-295923002,Paroxetine overdose
-295924008,Accidental paroxetine overdose
-295927001,Nefazodone overdose
-295928006,Accidental nefazodone overdose
-295929003,Intentional nefazodone overdose
-295931007,Citalopram overdose
-295932000,Accidental citalopram overdose
-295933005,Intentional citalopram overdose
-295935003,Fluoxetine overdose
-295936002,Accidental fluoxetine overdose
-295937006,Intentional fluoxetine overdose
-295939009,Fluvoxamine overdose
-295940006,Accidental fluvoxamine overdose
-295941005,Intentional fluvoxamine overdose
-295943008,Tetracyclic antidepressant drug overdose
-295944002,Maprotiline overdose
-295945001,Accidental maprotiline overdose
-295946000,Intentional maprotiline overdose
-295948004,Mianserin overdose
-295949007,Accidental mianserin overdose
-295950007,Intentional mianserin overdose
-295952004,Trazodone overdose
-295953009,Accidental trazodone overdose
-295954003,Intentional trazodone overdose
-295956001,Viloxazine overdose
-295957005,Accidental viloxazine overdose
-295958000,Intentional viloxazine overdose
-295983000,Methylphenobarbitone overdose
-295984006,Accidental methylphenobarbitone overdose
-295985007,Intentional methylphenobarbitone overdose
-296010004,Clonazepam overdose
-296011000,Accidental clonazepam overdose
-296015009,Sedative overdose
-296016005,Zopiclone overdose
-296017001,Accidental zopiclone overdose
-296018006,Intentional zopiclone overdose
-296020009,Zolpidem overdose
-296021008,Accidental zolpidem overdose
-296022001,Intentional zolpidem overdose
-296024000,Chlormezanone overdose
-296025004,Accidental chlormezanone overdose
-296026003,Intentional chlormezanone overdose
-296028002,Methyprylone overdose
-296029005,Accidental methyprylone overdose
-296030000,Intentional methyprylone overdose
-296032008,Paraldehyde overdose
-296033003,Accidental paraldehyde overdose
-296034009,Intentional paraldehyde overdose
-296037002,Amylobarbitone overdose
-296038007,Accidental amylobarbitone overdose
-296039004,Intentional amylobarbitone overdose
-296041003,Butabarbitone overdose
-296042005,Accidental butabarbitone overdose
-296043000,Intentional butabarbitone overdose
-296045007,Cyclobarbitone overdose
-296046008,Accidental cyclobarbitone overdose
-296047004,Intentional cyclobarbitone overdose
-296049001,Quinalbarbitone overdose
-296050001,Accidental quinalbarbitone overdose
-296051002,Intentional quinalbarbitone overdose
-296053004,Benzodiazepine overdose
-296054005,Flunitrazepam overdose
-296055006,Accidental flunitrazepam overdose
-296058008,Flurazepam overdose
-296059000,Accidental flurazepam overdose
-296062002,Loprazolam overdose
-296063007,Accidental loprazolam overdose
-296066004,Lormetazepam overdose
-296067008,Accidental lormetazepam overdose
-296070007,Nitrazepam overdose
-296071006,Accidental nitrazepam overdose
-296074003,Triazolam overdose
-296075002,Accidental triazolam overdose
-296079008,Alprazolam overdose
-296080006,Accidental alprazolam overdose
-296083008,Bromazepam overdose
-296084002,Accidental bromazepam overdose
-296087009,Chlordiazepoxide overdose
-296088004,Accidental chlordiazepoxide overdose
-296090003,Clobazam overdose
-296091004,Accidental clobazam overdose
-296098005,Ketazolam overdose
-296099002,Accidental ketazolam overdose
-296102002,Medazepam overdose
-296103007,Accidental medazepam overdose
-296106004,Oxazepam overdose
-296107008,Accidental oxazepam overdose
-296110001,Prazepam overdose
-296111002,Accidental prazepam overdose
-296114005,Midazolam overdose
-296115006,Accidental midazolam overdose
-296118008,Diazepam overdose
-296119000,Accidental diazepam overdose
-296121005,Lorazepam overdose
-296122003,Accidental lorazepam overdose
-296125001,Overdose of temazepam
-296126000,Accidental overdose by temazepam
-296128004,Accidental overdose of benzodiazepine
-296131003,Meprobamate overdose
-296132005,Accidental meprobamate overdose
-296133000,Intentional meprobamate overdose
-296136008,Chloral hydrate overdose
-296137004,Accidental chloral hydrate overdose
-296140004,Dichloralphenazone overdose
-296141000,Accidental dichloralphenazone overdose
-296142007,Intentional dichloralphenazone overdose
-296148006,Buspirone overdose
-296149003,Accidental buspirone overdose
-296150003,Intentional buspirone overdose
-296152006,Chlormethiazole overdose
-296153001,Accidental chlormethiazole overdose
-296154007,Intentional chlormethiazole overdose
-296156009,Neuroleptic overdose
-296157000,Sulpiride overdose
-296158005,Accidental sulpiride overdose
-296159002,Intentional sulpiride overdose
-296161006,Loxapine overdose
-296162004,Accidental loxapine overdose
-296163009,Intentional loxapine overdose
-296165002,Clozapine overdose
-296166001,Accidental clozapine overdose
-296167005,Intentional clozapine overdose
-296169008,Risperidone overdose
-296170009,Accidental risperidone overdose
-296171008,Intentional risperidone overdose
-296177007,Butyrophenone overdose
-296178002,Benperidol overdose
-296180008,Accidental benperidol overdose
-296181007,Intentional benperidol overdose
-296183005,Trifluperidol overdose
-296184004,Accidental trifluperidol overdose
-296185003,Intentional trifluperidol overdose
-296187006,Haloperidol overdose
-296188001,Accidental haloperidol overdose
-296189009,Intentional haloperidol overdose
-296191001,Droperidol overdose
-296192008,Accidental droperidol overdose
-296193003,Intentional droperidol overdose
-296195005,Diphenylbutylpiperidine overdose
-296196006,Pimozide overdose
-296197002,Accidental pimozide overdose
-296198007,Intentional pimozide overdose
-296200001,Fluspirilene overdose
-296201002,Accidental fluspirilene overdose
-296202009,Intentional fluspirilene overdose
-296205006,Methotrimeprazine overdose
-296206007,Accidental methotrimeprazine overdose
-296207003,Intentional methotrimeprazine overdose
-296209000,Pericyazine overdose
-296210005,Accidental pericyazine overdose
-296211009,Intentional pericyazine overdose
-296213007,Fluphenazine decanoate overdose
-296214001,Accidental fluphenazine decanoate overdose
-296215000,Intentional fluphenazine decanoate overdose
-296217008,Fluphenazine enanthate overdose
-296218003,Accidental fluphenazine enanthate overdose
-296219006,Intentional fluphenazine enanthate overdose
-296225005,Chlorpromazine overdose
-296226006,Accidental chlorpromazine overdose
-296227002,Intentional chlorpromazine overdose
-296229004,Pipothiazine overdose
-296230009,Accidental pipothiazine overdose
-296231008,Intentional pipothiazine overdose
-296233006,Promazine overdose
-296234000,Accidental promazine overdose
-296235004,Intentional promazine overdose
-296237007,Thioridazine overdose
-296238002,Accidental thioridazine overdose
-296239005,Intentional thioridazine overdose
-296241006,Perphenazine overdose
-296242004,Accidental perphenazine overdose
-296243009,Intentional perphenazine overdose
-296245002,Prochlorperazine overdose
-296246001,Accidental prochlorperazine overdose
-296247005,Intentional prochlorperazine overdose
-296249008,Trifluoperazine overdose
-296250008,Accidental trifluoperazine overdose
-296251007,Intentional trifluoperazine overdose
-296253005,Thioxanthene overdose
-296274006,Oxypertine overdose
-296275007,Accidental oxypertine overdose
-296276008,Intentional oxypertine overdose
-296278009,Remoxipride overdose
-296279001,Accidental remoxipride overdose
-296281004,Intentional remoxipride overdose
 296290006,Central nervous system stimulant overdose
-296291005,Amphetamine overdose
-296292003,Accidental amphetamine overdose
-296294002,Amphetamine overdose of undetermined intent
-296295001,Alcohol deterrent overdose
 296300004,Overdose of hallucinogenic drug
 296301000,Cannabis overdose
 296302007,Accidental cannabis overdose
-296304008,Cannabis overdose of undetermined intent
 296309003,Psilocybin overdose
-296310008,Accidental psilocybin overdose
 296313005,Mescaline overdose
-296314004,Accidental mescaline overdose
 296317006,Psychostimulant overdose
 296321004,Overdose of cocaine
 296322006,Accidental overdose by cocaine
-296324007,Overdose of cocaine of undetermined intent
 296325008,Overdose of crack cocaine
 296326009,Accidental overdose by crack cocaine
-296328005,Overdose of crack cocaine of undetermined intent
-296329002,Caffeine overdose
-296330007,Accidental caffeine overdose
-296333009,Caffeine overdose of undetermined intent
 296351005,Nicotine overdose
 296352003,Accidental nicotine overdose
-296433008,Hydroxyzine overdose
-296434002,Accidental hydroxyzine overdose
-297200009,Overdose of tricyclic antidepressant
-297201008,Intentional overdose of tricyclic antidepressant
 29756008,Alcoholic pellagra
 300992002,Alcohol-induced cerebellar ataxia
 30310000,Nicotine-induced organic mental disorder
 304605000,Methanol abuse
 30491001,Cocaine delusional disorder
-306537009,Caffeine-related disorder
 307757001,Chronic alcoholic hepatitis
-308051008,[X]Accidental poisoning by and exposure to amphetamine
-308052001,[X]Accidental poisoning by and exposure to amphetamine - occurrence at home
-308053006,[X]Accidental poisoning by and exposure to amphetamine - occurrence in residential institution
-308054000,"[X]Accidental poisoning by and exposure to amphetamine - occurrence in school, other institution and public administrative area"
-308055004,[X]Accidental poisoning by and exposure to amphetamine - occurrence at sports and athletics area
-308056003,[X]Accidental poisoning by and exposure to amphetamine - occurrence on street and highway
-308057007,[X]Accidental poisoning by and exposure to amphetamine - occurrence at trade and service area
-308058002,[X]Accidental poisoning by and exposure to amphetamine - occurrence at industrial and construction area
-308059005,[X]Accidental poisoning by and exposure to amphetamine - occurrence on farm
-308061001,[X]Accidental poisoning by and exposure to amphetamine - occurrence at other specified places
-308062008,[X]Accidental poisoning by and exposure to amphetamine - occurrence at unspecified place
-308161000000100,Alcohol intake exceeds recommended daily limits
-308374001,Caffeine-related disorder
-308451000000108,Cannabis misuse
-308461000000106,Cocaine misuse
-308471000000104,Crack cocaine misuse
-30857006,Poisoning caused by barbital
 308692003,Alcohol-induced flushing
 30871003,Flashbacks
 308742005,Alcohol withdrawal-induced convulsion
 309279000,Organic mental disorder caused by caffeine
-309783001,Esophageal varices in alcoholic cirrhosis of the liver
-30984008,Poisoning caused by pentobarbital
 311173003,Phencyclidine-related disorder
 312098001,"Sedative, hypnotic AND/OR anxiolytic-related disorder"
-312936002,Organic mental disorder caused by anxiolytic agent
 312962006,Thioridazine retinopathy
-313915006,Organic mental disorder caused by hypnotic agent
 314539001,Alcohol related optic neuropathy
 31715000,Phencyclidine intoxication delirium
-31956009,Cocaine dependence
 32009006,Hallucinogen hallucinosis
-320831000000108,Alcohol misuse
-320841000000104,Alcohol misuse 
-320851000000101,Alcohol misuse 
 32358001,Amphetamine delusional disorder
 32552001,Organic delusional disorder caused by psychoactive substance
 32553006,Hangover
 32875003,Inhalant-induced persisting dementia
 33871004,Phencyclidine-induced psychotic disorder with hallucinations
 34743008,Poisoning caused by psilocin
-34764007,Poisoning caused by paraldehyde
 347841000119106,Long-term current use of cannabis
 34938008,Anxiety disorder caused by alcohol
-361128007,Hyperparathyroidism caused by lithium therapy
-361129004,Hypercalcemia caused by lithium
 361148000,Anxiolytic intoxication
-361149008,Hypnotic intoxication
 361267005,Alcohol-related fit
 361268000,Alcohol-induced epilepsy
 361272001,Cerebellar ataxia due to alcoholism
 361273006,Alcoholic cerebellar degeneration
-36558000,Fetal or neonatal effect of alcohol transmitted via placenta and/or breast milk
-367041000000104,Alcohol related fit
-36784008,Poisoning caused by flurazepam
-37331004,Organic mood disorder caused by psychoactive substance
 37344009,Cannabis abuse
-38247002,Hallucinogen dependence
-385531000000105,"[X]Accidental poisoning by and exposure to hallucinogens, occurrence on farm"
-385851000000100,"[X]Poisoning by and exposure to hallucinogens, occurrence at school, other institution and public administrative area, undetermined intent"
-386791000000108,[X]Evidence of alcohol involvement determined by blood alcohol level
-387271000000100,[X]Psychodysleptics [hallucinogens] causing adverse effects in therapeutic use
-387361000000103,[X]Evidence of alcohol involvement determined by blood alcohol level of 100-119 mg/100 ml
 38941006,Neuroleptic-induced tardive dyskinesia
 39003006,Psychoactive substance-induced organic delirium
-390941000000103,[X]Mental and behavioural disorders due to use of alcohol: acute intoxication
-391031000000101,"[X]Mental and behavioural disorders due to use of other stimulants, including caffeine: residual and late onset psychotic disorder"
-391041000000105,"[X]Mental and behavioural disorders due to use of other stimulants, including caffeine: other mental and behavioural disorders"
-391961000000105,"[X]Evidence of alcohol involvement determined by level of intoxication, moderate alcohol intoxication"
-391971000000103,"[X]Poisoning by and exposure to hallucinogens, undetermined intent"
-392271000000101,"[X]Accidental poisoning by and exposure to alcohol, occurrence at industrial and construction area"
-392281000000104,"[X]Accidental poisoning by and exposure to hallucinogens, occurrence at other specified place"
-392351000000102,"[X]Poisoning by and exposure to alcohol, occurrence at industrial and construction area, undetermined intent"
-392661000000105,"[X]Poisoning by and exposure to hallucinogens, occurrence on street and highway, undetermined intent"
-392671000000103,"[X]Poisoning by and exposure to alcohol, occurrence at sports and athletics area, undetermined intent"
-393531000000108,"[X]Poisoning by and exposure to hallucinogens, occurrence at industrial and construction area, undetermined intent"
-394271000000105,"[X]Poisoning by and exposure to alcohol, occurrence at unspecified place, undetermined intent"
 395215005,Adverse reaction caused by bupropion
-395301000000107,"[X]Evidence of alcohol involvement determined by level of intoxication, very severe alcohol intoxication"
-395621000000108,[X]Accidental poisoning by and exposure to amphetamine - occurrence at unspecified place
-395631000000105,[X]Accidental poisoning by and exposure to amphetamine - occurrence at home
-396344000,Psychoactive substance-induced organic intoxication
 39807006,Cannabis intoxication delirium
-398681000000103,"[X]Mental and behavioural disorders due to use of other stimulants, including caffeine: psychotic disorder"
-398790004,Product containing alcohol and paricalcitol and propylene glycol
 39951001,Cannabis-induced anxiety disorder
-399641000000103,[X]Mental and behavioural disorders due to use of alcohol: dependence syndrome
-400841000000101,"[X]Mental and behavioural disorders due to use of other stimulants, including caffeine"
 40241000119109,Gastric hemorrhage due to alcoholic gastritis
 403748005,Cocaine-induced acrocyanosis and livedo reticularis
-404271000000103,"[X]Accidental poisoning by and exposure to alcohol, occurrence on farm"
-404321000000109,"[X]Accidental poisoning by and exposure to hallucinogens, occurrence at sports and athletics area"
-404411000000107,"[X]Poisoning by and exposure to hallucinogens, occurrence at other specified place, undetermined intent"
-405631000000103,"[X]Poisoning by and exposure to hallucinogens, occurrence at home, undetermined intent"
-405641000000107,"[X]Poisoning by and exposure to hallucinogens, occurrence in residential institution, undetermined intent"
 40571009,Hallucinogen intoxication delirium
-406331000000103,[X]Evidence of alcohol involvement determined by blood alcohol level of 20-39 mg/100 ml
-406361000000108,[X]Evidence of alcohol involvement determined by blood alcohol level of 120-199 mg/100 ml
-406371000000101,[X]Evidence of alcohol involvement determined by blood alcohol level of 200-239 mg/100 ml
-407731000000100,[X]Accidental poisoning by and exposure to amphetamine
-407751000000107,[X]Accidental poisoning by and exposure to amphetamine - occurrence on street and highway
-407761000000105,[X]Accidental poisoning by and exposure to amphetamine - occurrence at trade and service area
-408691000000107,[X]Mental and behavioural disorders due to use of cocaine: amnesic syndrome
-409861000000105,[X]Mental and behavioural disorders due to use of hallucinogens: amnesic syndrome
-409921000000107,[X]Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances
-410101000000107,"[X]Mental and behavioural disorders due to use of other stimulants, including caffeine: dependence syndrome"
-410451000000103,[X]Mental and behavioural disorders due to psychoactive substance use
-410711000000105,[X] Mental and behavioural disorders due to use of hallucinogens: residual and late-onset psychotic disorder (& [post hallucinogen perception disorder])
-41083005,Sleep disorder caused by ingestible alcohol
-411001000000104,[X]Poisoning by other and unspecified psychodysleptics [hallucinogens]
 41136005,Phencyclidine poisoning
-412199006,Product containing alcohol and aluminium chloride
-412571000000107,[X]Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances: unspecified mental and behavioural disorder
-412961000000108,[X]Mental and behavioural disorders due to use of cocaine: unspecified mental and behavioural disorder
-412971000000101,[X]Mental and behavioural disorders due to use of alcohol: unspecified mental and behavioural disorder
 41309000,Alcoholic liver damage
-413181000000107,"[X]Mental and behavioural disorders due to use of other stimulants, including caffeine: acute intoxication"
-413364009,[X]Adverse reaction to caffeine
-413367002,[X]Mental and behavioral disorders due to use of crack cocaine
-413368007,[X]Mental and behavioral disorders due to use of crack cocaine: acute intoxication
-413369004,[X]Mental and behavioral disorders due to use of crack cocaine: amnesic syndrome
-413370003,[X]Mental and behavioral disorders due to use of crack cocaine: dependence syndrome
-413371004,[X]Mental and behavioral disorders due to use of crack cocaine: harmful use
-413372006,[X]Mental and behavioral disorders due to use of crack cocaine: other mental and behavioral disorders
-413373001,[X]Mental and behavioral disorders due to use of crack cocaine: psychotic disorder
-413374007,[X]Mental and behavioral disorders due to use of crack cocaine: residual and late-onset psychotic disorder
-413375008,[X]Mental and behavioral disorders due to use of crack cocaine: unspecified mental and behavioral disorder
-413376009,[X]Mental and behavioral disorders due to use of crack cocaine: withdrawal state
-413377000,[X]Mental and behavioral disorders due to use of crack cocaine: withdrawal state with delirium
-413711000000104,[X]Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances: psychotic disorder
-414421000000104,[X]Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances: residual and late-onset psychotic
 416073003,Long duration flashbacks
 416246006,Prolonged high dose use of cannabis
 416714005,Episodic flashbacks
@@ -1526,130 +434,23 @@ code,term
 417143004,Short duration flashbacks
 417360004,Duplicative flashbacks
 417633001,Alcohol induced hallucinations
-417721000000100,"[X]Mental and behavioural disorders due to use of other stimulants, including caffeine: withdrawal state with delirium"
-417951000000107,[X]Mental and behavioural disorders due to use of cocaine
-418171000000101,"[X]Mental and behavioural disorders due to use of other stimulants, including caffeine: harmful use"
-418761000000109,"[X] (Mental and behavioural disorders due to use of other stimulants, including caffeine: dependence syndrome) or (drug addiction - other stimulant)"
-418911000000109,[X] (Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances: dependence syndrome) or (drug addiction NOS)
-418991000000100,[X]Mental and behavioural disorders due to use of cocaine: withdrawal state
-419031000000106,[X]Mental and behavioural disorders due to use of alcohol: other mental and behavioural disorders
 420054005,Alcoholic cirrhosis
-421771000000100,"[X]Accidental poisoning by and exposure to hallucinogens, occurrence at home"
-421781000000103,"[X]Accidental poisoning by and exposure to alcohol, occurrence in residential institution"
-423131000000102,"[X]Evidence of alcohol involvement determined by presence of alcohol in blood, level not specified"
-42344001,Psychosis caused by ingestible alcohol
-424271000000109,"[X]Accidental poisoning by and exposure to amphetamine - occurrence in school, other institution and public administrative area"
-424281000000106,[X]Accidental poisoning by and exposure to amphetamine - occurrence at sports and athletics area
-425041000000106,[X]Mental and behavioural disorders due to use of cocaine: residual and late-onset psychotic disorder
-425051000000109,[X]Mental and behavioural disorders due to use of cocaine: psychotic disorder
-425841004,Phencyclidine dependence in remission
 425885002,Continuous phencyclidine abuse
-426001001,Fentanyl dependence
-426221000000100,[X]Mental and behavioural disorders due to use of hallucinogens: psychotic disorder
-426450003,Intentional chlorprothixene overdose
-426873000,Methamphetamine dependence
 427013000,Alcohol consumption during pregnancy
-427131001,Accidental chlorprothixene overdose
-427327003,Sedative dependence
-427590008,Chlorprothixene overdose
-428219007,Caffeine dependence
-428370001,Psychostimulant withdrawal syndrome
 428493006,Crack cocaine misuse
 428720002,Nephropathy caused by heroin
 428823006,Cannabis misuse
-428981000000108,[X]Mental and behavioural disorders due to use of alcohol: psychotic disorder
 429782000,Cocaine misuse
-430001000000101,[X]Mental and behavioural disorders due to use of hallucinogens: other mental and behavioural disorders
-430711000000102,[X]Mental and behavioural disorders due to use of hallucinogens: harmful use
-430941000000104,[X]Mental and behavioural disorders due to use of hallucinogens: dependence syndrome
-431321000000102,[X]Mental and behavioural disorders due to use of cocaine: other mental and behavioural disorders
-431761000000109,[X]Mental and behavioural disorders due to use of alcohol: amnesic syndrome
-432111000000104,[X] (Mental and behavioural disorders due to use of alcohol: residual and late-onset psychotic disorder) or (chronic alcoholic brain syndrome [& dementia NOS])
-432441000000107,[X]Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances: other mental and behavioural disorders
-433071000000101,[X]Evidence of alcohol involvement determined by level of intoxication
-433761000000105,"[X]Accidental poisoning by and exposure to alcohol, occurrence at sports and athletics area"
-433781000000101,"[X]Accidental poisoning by and exposure to hallucinogens, occurrence at trade and service area"
-433841000000102,"[X]Poisoning by and exposure to alcohol, occurrence on farm, undetermined intent"
-433851000000104,"[X]Poisoning by and exposure to alcohol, occurrence at other specified place, undetermined intent"
-434201000000103,"[X]Poisoning by and exposure to alcohol, occurrence at school, other institution and public administrative area, undetermined intent"
-434661000000102,[X]Accidental poisoning by and exposure to hallucinogens
-434671000000109,[X]Accidental poisoning by and exposure to alcohol
 43497001,Amphetamine-induced mood disorder
-435551000000103,[X]Evidence of alcohol involvement determined by blood alcohol level of 240 mg/100 ml or more
-435881000000106,[X]Evidence of alcohol involvement determined by blood alcohol level of less than 20 mg/100 ml
-437181000000109,[X]Accidental poisoning by and exposure to amphetamine - occurrence at industrial and construction area
-4390004,Lithium nephropathy
-440031000000108,[X]Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances: withdrawal state with delirium
 44047000,Zieve's syndrome
 440491000124109,Excessive caffeine intake
-440681000124109,Management of caffeine intake
-443591000000106,[X]Mental and behavioural disorders due to use of cocaine: withdrawal state with delirium
-444491000000107,[X]Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances: acute intoxication
 445507008,Inflammation of pancreas caused by alcohol
-445951000000106,"[X]Accidental poisoning by and exposure to hallucinogens, occurrence in residential institution"
-445961000000109,"[X]Accidental poisoning by and exposure to alcohol, occurrence at school, other institution and public administrative area"
-445971000000102,"[X]Accidental poisoning by and exposure to alcohol, occurrence on street and highway"
-446321000000105,"[X]Poisoning by and exposure to alcohol, occurrence at home, undetermined intent"
 448091007,Adverse drug interaction with alcohol
-451291000000106,[X]Mental and behavioural disorders due to use of alcohol: harmful use
-452091000000108,"[X]Mental and behavioural disorders due to use of other stimulants, including caffeine: amnesic syndrome"
-452161000000101,[X] Mental and behavioural disorders due to use of alcohol: psychotic disorder (& [hallucinosis] or [jealousy] or [paranoia] or [psychosis NOS])
-452601000000106,[X]Mental and behavioural disorders due to use of hallucinogens: dependence syndrome
-453801000000104,[X]Mental and behavioural disorders due to use of hallucinogens: unspecified mental and behavioural disorder
-456371000000107,[X]Mental and behavioural disorders due to use of hallucinogens
-456971000000106,"[X]Evidence of alcohol involvement determined by level of intoxication, mild alcohol intoxication"
-457351000000100,"[X]Evidence of alcohol involvement determined by level of intoxication, severe alcohol intoxication"
-45775001,Poisoning caused by amphetamine
-457821000000104,"[X]Accidental poisoning by and exposure to hallucinogens, occurrence at school, other institution and public administrative area"
-458231000000100,"[X]Poisoning by and exposure to hallucinogens, occurrence at sports and athletics area, undetermined intent"
-458241000000109,"[X]Poisoning by and exposure to alcohol, undetermined intent"
-459021000000102,"[X]Accidental poisoning by and exposure to hallucinogens, occurrence at unspecified place"
-459311000000106,"[X]Poisoning by and exposure to hallucinogens, occurrence on farm, undetermined intent"
-459321000000100,"[X]Poisoning by and exposure to alcohol, occurrence at trade and service area, undetermined intent"
-460381000000100,[X]Evidence of alcohol involvement determined by blood alcohol level of 60-79 mg/100 ml
-460391000000103,[X]Evidence of alcohol involvement determined by blood alcohol level of 80-99 mg/100 ml
-460571000000109,"[X]Poisoning by and exposure to hallucinogens, occurrence at unspecified place, undetermined intent"
-461131000000105,"[X]Evidence of alcohol involvement determined by level of intoxication, alcohol involvement, not otherwise specified"
-461411000000109,[X]Accidental poisoning by and exposure to amphetamine - occurrence in residential institution
-463691000000102,[X]Mental and behavioural disorders due to use of hallucinogens: residual and late-onset psychotic disorder
-464141000000103,[X]Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances: withdrawal state
-464701000000100,[X]Mental and behavioural disorders due to use of cocaine: dependence syndrome
-464711000000103,[X]Mental and behavioural disorders due to use of hallucinogens: withdrawal state
-465431000000104,[X]Mental and behavioural disorders due to use of alcohol: withdrawal state
-465891000000100,"[X]Mental and behavioural disorders due to use of other stimulants, including caffeine: withdrawal state"
-466141000000109,[X]Mental and behavioural disorders due to use of cocaine: acute intoxication
+45421006,Amphetamine intoxication
 46721000,Organic personality disorder caused by psychoactive substance
-467251000000104,[X] (Mental and behavioural disorders due to use of alcohol: dependence syndrome) or (chronic alcoholism [& (addiction) or (dipsomania)])
-468061000000108,[X]Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances: harmful use
-468541000000100,[X]Mental and behavioural disorders due to use of cocaine: harmful use
-468561000000104,[X]Mental and behavioural disorders due to use of hallucinogens: withdrawal state with delirium
-4690009,Metabolic acidosis caused by paraldehyde
-469411000000105,[X]Mental and behavioural disorders due to use of alcohol: withdrawal state with delirium
 46975003,Organic mental disorder caused by cocaine
-470171000000105,[X]Mental and behavioural disorders due to use of hallucinogens: acute intoxication
-470841000000105,[X]Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances: amnesic syndrome
-471891000000108,"[X]Mental and behavioural disorders due to use of other stimulants, including caffeine: unspecified mental and behavioural disorder"
-473291000000105,"[X]Accidental poisoning by and exposure to alcohol, occurrence at trade and service area"
-473301000000109,"[X]Accidental poisoning by and exposure to hallucinogens, occurrence at industrial and construction area"
-473341000000107,"[X]Accidental poisoning by and exposure to hallucinogens, occurrence on street and highway"
-473691000000108,"[X]Poisoning by and exposure to alcohol, occurrence in residential institution, undetermined intent"
-473721000000104,"[X]Poisoning by and exposure to hallucinogens, occurrence at trade and service area, undetermined intent"
-474201000000100,"[X]Accidental poisoning by and exposure to alcohol, occurrence at home"
-474491000000108,"[X]Accidental poisoning by and exposure to alcohol, occurrence at other specified place"
-474501000000102,"[X]Accidental poisoning by and exposure to alcohol, occurrence at unspecified place"
-474731000000104,"[X]Poisoning by and exposure to alcohol, occurrence on street and highway, undetermined intent"
-475831000000109,[X]Evidence of alcohol involvement determined by blood alcohol level of 40-59 mg/100 ml
 47664006,"Sedative, hypnotic AND/OR anxiolytic-induced psychotic disorder with hallucinations"
-476971000000109,[X]Accidental poisoning by and exposure to amphetamine - occurrence on farm
-476991000000108,[X]Accidental poisoning by and exposure to amphetamine - occurrence at other specified places
 47836003,Poisoning caused by morphine
-479321000000103,[X]Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances: dependence syndrome
-479881000000105,[X]Mental and behavioural disorders due to use of alcohol
-480511000000101,[X]Mental and behavioural disorders due to use of alcohol: residual and late onset psychotic disorder
-48534006,Poisoning caused by phenothiazine-based tranquilizer
-4863002,Mood disorder caused by phencyclidine
-48927000,Psychoactive substance-induced organic intoxication
-49153000,Toxic effect of methyl alcohol
 50026000,Organic anxiety disorder caused by psychoactive substance
 50320000,Hallucinogen intoxication
 50325005,Alcoholic fatty liver
@@ -1658,100 +459,29 @@ code,term
 51443000,Amphetamine-induced psychotic disorder with hallucinations
 51493001,Anxiety disorder caused by cocaine
 53050002,Organic mental disorder caused by hallucinogen
-53936005,Mood disorder caused by ingestible alcohol
 5444000,"Sedative, hypnotic AND/OR anxiolytic intoxication delirium"
-544871000000102,Other alcoholic dementia
-55571001,Alcoholic ketoacidosis
+55571001,Ketoacidosis due to acute alcohol intoxication
 55967005,Anxiety disorder caused by phencyclidine
-56194001,Sleep disorder caused by caffeine
-56294008,Nicotine dependence
-57005003,Poisoning caused by caffeine
-574381000000107,Amphetamine or other psychostimulant dependence
 57588009,"Sedative, hypnotic AND/OR anxiolytic-induced sleep disorder"
-57628003,Poisoning caused by chloral hydrate
 5851000119107,Overdose of psychotropic agent
-58727001,Phencyclidine dependence
-589511000000102,Alcoholic liver damage unspecified
-592571000000102,Other alcohol causing toxic effect
-592581000000100,Alcohol causing toxic effect NOS
-59651006,"Sedative, hypnotic AND/OR anxiolytic-induced persisting dementia"
-597961000000104,Other alcoholic psychosis NOS
 60199004,Poisoning caused by methadone
-6024006,Poisoning caused by nitrazepam
-602501000000104,"Cocaine dependence, unspecified"
-602571000000107,"Hallucinogen dependence, unspecified"
-604801000000105,Methyl alcohol causing toxic effect NOS
-604811000000107,Isopropyl alcohol causing toxic effect NOS
-607171000000100,"Nondependent amphetamine or psychostimulant abuse, unspecified"
 609437000,Fetal Alcohol Spectrum Disorder
-609438005,Fetal or neonatal effect of maternal alcohol addiction
-609831000000103,Accidental poisoning by hallucinogen NOS
 61104008,Inhalant-induced organic mental disorder
 61144001,Alcohol-induced psychotic disorder with delusions
-61406000,Poisoning caused by diazepam
 61438005,Poisoning caused by psychotropic agent
-620161000000102,"Nondependent alcohol abuse, unspecified"
-620171000000109,Nondependent alcohol abuse NOS
-620201000000105,"Nondependent cannabis abuse, unspecified"
-620211000000107,Nondependent cannabis abuse NOS
-620261000000109,"Nondependent cocaine abuse, unspecified"
-620271000000102,Nondependent cocaine abuse NOS
-623951000000105,Alcohol amnestic syndrome NOS
-623961000000108,Other alcoholic psychosis
-623981000000104,Alcoholic psychosis NOS
-628551000000107,"Nondependent hallucinogen abuse, unspecified"
-628561000000105,Nondependent hallucinogen abuse NOS
-633741000000107,"Acute alcoholic intoxication, unspecified, in alcoholism"
 6348008,Cocaine-induced psychotic disorder with hallucinations
 63649001,Cannabis delusional disorder
-639001000000105,Hallucinogen poisoning NOS
 63983005,Inhalant-induced psychotic disorder with hallucinations
-640861000000108,"Accidental poisoning by alcohol, NEC"
-640881000000104,Alcoholic liver damage NOS
-643441000000103,Accidental poisoning by isopropyl alcohol NOS
-643451000000100,Accidental poisoning by other alcohols
-643461000000102,Accidental poisoning by alcohol NOS
 64386003,Sedative abuse
-645551000000102,Acute alcoholic intoxication in alcoholism NOS
-645561000000104,Unspecified chronic alcoholism
-645571000000106,Chronic alcoholism NOS
-645591000000105,Alcohol dependence syndrome NOS
-6514006,Caffeine-induced organic mental disorder
-651711000000109,Nondependent amphetamine or psychostimulant abuse NOS
-65425009,Poisoning caused by imipramine
-665191000000107,Ethyl alcohol causing toxic effect NOS
-665831000000104,Cocaine drug dependence NOS
-665841000000108,"Cannabis dependence, unspecified"
-665851000000106,Cannabis drug dependence NOS
-665871000000102,"Amphetamine or psychostimulant dependence, unspecified"
-665881000000100,Amphetamine or psychostimulant dependence NOS
-665891000000103,Hallucinogen dependence NOS
-66590003,Alcohol dependence
 66884007,Nicotine poisoning
-670081000000106,Adverse reaction to hallucinogen NOS
-671511000000100,Alcoholic dementia NOS
-672521000000104,Accidental poisoning by other ethyl alcohol and its products
-672531000000102,Accidental poisoning by grain alcohol NOS
-67426006,Toxic effect of alcohol
 67893003,Poisoning caused by lysergide
-67961000119106,Caffeine user
 68099003,Poisoning caused by codeine
-694691000000101,Accidental poisoning by ethyl alcohol NOS
-694701000000101,Accidental poisoning by methyl alcohol NOS
 69482004,Korsakoff's psychosis
 698321001,Neonatal effect of alcohol transmitted via breast milk
-698492002,Fetal or neonatal effect of hallucinogenic agent transmitted via placenta
-698493007,Fetal or neonatal effect of hallucinogenic agent transmitted via breast milk
 699011008,Accidental poisoning caused by psychotropic agent
-699012001,Accidental poisoning caused by sedative
 699208000,Thrombocytopenia caused by alcohol
 699449003,Methamphetamine abuse
 70328006,Cocaine intoxication delirium
-70330008,Poisoning caused by lorazepam
-703845008,Buprenorphine dependence
-703846009,Buprenorphine withdrawal syndrome
-703848005,Cannabis withdrawal syndrome
-703849002,Benzodiazepine withdrawal syndrome
 704197006,Admits alcohol use
 7052005,Alcohol hallucinosis
 70655008,Caffeine-induced anxiety disorder
@@ -1761,69 +491,25 @@ code,term
 709460009,Exposure to alcohol
 709462001,Fetal exposure to alcohol
 712742003,Benzodiazepine intoxication
-712950002,Adverse reaction to glutethimide
 713181003,Chronic alcoholic liver disease
 713370005,Acute on chronic alcoholic liver disease
-713583005,Mild alcohol dependence
 713775002,Novel psychoactive substance misuse
-713862009,Severe alcohol dependence
-714173005,Product containing isopropyl alcohol in topical dosage form
-714829008,Moderate alcohol dependence
 719848005,Disorder caused by alcohol
-7200002,Alcoholism
 721710005,Fibrosis of liver caused by alcohol
-722139003,Focal segmental glomerulosclerosis caused by lithium
 722417007,Alcohol abuse by father
 723103002,Gastric ulcer caused by alcohol
-723882007,Duodenitis caused by ingestible alcohol
-723926008,Perceptual disturbances and seizures co-occurrent and due to alcohol withdrawal
 723927004,Psychotic disorder caused by alcohol with schizophreniform symptoms
-723928009,Mood disorder with depressive symptoms caused by alcohol
-723929001,Mood disorder with manic symptoms caused by alcohol
-723930006,Mood disorder with mixed manic and depressive symptoms caused by alcohol
-723933008,Cannabis dependence with current use
 723936000,Psychotic disorder caused by cannabis
 723937009,Sleep disorder caused by cannabis
-724574008,Neurological disorder caused by ingestible alcohol
-724656006,Hypnotic dependence
-724660009,Hypnotic withdrawal syndrome
-724661008,Anxiolytic withdrawal syndrome
-724662001,Sedative withdrawal syndrome without complication
-724663006,Hypnotic withdrawal syndrome without complication
-724664000,Anxiolytic withdrawal syndrome without complication
-724665004,Perceptual disturbances co-occurrent and due to sedative withdrawal
-724666003,Perceptual disturbances co-occurrent and due to hypnotic withdrawal
-724667007,Perceptual disturbances co-occurrent and due to anxiolytic withdrawal
 724668002,Seizure co-occurrent and due to sedative withdrawal
 724669005,Seizure co-occurrent and due to hypnotic withdrawal
 724670006,Seizure co-occurrent and due to anxiolytic withdrawal
-724671005,Perceptual disturbances and seizures co-occurrent and due to sedative withdrawal
-724672003,Perceptual disturbances and seizures co-occurrent and due to hypnotic withdrawal
-724673008,Psychotic disorder caused by sedative
-724674002,Psychotic disorder caused by hypnotic
-724675001,Psychotic disorder caused by anxiolytic
-724676000,Mood disorder with depressive symptoms caused by sedative
-724677009,Mood disorder with depressive symptoms caused by hypnotic
-724678004,Mood disorder with depressive symptoms caused by anxiolytic
-724679007,Mood disorder with manic symptoms caused by sedative
-724680005,Mood disorder with manic symptoms caused by hypnotic
-724681009,Mood disorder with manic symptoms caused by anxiolytic
-724682002,Mood disorder with mixed depressive and manic symptoms caused by sedative
-724683007,Mood disorder with mixed depressive and manic symptoms caused by hypnotic
-724684001,Mood disorder with mixed depressive and manic symptoms caused by anxiolytic
-724685000,Amnestic disorder caused by sedative
-724686004,Amnestic disorder caused by hypnotic
-724687008,Amnestic disorder caused by anxiolytic
-724688003,Cocaine dependence with current use
 724689006,Psychotic disorder caused by cocaine
-724690002,Mood disorder with depressive symptoms caused by cocaine
 724691003,Mood disorder with manic symptoms caused by cocaine
 724692005,Mood disorder with mixed depressive and manic symptoms caused by cocaine
 724693000,Obsessive compulsive disorder caused by cocaine
 724694006,Harmful pattern of use of caffeine
-724695007,Hallucinogen dependence with current use
 724696008,Psychotic disorder caused by hallucinogen
-724697004,Harmful pattern of use of nicotine
 724699001,Sleep disorder caused by nicotine
 724702008,Psychotic disorder caused by volatile inhalant
 724705005,Delirium caused by methylenedioxymethamphetamine
@@ -1832,62 +518,35 @@ code,term
 724708007,Anxiety disorder caused by methylenedioxymethamphetamine
 724711008,Intoxication caused by ketamine
 724713006,Harmful use of ketamine
-724715004,Ketamine dependence
 724716003,Delirium caused by ketamine
-724717007,Delirium caused by dissociative drug
-724718002,Psychotic disorder caused by dissociative drug
 724719005,Psychotic disorder caused by ketamine
-724720004,Mood disorder caused by dissociative drug
-724721000,Mood disorder caused by ketamine
 724722007,Anxiety disorder caused by dissociative drug
 724723002,Anxiety disorder caused by ketamine
-724724008,Psychoactive substance dependence with current use
-724725009,Psychoactive substance withdrawal syndrome without complication
-724726005,Perceptual disturbances co-occurrent and due to psychoactive substance withdrawal
 724727001,Seizure co-occurrent and due to psychoactive substance withdrawal
-724728006,Perceptual disturbances and seizures co-occurrent and due to psychoactive substance withdrawal
 724729003,Psychotic disorder caused by psychoactive substance
 724730008,Obsessive compulsive disorder caused by psychoactive substance
 724731007,Sexual dysfunction caused by psychoactive substance
 724732000,Sleep disorder caused by psychoactive substance
-725121001,Selective serotonin re-uptake inhibitor withdrawal syndrome
-72820004,Parkinsonism caused by neuroleptic drug
 73097000,Alcohol amnestic disorder
-73108003,Poisoning caused by trifluperidol
 733461000,Cocaine user
 735750005,Psychotic disorder with schizophreniform symptoms caused by cocaine
 737226008,Disorder caused by cannabis
 737334000,Disorder caused by synthetic cannabinoid use
 737335004,Synthetic cannabinoid intoxication
 737336003,Synthetic cannabinoid abuse
-737337007,Synthetic cannabinoid dependence
-737338002,Synthetic cannabinoid withdrawal syndrome
 737339005,Delirium caused by synthetic cannabinoid
 737340007,Psychotic disorder caused by synthetic cannabinoid
 737341006,Anxiety disorder caused by synthetic cannabinoid
 737342004,Sleep disorder caused by synthetic cannabinoid
 74851005,Hallucinogen abuse
-74934004,Psychoactive substance withdrawal syndrome
 75122001,Inhalant-induced psychotic disorder with delusions
-75393009,Alcoholic cirrhosis of liver
-75990004,Toxic effect of isopropyl alcohol
-762321000,Mood disorder with depressive symptoms caused by opioid
 762327001,Psychotic disorder with delusions caused by stimulant
-762329003,Mood disorder with depressive symptoms caused by stimulant
-762330008,Mood disorder with mixed depressive and manic symptoms caused by stimulant
 762332000,Obsessive compulsive disorder caused by stimulant
-762335003,Mood disorder with manic symptoms caused by hallucinogen
-762336002,Mood disorder with depressive symptoms caused by hallucinogen
-762337006,Mood disorder with mixed depressive and manic symptoms caused by hallucinogen
 762338001,Mood disorder with manic symptoms caused by volatile inhalant
 762339009,Mood disorder with depressive symptoms caused by volatile inhalant
 762340006,Mood disorder with mixed depressive and manic symptoms caused by volatile inhalant
-762344002,Mood disorder with manic symptoms caused by dissociative drug
-762345001,Mood disorder with depressive symptoms caused by dissociative drug
-762346000,Mood disorder with mixed depressive and manic symptoms caused by dissociative drug
 762503004,Disorder caused by synthetic cathinone
 762504005,Abuse of synthetic cathinone
-762505006,Synthetic cathinone dependence
 762506007,Delirium caused by synthetic cathinone
 762507003,Psychotic disorder caused by synthetic cathinone
 762508008,Psychotic disorder with hallucinations caused by synthetic cathinone
@@ -1902,30 +561,19 @@ code,term
 762517008,Sexual dysfunction caused by synthetic cathinone
 762518003,Sleep disorder caused by synthetic cathinone
 762671008,Intoxication caused by synthetic cathinone
-762672001,Synthetic cathinone withdrawal syndrome
 764651000000101,Nondependent antidepressant type drug abuse
-765482002,Steatohepatitis caused by ingestible alcohol
-766219005,Methaqualone poisoning
-766220004,Adverse reaction caused by methaqualone
-766221000,Accidental poisoning caused by methaqualone
 767291004,Chronic pancreatitis due to acute alcohol intoxication
-769205006,Urine novel psychoactive substance positive
+769205006,Urine novel psychoactive substance detected
 772999000,Harmful use of hypnotic
 773000004,Harmful use of anxiolytic
 77355000,Organic mental disorder caused by cannabis
-774452003,Product containing only alcohol and aluminium chloride
 7761000119106,Psychotic disorder caused by amphetamine use
 78267003,Cocaine abuse
-78358001,Amphetamine withdrawal syndrome
 78524005,Alcohol-induced sexual dysfunction
 785275009,Sexual dysfunction caused by amfetamine and/or amfetamine derivative
 785277001,Harmful pattern of use of amfetamine and/or amfetamine derivative
-78695006,Poisoning caused by amitriptyline
-787768005,Psychotic behavior caused by ingestible alcohol
-787769002,Aggression caused by ingestible alcohol
 788863007,Amnestic disorder caused by psychoactive substance
 788879008,Catatonia caused by psychoactive substance
-788904003,Disorder caused by dissociative drug
 788955005,Impulse control disorder caused by cocaine
 788956006,Impulse control disorder caused by psychoactive substance
 788958007,Impulse control disorder caused by synthetic cathinone
@@ -1933,82 +581,38 @@ code,term
 789119007,Mood disorder caused by synthetic cannabinoid
 789612004,Alcohol abuse by mother
 7916009,Alcoholic polyneuropathy
-79578000,Alcohol paranoia
-79720007,Chronic nonalcoholic liver disease
-80868005,Cocaine withdrawal syndrome
 81270000,Poisoning caused by psilocybin
-817962007,Chlordiazepoxide dependence
-81914009,Poisoning caused by benzodiazepine-based tranquilizer
+815121161000119105,Adverse reaction caused by tramadol
 82047000,Diarrhea caused by alcohol intake
-82276009,Poisoning caused by antidepressant
 82339009,Anxiety disorder caused by amfetamine
 82768008,Poisoning caused by mescaline
 82782008,Toxic effect of ethyl alcohol
-83168008,Psychoactive substance-induced organic amnestic disorder
-832021000000101,Alcohol-induced acute pancreatitis
 83367009,Organic mental disorder caused by amphetamine and/or amfetamine derivative
 83465002,Neuroleptic-induced acute dystonia
-83521008,Dilated cardiomyopathy caused by alcohol
-836439001,Nicotine dependence in remission
-836464003,Adverse reaction to alcohol
 838376007,Chronic myopathy caused by alcohol
 838386008,Acute alcoholic myopathy
 838519006,Overdose of methylenedioxymethamphetamine
 838520000,Accidental overdose of methylenedioxymethamphetamine
 838523003,Poisoning caused by methylenedioxymethamphetamine
 838524009,Accidental poisoning caused by methylenedioxymethamphetamine
-838527002,Amfetamine and/or amfetamine derivative dependence
 838528007,Mood disorder with manic symptoms caused by amfetamine and/or amfetamine derivative
-838529004,Mood disorder with mixed depressive and manic symptoms caused by amfetamine and/or amfetamine derivative
-838530009,Mood disorder with depressive symptoms caused by amfetamine and/or amfetamine derivative
-840449007,Cognitive impairment caused by ingestible alcohol
-84483000,Poisoning caused by chlordiazepoxide
-84758004,Amphetamine abuse
-84916005,Caffeine intoxication
-85005007,Cannabis dependence
-85561006,Alcohol withdrawal syndrome without complication
-85975005,Poisoning caused by psychodysleptic
 8635005,Alcohol withdrawal delirium
-86624000,Poisoning caused by amobarbital
 8686000,Cocaine-induced sexual dysfunction
-870288002,Parkinsonism caused by methanol
 870297003,Myopathy due to chronic alcoholism
-870677001,Adverse reaction to benzodiazepine
-871673008,Adverse reaction to clorazepate
-871683007,Adverse reaction to chloral and/or chloral derivative
-87363009,Poisoning caused by promazine
-87396006,Poisoning caused by chlorpromazine
 87810006,Megaloblastic anemia due to alcoholism
-878878007,Congenital malformation caused by valproic acid
 8837000,Delirium caused by amphetamine
-88993007,Poisoning caused by haloperidol
-890112007,Nondependent abuse of tobacco
-891531000000109,Urine cocaine positive
 89451009,Inhalant-induced mood disorder
 89507002,Toxic effect of denatured alcohol
-897005004,Esophageal varices due to cirrhosis of liver caused by alcohol
-89765005,Tobacco dependence syndrome
-90755006,Nicotine withdrawal syndrome
-91267002,Poisoning caused by fluphenazine
+897005004,Esophageal varices due to alcoholic cirrhosis of liver
 91388009,Psychoactive substance abuse
-919521000000104,Education about caffeine consumption
-919531000000102,Advice about caffeine consumption 
-924501000000100,Novel psychoactive substance misuse
-924511000000103,Novel psychoactive substance misuse 
-928111000000101,Mild alcohol dependence
-928131000000109,Moderate alcohol dependence
-928151000000102,Severe alcohol dependence
 943081000000102,Cannabis-induced psychosis
 943101000000108,Cocaine-induced psychosis
 943121000000104,Psychoactive substance-induced psychosis
 943131000000102,Hallucinogen-induced psychosis
 943151000000109,Volatile inhalant-induced psychosis
-95635002,Caffeine withdrawal syndrome
 95906008,Drug interaction with alcohol
 963261000000108,Emergency department attendance related to personal alcohol consumption
-963271000000101,Emergency department attendance related to personal alcohol consumption 
 963281000000104,Hospital attendance related to personal alcohol consumption
-963291000000102,Hospital attendance related to personal alcohol consumption 
 97571000119109,Thrombocytopenia co-occurrent and due to alcoholism
 984801000000105,Injury following alcohol use
 984821000000101,Injury following psychoactive substance use
