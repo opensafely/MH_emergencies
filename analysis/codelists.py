@@ -45,7 +45,7 @@ eating_disorders_icd10 = codelist_from_csv(
 )
 # Variable 4. Problems related to lifestyle
 lifestyle_SNOMED = codelist_from_csv(
-    "codelists/user-agleman-lifestyle-snomed-ct-short.csv",
+    "codelists/user-agleman-lifestyle-snomed-ct.csv",
     system="snomed",
     column="code",
 )
