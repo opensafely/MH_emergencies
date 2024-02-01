@@ -147,7 +147,7 @@ study = StudyDefinition(
 ### Variable 2. Emotional distress
 # A&E: SNOMED_codes
     emot_distAE=patients.attended_emergency_care(
-        with_these_diagnoses=emotional_distress_SNOMED, 
+        with_these_diagnoses=emotional_distress_SNOMED,
         between=[
             "first_day_of_month(index_date)",
             "last_day_of_month(index_date)",
@@ -179,7 +179,7 @@ study = StudyDefinition(
 ### Variable 3. Eating disorders
 # A&E: SNOMED_codes
     eat_disorAE=patients.attended_emergency_care(
-        with_these_diagnoses=eating_disorders_SNOMED, 
+        with_these_diagnoses=eating_disorders_SNOMED,
         between=[
             "first_day_of_month(index_date)",
             "last_day_of_month(index_date)",
@@ -211,7 +211,7 @@ study = StudyDefinition(
 ### Variable 4. Problems related to lifestyle
 # A&E: SNOMED_codes
     lifestyleAE=patients.attended_emergency_care(
-        with_these_diagnoses=lifestyle_SNOMED, 
+        with_these_diagnoses=lifestyle_SNOMED,
         between=[
             "first_day_of_month(index_date)",
             "last_day_of_month(index_date)",
