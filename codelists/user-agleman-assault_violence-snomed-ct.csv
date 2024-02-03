@@ -2,12 +2,19 @@ code,term
 1082491000000103,Alleged victim of physical assault by lone assailant
 1082501000000109,Alleged victim of physical assault by multiple assailants
 1145109008,Assault with unused injection needle
+1162435001,Abuse by cyberbullying
 1204391000,Assault by hair pulling
+12240741000119107,Neglect of adult
 12242911000119107,Suspected victim of elder physical abuse
 12399011000119104,Neglect of elder
 12399051000119103,Elder sexual abuse
+12399091000119108,Adult abuse
 12399491000119102,Suspected victim of elder sexual abuse
 12399531000119102,Suspected victim of elder emotional abuse
+1279642005,Psychological abuse
+1285088001,Maltreatment
+1285089009,Abuse of elderly person
+1285090000,Suspected abuse of elderly person
 158088001,"Assault by corrosive substance, except poisoning"
 158089009,Assault by poisoning
 158090000,Assault by hanging and strangulation
@@ -18,12 +25,11 @@ code,term
 16445007,Homosexual forcible assault
 17044007,Victim of statutory rape
 20251006,Emotional and/or nutritional maltreatment of child
-213003005,(Emotional maltreatment of child) or (emotional deprivation of child)
 213004004,Nutritional maltreatment of child
-213008001,Child: [deprivation syndrome] or [maltreatment syndrome NOS] or [abuse NEC] or [neglect affecting child NEC]
+213007006,Multiple deprivation of child
 213014008,Adult maltreatment syndrome NOS
 213015009,Maltreatment syndromes
-213716000,[X]Other maltreatment syndromes - disorder
+213017001,Sexual abuse
 219177001,"Homicide and assault by fight, brawl and rape"
 219178006,Homicide or assault by unarmed fight or brawl
 219179003,Assault: [rape] or [sexual] or [homicide]
@@ -348,15 +354,25 @@ code,term
 222597000,"[X]Assault by unspecified means, occurrence at other specified place"
 222598005,"[X]Assault by unspecified means, occurrence at unspecified place"
 22439003,Forcible intercourse
+228143000,Contact sexual abuse of child
+23776007,Incestuous child concubinage
 240171000000105,Assault by friend
 240181000000107,Assault by legal official
 240191000000109,Assault by relative
 240201000000106,Assault by stranger
 240211000000108,Assault by unrelated care giver
+242037000,Child abandonment
+242038005,Abandonment of infant
+242039002,Abuse of partner
 242040000,Physical abuse of elderly person
 242041001,Emotional abuse of elderly person
 242042008,Deprivation of nourishment of elderly person
 242043003,Abandonment of elderly person
+242044009,Abuse of disabled person
+242045005,Physical abuse of disabled person
+242046006,Sexual abuse of disabled person
+242047002,Emotional abuse of disabled person
+242048007,Neglect of disabled person
 242403004,Fall on same level due to deliberate assault by another person
 242855008,Assault by concentrated sulfuric acid
 242856009,Assault by ammonia
@@ -438,9 +454,7 @@ code,term
 248110007,Sexual assault
 248111006,Rape
 248112004,Sexual battery
-269285002,Emotional abuse of child
 269286001,Child maltreatment syndrome NOS
-269306000,[X]Other maltreatment syndromes classification terms
 269731001,Homicide or assault by rape
 269732008,"Assault by corrosive substance, except poisoning"
 269733003,Assault by poisoning by gas or vapor
@@ -449,6 +463,7 @@ code,term
 269750001,[X]Assault by sharp object
 269809002,Assault with firearm &/or explosive
 274954001,Assault by explosive device
+276849007,Psychological abuse of adult
 278707004,Emotional deprivation of child
 289431000119109,Child victim of maltreatment
 297591000000108,Alleged victim of sexual assault
@@ -460,7 +475,14 @@ code,term
 302986003,Assault by poisoning by non-pharmaceutical substances
 33951000087103,Assault by pushing
 33961000087100,Assault by spitting
+361217003,Intrafamilial sexual abuse
+371772001,Domestic abuse
+371773006,Emotional abuse
+371774000,Emotional abuse of adult
 371775004,Emotional abuse of child
+371776003,Neglect or abandonment
+371778002,Physical abuse of adult
+371779005,Physical child abuse
 385241000000104,"[X]Sexual assault by bodily force, occurrence at other specified place"
 385431000000109,"[X]Assault by sharp object, occurrence on street and highway"
 385541000000101,"[X]Assault by crashing of motor vehicle, occurrence at sports and athletics area"
@@ -522,6 +544,7 @@ code,term
 403561000000105,"[X]Assault by sharp object, occurrence in residential institution"
 403871000000101,"[X]Sexual assault by bodily force, occurrence on farm"
 404121000000106,"[X]Assault by pesticides, occurrence at home"
+404189009,Domestic violence
 404221000000102,"[X]Assault by other and unspecified firearm discharge, occurrence on street and highway"
 404251000000107,"[X]Assault by corrosive substance, occurrence in residential institution"
 404291000000104,"[X]Assault by pesticides, occurrence on street and highway"
@@ -542,6 +565,7 @@ code,term
 405331000000107,"[X]Assault by sharp object, occurrence at unspecified place"
 406121000000103,"[X]Assault by hanging, strangulation and suffocation, occurrence on street and highway"
 406131000000101,"[X]Assault by hanging, strangulation and suffocation, occurrence at trade and service area"
+406138006,Domestic abuse of adult
 406141000000105,"[X]Assault by rifle shotgun and larger firearm discharge, occurrence at other specified place"
 406151000000108,"[X]Assault by rifle shotgun and larger firearm discharge, occurrence at unspecified place"
 406161000000106,"[X]Assault by steam, hot vapours and hot objects, occurrence at industrial and construction area"
@@ -549,10 +573,14 @@ code,term
 406201000000103,"[X]Assault by unspecified means, occurrence at unspecified place"
 406401000000104,"[X]Assault by gases and vapours, occurrence at industrial and construction area"
 406531000000106,"[X]Sexual assault by bodily force, occurrence at trade and service area"
-411011000000102,[X]Other maltreatment syndromes - disorder
+41358001,Child concubinage
 414211000000106,[X](Stabbing) or (assault)
 415571000000100,"[X]Assault by drowning and submersion, occurrence at home"
 415581000000103,"[X]Assault by drowning and submersion, occurrence in residential institution"
+417928002,Abuse
+418189009,Child abuse
+418496002,Child neglect
+418506006,Physical abuse
 419261006,Malnutrition due to child maltreatment
 420501000000105,"[X]Assault by pushing or placing victim before moving object, occurrence at unspecified place"
 420691000000102,"[X]Sexual assault by bodily force, occurrence at unspecified place"
@@ -595,13 +623,18 @@ code,term
 429580005,Assault by legal official
 429626008,Assault by friend
 429686006,Assault by relative
+430139008,Abuse by relative of victim
 431801000000104,[X]Assault: [hanging] or [strangulation] or [suffocation] or [smothered]
+432262005,Nutritional neglect of adult
+432464008,Abuse by unrelated caregiver
+432527004,Domestic sexual abuse of adult
 433221000000105,"[X]Assault by crashing of motor vehicle, occurrence at home"
 433231000000107,"[X]Assault by drowning and submersion, occurrence at school, other institution and public administrative area"
 433551000000102,"[X]Assault by hanging, strangulation and suffocation, occurrence at school, other institution and public administrative area"
 433721000000102,"[X]Assault by corrosive substance, occurrence at school, other institution and public administrative area"
 433731000000100,"[X]Assault by corrosive substance, occurrence on street and highway"
 433891000000107,"[X]Assault by other specified means, occurrence in residential institution"
+433960002,Abuse by sibling
 434091000000104,"[X]Assault by other and unspecified firearm discharge, occurrence at trade and service area"
 434101000000107,"[X]Assault by other and unspecified firearm discharge, occurrence at industrial and construction area"
 434111000000109,"[X]Assault by explosive material, occurrence on farm"
@@ -630,6 +663,7 @@ code,term
 435921000000100,"[X]Assault by gases and vapours, occurrence at home"
 435931000000103,"[X]Assault by gases and vapours, occurrence in residential institution"
 436481000000100,"[X]Assault by other specified means, occurrence at trade and service area"
+444557007,Sexual abuse of adult
 446161000000104,"[X]Assault by sharp object, occurrence at other specified place"
 446171000000106,"[X]Assault by crashing of motor vehicle, occurrence on street and highway"
 446181000000108,"[X]Assault by drowning and submersion, occurrence at industrial and construction area"
@@ -658,7 +692,6 @@ code,term
 447621000000102,"[X]Assault by steam, hot vapours and hot objects, occurrence at trade and service area"
 447641000000109,"[X]Assault by steam, hot vapours and hot objects, occurrence on farm"
 447651000000107,"[X]Assault by hanging, strangulation and suffocation, occurrence at other specified place"
-452781000000109,[X]Other maltreatment syndromes classification terms
 457121000000107,"[X]Assault by other and unspecified firearm discharge, occurrence at sports and athletics area"
 457541000000108,"[X]Assault by rifle, shotgun and larger firearm discharge, occurrence at trade and service area"
 457711000000100,"[X]Assault by crashing of motor vehicle, occurrence at school, other institution and public administrative area"
@@ -735,6 +768,7 @@ code,term
 475641000000104,"[X]Assault by other specified means, occurrence on street and highway"
 475731000000103,"[X]Assault by rifle shotgun and larger firearm discharge, occurrence at industrial and construction area"
 476921000000105,"[X]Assault by hanging, strangulation and suffocation"
+51347003,Incest
 56890008,Victim of sexual aggression
 624911000000108,Assault by means NOS
 640961000000102,"Homicide or assault by fight, brawl or rape NOS"
@@ -760,13 +794,19 @@ code,term
 692141000000106,Adult maltreatment syndrome NOS
 693401000000107,Assault by poisoning by other gases or vapours
 697957000,Suspected elderly person maltreatment
+698301002,Non-domestic physical abuse of adult
+70167006,Non-incestuous child concubinage
 702841000000109,Assault by cutting or stabbing NOS
 702891000000104,Assault by homicidal burns NOS
 702901000000103,Assault by striking by blunt or thrown object NOS
 713820002,Victim of sexual assault by intimate partner
 713821003,Victim of sexual assault by member of household
+720025009,Domestic emotional abuse
+720595008,Domestic sexual abuse
+720684005,Domestic physical abuse
 74715005,Battered woman syndrome
 782869001,Incapacitated sexual assault
+787209003,Domestic physical abuse of adult
 823091000000107,Maltreatment
 834761000000100,Maltreatment
 834771000000107,Maltreatment
@@ -777,3 +817,4 @@ code,term
 834821000000101,Maltreatment
 938101000000100,Seen in sexual assault referral centre
 95921002,Elderly person maltreatment
+95922009,Child sex abuse
