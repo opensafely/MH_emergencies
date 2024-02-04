@@ -1,8 +1,10 @@
 code,term
 1082491000000103,Alleged victim of physical assault by lone assailant
 1082501000000109,Alleged victim of physical assault by multiple assailants
+1087071000000109,Suspected victim of domestic violence
 1145109008,Assault with unused injection needle
 1162435001,Abuse by cyberbullying
+1172623006,Support of victim of intimate partner violence
 1204391000,Assault by hair pulling
 12240741000119107,Neglect of adult
 12242911000119107,Suspected victim of elder physical abuse
@@ -11,356 +13,60 @@ code,term
 12399091000119108,Adult abuse
 12399491000119102,Suspected victim of elder sexual abuse
 12399531000119102,Suspected victim of elder emotional abuse
+1279539008,Victim of domestic violence
 1279642005,Psychological abuse
 1285088001,Maltreatment
 1285089009,Abuse of elderly person
 1285090000,Suspected abuse of elderly person
-158088001,"Assault by corrosive substance, except poisoning"
-158089009,Assault by poisoning
-158090000,Assault by hanging and strangulation
-158091001,Assault by drowning
-158092008,Assault with firearm &/or explosive
-158093003,Assault by cutting and stabbing instruments
 15912911000119102,Suspected victim of elder neglect
+160829008,Violence between parents
+161064007,Child/parent violence
 16445007,Homosexual forcible assault
 17044007,Victim of statutory rape
-20251006,Emotional and/or nutritional maltreatment of child
 213004004,Nutritional maltreatment of child
 213007006,Multiple deprivation of child
-213014008,Adult maltreatment syndrome NOS
 213015009,Maltreatment syndromes
 213017001,Sexual abuse
 219177001,"Homicide and assault by fight, brawl and rape"
 219178006,Homicide or assault by unarmed fight or brawl
-219179003,Assault: [rape] or [sexual] or [homicide]
-219180000,"Homicide or assault by fight, brawl or rape NOS"
 219181001,"Assault by corrosive or caustic substance, except poisoning"
 219182008,Assault by acid
 219184009,Assault by caustic substance
-219185005,Assault by corrosive substance NOS
 219186006,Assault by poisoning
 219187002,Assault by poisoning by drugs or medicines
-219188007,Assault by poisoning by other solid or liquid substances
-219189004,Assault by poisoning by other gases or vapours
-219190008,Assault by poisoning NOS
 219191007,Assault by hanging and strangulation
 219192000,Assault by garrotting or ligature
 219193005,Assault by hanging
 219194004,Assault by strangulation
 219195003,Assault by suffocation
-219196002,Assault by hanging or strangulation NOS
 219197006,Assault by drowning
 219198001,Assault by firearms and explosives
 219199009,Assault by handgun
 219200007,Assault by pistol
 219201006,Assault by revolver
-219202004,Assault by handgun NOS
 219203009,Assault by shotgun
 219204003,Assault by hunting rifle
 219205002,Assault by military firearm
-219206001,Assault by other firearms
 219207005,Assault by antipersonnel bomb
 219208000,Assault by gasoline bomb
 219209008,Assault by letter bomb
-219211004,Assault by other explosive
 219212006,Assault by car bomb
 219213001,Assault by bomb in house
 219214007,Assault by dynamite
-219215008,Assault by bomb NOS
-219216009,Assault by other explosive NOS
-219217000,Assault by explosive NOS
 219218005,Assault by cutting and stabbing instruments
-219224004,Assault by cutting or stabbing NOS
-219225003,Child battering and other maltreatment
-219226002,Child battering or other maltreatment by parent
-219227006,Child battering or other maltreatment by other specified person
-219228001,Child battering or other maltreatment by person NOS
-219230004,Assault by other means
 219231000,Assault by fire and burning
 219232007,Assault by arson
-219233002,Assault by homicidal burns NOS
 219234008,Assault by pushing from high place
 219235009,Assault by striking by blunt or thrown object
 219236005,Assault by striking with blunt object
 219237001,Assault by striking with thrown object
-219238006,Assault by striking by blunt or thrown object NOS
 219239003,Assault by hot liquid
 219240001,Assault by criminal neglect
 219241002,Abandonment of child with intent to injure or kill
 219242009,Abandonment of infant with intent to injure or kill
-219244005,Assault by other specified means
-219245006,Assault by bite of human being
-219246007,Assault by other means NOS
-219247003,Assault by unspecified means
-219253003,Assault by means NOS
-222329006,"[X]Assault by drugs, medicaments and biological substances"
-222330001,"[X]Assault by drugs, medicaments and biological substances, occurrence at home"
-222331002,"[X]Assault by drugs, medicaments and biological substances, occurrence in residential institution"
-222332009,"[X]Assault by drugs, medicaments and biological substances, occurrence at school, other institution and public administrative area"
-222333004,"[X]Assault by drugs, medicaments and biological substances, occurrence at sports and athletics area"
-222334005,"[X]Assault by drugs, medicaments and biological substances, occurrence on street and highway"
-222335006,"[X]Assault by drugs, medicaments and biological substances, occurrence at trade and service area"
-222336007,"[X]Assault by drugs, medicaments and biological substances, occurrence at industrial and construction area"
-222337003,"[X]Assault by drugs, medicaments and biological substances, occurrence on farm"
-222338008,"[X]Assault by drugs, medicaments and biological substances, occurrence at other specified place"
-222339000,"[X]Assault by drugs, medicaments and biological substances, occurrence at unspecified place"
-222340003,[X]Assault by corrosive substance
-222341004,"[X]Assault by corrosive substance, occurrence at home"
-222342006,"[X]Assault by corrosive substance, occurrence in residential institution"
-222343001,"[X]Assault by corrosive substance, occurrence at school, other institution and public administrative area"
-222344007,"[X]Assault by corrosive substance, occurrence at sports and athletics area"
-222345008,"[X]Assault by corrosive substance, occurrence on street and highway"
-222346009,"[X]Assault by corrosive substance, occurrence at trade and service area"
-222347000,"[X]Assault by corrosive substance, occurrence at industrial and construction area"
-222348005,"[X]Assault by corrosive substance, occurrence on farm"
-222349002,"[X]Assault by corrosive substance, occurrence at other specified place"
-222350002,"[X]Assault by corrosive substance, occurrence at unspecified place"
-222351003,[X]Assault by pesticide
-222352005,"[X]Assault by pesticides, occurrence at home"
-222353000,"[X]Assault by pesticides, occurrence in residential institution"
-222354006,"[X]Assault by pesticides, occurrence at school, other institution and public administrative area"
-222355007,"[X]Assault by pesticides, occurrence at sports and athletics area"
-222356008,"[X]Assault by pesticides, occurrence on street and highway"
-222357004,"[X]Assault by pesticides, occurrence at trade and service area"
-222358009,"[X]Assault by pesticides, occurrence at industrial and construction area"
-222359001,"[X]Assault by pesticides, occurrence on farm"
-222360006,"[X]Assault by pesticides, occurrence at other specified place"
-222361005,"[X]Assault by pesticides, occurrence at unspecified place"
-222362003,[X]Assault by gases and vapours
-222363008,"[X]Assault by gases and vapours, occurrence at home"
-222364002,"[X]Assault by gases and vapours, occurrence in residential institution"
-222365001,"[X]Assault by gases and vapours, occurrence at school, other institution and public administrative area"
-222366000,"[X]Assault by gases and vapours, occurrence at sports and athletics area"
-222367009,"[X]Assault by gases and vapours, occurrence on street and highway"
-222368004,"[X]Assault by gases and vapours, occurrence at trade and service area"
-222369007,"[X]Assault by gases and vapours, occurrence at industrial and construction area"
-222370008,"[X]Assault by gases and vapours, occurrence on farm"
-222371007,"[X]Assault by gases and vapours, occurrence at other specified place"
-222372000,"[X]Assault by gases and vapours, occurrence at unspecified place"
-222373005,[X]Assault by other specified chemicals and noxious substances
-222374004,"[X]Assault by other specified chemicals and noxious substances, occurrence at home"
-222375003,"[X]Assault by other specified chemicals and noxious substances, occurrence in residential institution"
-222377006,"[X]Assault by other specified chemicals and noxious substances, occurrence at school, other institution and public administrative area"
-222378001,"[X]Assault by other specified chemicals and noxious substances, occurrence at sports and athletics area"
-222379009,"[X]Assault by other specified chemicals and noxious substances, occurrence on street and highway"
-222380007,"[X]Assault by other specified chemicals and noxious substances, occurrence at trade and service area"
-222381006,"[X]Assault by other specified chemicals and noxious substances, occurrence at industrial and construction area"
-222382004,"[X]Assault by other specified chemicals and noxious substances, occurrence on farm"
-222383009,"[X]Assault by other specified chemicals and noxious substances, occurrence at other specified place"
-222384003,"[X]Assault by other specified chemicals and noxious substances, occurrence at unspecified place"
-222385002,[X]Assault by unspecified chemical or noxious substance
-222386001,"[X]Assault by unspecified chemical or noxious substance, occurrence at home"
-222387005,"[X]Assault by unspecified chemical or noxious substance, occurrence in residential institution"
-222388000,"[X]Assault by unspecified chemical or noxious substance, occurrence at school, other institution and public administrative area"
-222389008,"[X]Assault by unspecified chemical or noxious substance, occurrence at sports and athletics area"
-222390004,"[X]Assault by unspecified chemical or noxious substance, occurrence on street and highway"
-222391000,"[X]Assault by unspecified chemical or noxious substance, occurrence at trade and service area"
-222392007,"[X]Assault by unspecified chemical or noxious substance, occurrence at industrial and construction area"
-222393002,"[X]Assault by unspecified chemical or noxious substance, occurrence on farm"
-222394008,"[X]Assault by unspecified chemical or noxious substance, occurrence at other specified place"
-222395009,"[X]Assault by unspecified chemical or noxious substance, occurrence at unspecified place"
-222396005,[X]Assault: [hanging] or [strangulation] or [suffocation] or [smothered]
-222397001,"[X]Assault by hanging, strangulation and suffocation, occurrence at home"
-222398006,"[X]Assault by hanging, strangulation and suffocation, occurrence in residential institution"
-222399003,"[X]Assault by hanging, strangulation and suffocation, occurrence at school, other institution and public administrative area"
-222400005,"[X]Assault by hanging, strangulation and suffocation, occurrence at sports and athletics area"
-222401009,"[X]Assault by hanging, strangulation and suffocation, occurrence on street and highway"
-222402002,"[X]Assault by hanging, strangulation and suffocation, occurrence at trade and service area"
-222403007,"[X]Assault by hanging, strangulation and suffocation, occurrence at industrial and construction area"
-222404001,"[X]Assault by hanging, strangulation and suffocation, occurrence on farm"
-222405000,"[X]Assault by hanging, strangulation and suffocation, occurrence at other specified place"
-222406004,"[X]Assault by hanging, strangulation and suffocation, occurrence at unspecified place"
-222407008,[X]Assault by drowning and submersion
-222408003,"[X]Assault by drowning and submersion, occurrence at home"
-222409006,"[X]Assault by drowning and submersion, occurrence in residential institution"
-222410001,"[X]Assault by drowning and submersion, occurrence at school, other institution and public administrative area"
-222411002,"[X]Assault by drowning and submersion, occurrence at sports and athletics area"
-222412009,"[X]Assault by drowning and submersion, occurrence on street and highway"
-222413004,"[X]Assault by drowning and submersion, occurrence at trade and service area"
-222415006,"[X]Assault by drowning and submersion, occurrence at industrial and construction area"
-222416007,"[X]Assault by drowning and submersion, occurrence on farm"
-222417003,"[X]Assault by drowning and submersion, occurrence at other specified place"
-222418008,"[X]Assault by drowning and submersion, occurrence at unspecified place"
-222419000,[X]Assault by handgun discharge
-222420006,"[X]Assault by handgun discharge, occurrence at home"
-222421005,"[X]Assault by handgun discharge, occurrence in residential institution"
-222422003,"[X]Assault by handgun discharge, occurrence at school, other institution and public administrative area"
-222423008,"[X]Assault by handgun discharge, occurrence at sports and athletics area"
-222424002,"[X]Assault by handgun discharge, occurrence on street and highway"
-222425001,"[X]Assault by handgun discharge, occurrence at trade and service area"
-222426000,"[X]Assault by handgun discharge, occurrence at industrial and construction area"
-222427009,"[X]Assault by handgun discharge, occurrence on farm"
-222428004,"[X]Assault by handgun discharge, occurrence at other specified place"
-222429007,"[X]Assault by handgun discharge, occurrence at unspecified place"
-222430002,"[X]Assault by rifle, shotgun and larger firearm discharge"
-222431003,"[X]Assault by rifle, shotgun and larger firearm discharge, occurrence at home"
-222432005,"[X]Assault by rifle, shotgun and larger firearm discharge, occurrence in residential institution"
-222433000,"[X]Assault by rifle, shotgun and larger firearm discharge, occurrence at school, other institution and public administrative area"
-222434006,"[X]Assault by rifle, shotgun and larger firearm discharge, occurrence at sports and athletics area"
-222435007,"[X]Assault by rifle, shotgun and larger firearm discharge, occurrence on street and highway"
-222436008,"[X]Assault by rifle, shotgun and larger firearm discharge, occurrence at trade and service area"
-222437004,"[X]Assault by rifle shotgun and larger firearm discharge, occurrence at industrial and construction area"
-222438009,"[X]Assault by rifle shotgun and larger firearm discharge, occurrence on farm"
-222439001,"[X]Assault by rifle shotgun and larger firearm discharge, occurrence at other specified place"
-222440004,"[X]Assault by rifle shotgun and larger firearm discharge, occurrence at unspecified place"
-222441000,[X]Assault by other and unspecified firearm discharge
-222442007,"[X]Assault by other and unspecified firearm discharge, occurrence at home"
-222443002,"[X]Assault by other and unspecified firearm discharge, occurrence in residential institution"
-222444008,"[X]Assault by other and unspecified firearm discharge, occurrence at school, other institution and public administrative area"
-222445009,"[X]Assault by other and unspecified firearm discharge, occurrence at sports and athletics area"
-222446005,"[X]Assault by other and unspecified firearm discharge, occurrence on street and highway"
-222447001,"[X]Assault by other and unspecified firearm discharge, occurrence at trade and service area"
-222448006,"[X]Assault by other and unspecified firearm discharge, occurrence at industrial and construction area"
-222449003,"[X]Assault by other and unspecified firearm discharge, occurrence on farm"
-222450003,"[X]Assault by other and unspecified firearm discharge, occurrence at other specified place"
-222451004,"[X]Assault by other and unspecified firearm discharge, occurrence at unspecified place"
-222452006,[X]Assault by explosive material
-222453001,"[X]Assault by explosive material, occurrence at home"
-222454007,"[X]Assault by explosive material, occurrence in residential institution"
-222455008,"[X]Assault by explosive material, occurrence at school, other institution and public administrative area"
-222456009,"[X]Assault by explosive material, occurrence at sports and athletics area"
-222457000,"[X]Assault by explosive material, occurrence on street and highway"
-222458005,"[X]Assault by explosive material, occurrence at trade and service area"
-222459002,"[X]Assault by explosive material, occurrence at industrial and construction area"
-222460007,"[X]Assault by explosive material, occurrence on farm"
-222461006,"[X]Assault by explosive material, occurrence at other specified place"
-222462004,"[X]Assault by explosive material, occurrence at unspecified place"
-222463009,"[X]Assault by smoke, fire and flames"
-222464003,"[X]Assault by smoke, fire and flames, occurrence at home"
-222465002,"[X]Assault by smoke, fire and flames, occurrence in residential institution"
-222466001,"[X]Assault by smoke, fire and flames, occurrence at school, other institution and public administrative area"
-222467005,"[X]Assault by smoke, fire and flames, occurrence at sports and athletics area"
-222468000,"[X]Assault by smoke, fire and flames, occurrence on street and highway"
-222469008,"[X]Assault by smoke, fire and flames, occurrence at trade and service area"
-222470009,"[X]Assault by smoke, fire and flames, occurrence at industrial and construction area"
-222471008,"[X]Assault by smoke, fire and flames, occurrence on farm"
-222472001,"[X]Assault by smoke, fire and flames, occurrence at other specified place"
-222473006,"[X]Assault by smoke, fire and flames, occurrence at unspecified place"
-222474000,"[X]Assault by steam, hot vapours and hot objects"
-222475004,"[X]Assault by steam, hot vapours and hot objects, occurrence at home"
-222476003,"[X]Assault by steam, hot vapours and hot objects, occurrence in residential institution"
-222477007,"[X]Assault by steam, hot vapours and hot objects, occurrence at school, other institution and public administrative area"
-222478002,"[X]Assault by steam, hot vapours and hot objects, occurrence at sports and athletics area"
-222479005,"[X]Assault by steam, hot vapours and hot objects, occurrence on street and highway"
-222480008,"[X]Assault by steam, hot vapours and hot objects, occurrence at trade and service area"
-222481007,"[X]Assault by steam, hot vapours and hot objects, occurrence at industrial and construction area"
-222482000,"[X]Assault by steam, hot vapours and hot objects, occurrence on farm"
-222483005,"[X]Assault by steam, hot vapours and hot objects, occurrence at other specified place"
-222484004,"[X]Assault by steam, hot vapours and hot objects, occurrence at unspecified place"
-222485003,[X](Stabbing) or (assault)
-222486002,"[X]Assault by sharp object, occurrence at home"
-222487006,"[X]Assault by sharp object, occurrence in residential institution"
-222488001,"[X]Assault by sharp object, occurrence at school, other institution and public administrative area"
-222489009,"[X]Assault by sharp object, occurrence at sports and athletics area"
-222490000,"[X]Assault by sharp object, occurrence on street and highway"
-222491001,"[X]Assault by sharp object, occurrence at trade and service area"
-222492008,"[X]Assault by sharp object, occurrence at industrial and construction area"
-222493003,"[X]Assault by sharp object, occurrence on farm"
-222494009,"[X]Assault by sharp object, occurrence at other specified place"
-222495005,"[X]Assault by sharp object, occurrence at unspecified place"
-222496006,[X]Assault by blunt object
-222497002,"[X]Assault by blunt object, occurrence at home"
-222498007,"[X]Assault by blunt object, occurrence in residential institution"
-222499004,"[X]Assault by blunt object, occurrence at school, other institution and public administrative area"
-222500008,"[X]Assault by blunt object, occurrence at sports and athletics area"
-222501007,"[X]Assault by blunt object, occurrence on street and highway"
-222502000,"[X]Assault by blunt object, occurrence at trade and service area"
-222503005,"[X]Assault by blunt object, occurrence at industrial and construction area"
-222504004,"[X]Assault by blunt object, occurrence on farm"
-222505003,"[X]Assault by blunt object, occurrence at other specified place"
-222506002,"[X]Assault by blunt object, occurrence at unspecified place"
-222507006,[X]Assault by pushing from high place
-222508001,"[X]Assault by pushing from high place, occurrence at home"
-222509009,"[X]Assault by pushing from high place, occurrence in residential institution"
-222510004,"[X]Assault by pushing from high place, occurrence at school, other institution and public administrative area"
-222511000,"[X]Assault by pushing from high place, occurrence at sports and athletics area"
-222512007,"[X]Assault by pushing from high place, occurrence on street and highway"
-222513002,"[X]Assault by pushing from high place, occurrence at trade and service area"
-222514008,"[X]Assault by pushing from high place, occurrence at industrial and construction area"
-222516005,"[X]Assault by pushing from high place, occurrence on farm"
-222517001,"[X]Assault by pushing from high place, occurrence at other specified place"
-222518006,"[X]Assault by pushing from high place, occurrence at unspecified place"
-222519003,[X]Assault by pushing or placing victim before moving object
-222520009,"[X]Assault by pushing or placing victim before moving object, occurrence at home"
-222521008,"[X]Assault by pushing or placing victim before moving object, occurrence in residential institution"
-222522001,"[X]Assault by pushing or placing victim before moving object, occurrence at school, other institution and public administrative area"
-222523006,"[X]Assault by pushing or placing victim before moving object, occurrence at sports and athletics area"
-222524000,"[X]Assault by pushing or placing victim before moving object, occurrence on street and highway"
-222525004,"[X]Assault by pushing or placing victim before moving object, occurrence at trade and service area"
-222526003,"[X]Assault by pushing or placing victim before moving object, occurrence at industrial and construction area"
-222527007,"[X]Assault by pushing or placing victim before moving object, occurrence on farm"
-222528002,"[X]Assault by pushing or placing victim before moving object, occurrence at other specified place"
-222529005,"[X]Assault by pushing or placing victim before moving object, occurrence at unspecified place"
-222530000,[X]Assault by crashing of motor vehicle
-222531001,"[X]Assault by crashing of motor vehicle, occurrence at home"
-222532008,"[X]Assault by crashing of motor vehicle, occurrence in residential institution"
-222533003,"[X]Assault by crashing of motor vehicle, occurrence at school, other institution and public administrative area"
-222534009,"[X]Assault by crashing of motor vehicle, occurrence at sports and athletics area"
-222535005,"[X]Assault by crashing of motor vehicle, occurrence on street and highway"
-222536006,"[X]Assault by crashing of motor vehicle, occurrence at trade and service area"
-222537002,"[X]Assault by crashing of motor vehicle, occurrence at industrial and construction area"
-222538007,"[X]Assault by crashing of motor vehicle, occurrence on farm"
-222539004,"[X]Assault by crashing of motor vehicle, occurrence at other specified place"
-222540002,"[X]Assault by crashing of motor vehicle, occurrence at unspecified place"
-222541003,[X]Assault by bodily force
-222542005,"[X]Assault by bodily force, occurrence at home"
-222543000,"[X]Assault by bodily force, occurrence in residential institution"
-222545007,"[X]Assault by bodily force, occurrence at school, other institution and public administrative area"
-222546008,"[X]Assault by bodily force, occurrence at sports and athletics area"
-222547004,"[X]Assault by bodily force, occurrence on street and highway"
-222548009,"[X]Assault by bodily force, occurrence at trade and service area"
-222549001,"[X]Assault by bodily force, occurrence at industrial and construction area"
-222550001,"[X]Assault by bodily force, occurrence on farm"
-222551002,"[X]Assault by bodily force, occurrence at other specified place"
-222552009,"[X]Assault by bodily force, occurrence at unspecified place"
-222553004,[X]Sexual assault by bodily force
-222554005,"[X]Sexual assault by bodily force, occurrence at home"
-222555006,"[X]Sexual assault by bodily force, occurrence in residential institution"
-222556007,"[X]Sexual assault by bodily force, occurrence at school, other institution and public administrative area"
-222557003,"[X]Sexual assault by bodily force, occurrence at sports and athletics area"
-222558008,"[X]Sexual assault by bodily force, occurrence on street and highway"
-222559000,"[X]Sexual assault by bodily force, occurrence at trade and service area"
-222560005,"[X]Sexual assault by bodily force, occurrence at industrial and construction area"
-222561009,"[X]Sexual assault by bodily force, occurrence on farm"
-222562002,"[X]Sexual assault by bodily force, occurrence at other specified place"
-222563007,"[X]Sexual assault by bodily force, occurrence at unspecified place"
-222570007,[X]Other maltreatment syndromes - cause
-222571006,"[X]Other maltreatment syndromes, by spouse or partner"
-222572004,"[X]Other maltreatment syndromes, by parent"
-222573009,"[X]Other maltreatment syndromes, by acquaintance or friend"
-222574003,"[X]Other maltreatment syndromes, by official authorities"
-222575002,"[X]Other maltreatment syndromes, by other specified persons"
-222576001,"[X]Other maltreatment syndromes, by unspecified person"
-222577005,[X]Assault by other specified means
-222578000,"[X]Assault by other specified means, occurrence at home"
-222579008,"[X]Assault by other specified means, occurrence in residential institution"
-222580006,"[X]Assault by other specified means, occurrence at school, other institution and public administrative area"
-222581005,"[X]Assault by other specified means, occurrence at sports and athletics area"
-222582003,"[X]Assault by other specified means, occurrence on street and highway"
-222583008,"[X]Assault by other specified means, occurrence at trade and service area"
-222584002,"[X]Assault by other specified means, occurrence at industrial and construction area"
-222585001,"[X]Assault by other specified means, occurrence on farm"
-222586000,"[X]Assault by other specified means, occurrence at other specified place"
-222587009,"[X]Assault by other specified means, occurrence at unspecified place"
-222588004,[X]Assault by unspecified means
-222589007,"[X]Assault by unspecified means, occurrence at home"
-222590003,"[X]Assault by unspecified means, occurrence in residential institution"
-222591004,"[X]Assault by unspecified means, occurrence at school, other institution and public administrative area"
-222592006,"[X]Assault by unspecified means, occurrence at sports and athletics area"
-222593001,"[X]Assault by unspecified means, occurrence on street and highway"
-222594007,"[X]Assault by unspecified means, occurrence at trade and service area"
-222595008,"[X]Assault by unspecified means, occurrence at industrial and construction area"
-222596009,"[X]Assault by unspecified means, occurrence on farm"
-222597000,"[X]Assault by unspecified means, occurrence at other specified place"
-222598005,"[X]Assault by unspecified means, occurrence at unspecified place"
 22439003,Forcible intercourse
 228143000,Contact sexual abuse of child
 23776007,Incestuous child concubinage
-240171000000105,Assault by friend
-240181000000107,Assault by legal official
-240191000000109,Assault by relative
-240201000000106,Assault by stranger
-240211000000108,Assault by unrelated care giver
 242037000,Child abandonment
 242038005,Abandonment of infant
 242039002,Abuse of partner
@@ -430,7 +136,6 @@ code,term
 242934005,Assault by physical restraint with adhesive tape
 242935006,Assault by gagging
 242936007,Assault by blindfolding
-242952005,Sexual assault and rape
 242953000,Rape with vaginal intercourse
 242954006,Sexual assault with anal penetration by penis
 242955007,Sexual assault on male with anal penetration by penis
@@ -454,19 +159,16 @@ code,term
 248110007,Sexual assault
 248111006,Rape
 248112004,Sexual battery
-269286001,Child maltreatment syndrome NOS
 269731001,Homicide or assault by rape
 269732008,"Assault by corrosive substance, except poisoning"
 269733003,Assault by poisoning by gas or vapor
 269734009,Assault by manual strangulation
-269749001,"[X]Assault by hanging, strangulation and suffocation"
-269750001,[X]Assault by sharp object
-269809002,Assault with firearm &/or explosive
 274954001,Assault by explosive device
 276849007,Psychological abuse of adult
 278707004,Emotional deprivation of child
 289431000119109,Child victim of maltreatment
 297591000000108,Alleged victim of sexual assault
+297961003,Kick mark
 298241000000102,Alleged victim of physical assault by friend
 298251000000104,Alleged victim of physical assault by legal official
 298261000000101,Alleged victim of physical assault by stranger
@@ -483,140 +185,18 @@ code,term
 371776003,Neglect or abandonment
 371778002,Physical abuse of adult
 371779005,Physical child abuse
-385241000000104,"[X]Sexual assault by bodily force, occurrence at other specified place"
-385431000000109,"[X]Assault by sharp object, occurrence on street and highway"
-385541000000101,"[X]Assault by crashing of motor vehicle, occurrence at sports and athletics area"
-385571000000107,[X]Assault by other specified means
-385681000000105,"[X]Assault by explosive material, occurrence at school, other institution and public administrative area"
-385691000000107,"[X]Assault by other specified chemicals and noxious substances, occurrence at industrial and construction area"
-385891000000108,"[X]Assault by other specified means, occurrence at unspecified place"
-386261000000105,"[X]Assault by smoke, fire and flames, occurrence on street and highway"
-386351000000104,"[X]Assault by unspecified means, occurrence on street and highway"
-386381000000105,[X]Assault by blunt object
-386681000000103,[X]Assault by pesticide
-386941000000101,"[X]Assault by steam, hot vapours and hot objects, occurrence at home"
-387181000000109,"[X]Assault by pushing or placing victim before moving object, occurrence at school, other institution and public administrative area"
-387191000000106,[X]Assault by other and unspecified firearm discharge
-387231000000102,"[X]Assault by pushing or placing victim before moving object, occurrence on street and highway"
-387241000000106,"[X]Assault by steam, hot vapours and hot objects, occurrence at unspecified place"
-387331000000108,"[X]Sexual assault by bodily force, occurrence at sports and athletics area"
-387381000000107,"[X]Assault by gases and vapours, occurrence at trade and service area"
-391741000000107,"[X]Assault by sharp object, occurrence at home"
-391751000000105,"[X]Assault by sharp object, occurrence at school, other institution and public administrative area"
-391761000000108,[X]Assault by crashing of motor vehicle
-392221000000100,"[X]Assault by crashing of motor vehicle, occurrence in residential institution"
-392251000000105,"[X]Assault by corrosive substance, occurrence at sports and athletics area"
-392301000000103,"[X]Assault by drowning and submersion, occurrence at sports and athletics area"
-392341000000100,"[X]Other maltreatment syndromes, by other specified persons"
-392491000000101,"[X]Assault by drowning and submersion, occurrence at trade and service area"
-392511000000109,"[X]Assault by drugs, medicaments and biological substances"
-392521000000103,"[X]Assault by gases and vapours, occurrence at other specified place"
-392531000000101,"[X]Assault by blunt object, occurrence on street and highway"
-392551000000108,"[X]Assault by drugs, medicaments and biological substances, occurrence at other specified place"
-392651000000107,"[X]Other maltreatment syndromes, by spouse or partner"
-392771000000107,[X]Other maltreatment syndromes - cause
-392781000000109,"[X]Assault by pesticides, occurrence at industrial and construction area"
-392791000000106,"[X]Assault by pesticides, occurrence on farm"
-392891000000103,[X]Assault by other specified chemicals and noxious substances
-392991000000109,"[X]Assault by unspecified means, occurrence at trade and service area"
-393131000000103,"[X]Assault by blunt object, occurrence at home"
-393141000000107,[X]Assault by bodily force
-393201000000100,"[X]Assault by pushing from high place, occurrence at school, other institution and public administrative area"
-393211000000103,"[X]Assault by rifle, shotgun and larger firearm discharge"
-393221000000109,"[X]Assault by smoke, fire and flames, occurrence on farm"
-393231000000106,"[X]Assault by rifle, shotgun and larger firearm discharge, occurrence at school, other institution and public administrative area"
-393241000000102,"[X]Assault by smoke, fire and flames, occurrence at other specified place"
-393251000000104,"[X]Assault by steam, hot vapours and hot objects"
-393381000000101,"[X]Assault by unspecified means, occurrence in residential institution"
-393611000000101,"[X]Assault by pushing or placing victim before moving object, occurrence at home"
-393721000000101,"[X]Assault by blunt object, occurrence at other specified place"
-393761000000109,"[X]Assault by smoke, fire and flames, occurrence at home"
 39379000,Forcible sexual assault
-393971000000104,"[X]Assault by pushing or placing victim before moving object, occurrence in residential institution"
-393981000000102,"[X]Assault by pushing or placing victim before moving object, occurrence at sports and athletics area"
-393991000000100,"[X]Assault by pushing or placing victim before moving object, occurrence at trade and service area"
-394001000000105,"[X]Assault by other and unspecified firearm discharge, occurrence in residential institution"
-394011000000107,"[X]Assault by pushing or placing victim before moving object, occurrence at other specified place"
-394311000000105,"[X]Assault by other specified means, occurrence at school, other institution and public administrative area"
-394431000000109,"[X]Assault by rifle shotgun and larger firearm discharge, occurrence on farm"
-394831000000107,"[X]Assault by other specified means, occurrence at industrial and construction area"
-395521000000107,[X]Assault by sharp object
-403561000000105,"[X]Assault by sharp object, occurrence in residential institution"
-403871000000101,"[X]Sexual assault by bodily force, occurrence on farm"
-404121000000106,"[X]Assault by pesticides, occurrence at home"
+402170008,Skin injury due to violence
 404189009,Domestic violence
-404221000000102,"[X]Assault by other and unspecified firearm discharge, occurrence on street and highway"
-404251000000107,"[X]Assault by corrosive substance, occurrence in residential institution"
-404291000000104,"[X]Assault by pesticides, occurrence on street and highway"
-404301000000100,"[X]Assault by drowning and submersion, occurrence on street and highway"
-404391000000107,"[X]Other maltreatment syndromes, by unspecified person"
-404441000000108,"[X]Assault by drugs, medicaments and biological substances, occurrence at unspecified place"
-404531000000103,"[X]Assault by other specified chemicals and noxious substances, occurrence on street and highway"
-404541000000107,"[X]Assault by blunt object, occurrence at industrial and construction area"
-404551000000105,"[X]Assault by other specified chemicals and noxious substances, occurrence on farm"
-404821000000103,"[X]Assault by other specified chemicals and noxious substances, occurrence at sports and athletics area"
-404901000000104,[X]Sexual assault by bodily force
-405071000000107,"[X]Assault by explosive material, occurrence in residential institution"
-405081000000109,"[X]Assault by blunt object, occurrence at school, other institution and public administrative area"
-405151000000102,"[X]Assault by unspecified chemical or noxious substance, occurrence in residential institution"
-405161000000104,"[X]Assault by smoke, fire and flames, occurrence at school, other institution and public administrative area"
-405171000000106,"[X]Assault by handgun discharge, occurrence at unspecified place"
-405321000000105,[X]Assault by explosive material
-405331000000107,"[X]Assault by sharp object, occurrence at unspecified place"
-406121000000103,"[X]Assault by hanging, strangulation and suffocation, occurrence on street and highway"
-406131000000101,"[X]Assault by hanging, strangulation and suffocation, occurrence at trade and service area"
 406138006,Domestic abuse of adult
-406141000000105,"[X]Assault by rifle shotgun and larger firearm discharge, occurrence at other specified place"
-406151000000108,"[X]Assault by rifle shotgun and larger firearm discharge, occurrence at unspecified place"
-406161000000106,"[X]Assault by steam, hot vapours and hot objects, occurrence at industrial and construction area"
-406171000000104,"[X]Assault by hanging, strangulation and suffocation, occurrence at industrial and construction area"
-406201000000103,"[X]Assault by unspecified means, occurrence at unspecified place"
-406401000000104,"[X]Assault by gases and vapours, occurrence at industrial and construction area"
-406531000000106,"[X]Sexual assault by bodily force, occurrence at trade and service area"
 41358001,Child concubinage
-414211000000106,[X](Stabbing) or (assault)
-415571000000100,"[X]Assault by drowning and submersion, occurrence at home"
-415581000000103,"[X]Assault by drowning and submersion, occurrence in residential institution"
 417928002,Abuse
 418189009,Child abuse
 418496002,Child neglect
 418506006,Physical abuse
 419261006,Malnutrition due to child maltreatment
-420501000000105,"[X]Assault by pushing or placing victim before moving object, occurrence at unspecified place"
-420691000000102,"[X]Sexual assault by bodily force, occurrence at unspecified place"
 42085001,Victim of rape
-420911000000103,"[X]Assault by pesticides, occurrence in residential institution"
-420991000000107,"[X]Assault by sharp object, occurrence at sports and athletics area"
-421041000000109,"[X]Assault by corrosive substance, occurrence at trade and service area"
-421051000000107,"[X]Assault by pesticides, occurrence at school, other institution and public administrative area"
-421061000000105,"[X]Assault by pesticides, occurrence at sports and athletics area"
-421191000000100,[X]Assault by corrosive substance
-421291000000105,"[X]Assault by explosive material, occurrence at sports and athletics area"
-421301000000109,"[X]Assault by blunt object, occurrence at sports and athletics area"
-421311000000106,"[X]Assault by other specified chemicals and noxious substances, occurrence at other specified place"
-421321000000100,"[X]Assault by explosive material, occurrence at other specified place"
-421441000000101,"[X]Assault by drugs, medicaments and biological substances, occurrence at home"
-421451000000103,"[X]Assault by drugs, medicaments and biological substances, occurrence on street and highway"
-421561000000101,"[X]Sexual assault by bodily force, occurrence at home"
-421571000000108,"[X]Sexual assault by bodily force, occurrence in residential institution"
-421701000000108,"[X]Assault by drowning and submersion, occurrence on farm"
-421821000000106,"[X]Assault by handgun discharge, occurrence at industrial and construction area"
-421831000000108,"[X]Assault by handgun discharge, occurrence on farm"
-421841000000104,"[X]Assault by smoke, fire and flames, occurrence at unspecified place"
-421851000000101,"[X]Assault by pushing from high place, occurrence on farm"
-422051000000104,"[X]Assault by crashing of motor vehicle, occurrence at trade and service area"
-422221000000104,"[X]Assault by pushing from high place, occurrence in residential institution"
-422491000000100,[X]Assault by unspecified chemical or noxious substance
-422501000000106,"[X]Assault by handgun discharge, occurrence on street and highway"
-422511000000108,"[X]Assault by steam, hot vapours and hot objects, occurrence in residential institution"
-422521000000102,"[X]Assault by pushing from high place, occurrence at unspecified place"
-422608009,Sexual assault
-422851000000105,"[X]Assault by steam, hot vapours and hot objects, occurrence at other specified place"
-422861000000108,"[X]Assault by hanging, strangulation and suffocation, occurrence at unspecified place"
-422871000000101,"[X]Assault by gases and vapours, occurrence at sports and athletics area"
-422941000000103,"[X]Sexual assault by bodily force, occurrence at school, other institution and public administrative area"
-423091000000100,"[X]Sexual assault by bodily force, occurrence at industrial and construction area"
-423531000000107,"[X]Assault by other specified means, occurrence on farm"
+424393004,Reports of violence in the environment
 428200002,Assault by person
 428498002,Assault by stranger
 428500001,Assault by unrelated caregiver
@@ -624,197 +204,32 @@ code,term
 429626008,Assault by friend
 429686006,Assault by relative
 430139008,Abuse by relative of victim
-431801000000104,[X]Assault: [hanging] or [strangulation] or [suffocation] or [smothered]
+431027007,Late effect of domestic violence
 432262005,Nutritional neglect of adult
 432464008,Abuse by unrelated caregiver
 432527004,Domestic sexual abuse of adult
-433221000000105,"[X]Assault by crashing of motor vehicle, occurrence at home"
-433231000000107,"[X]Assault by drowning and submersion, occurrence at school, other institution and public administrative area"
-433551000000102,"[X]Assault by hanging, strangulation and suffocation, occurrence at school, other institution and public administrative area"
-433721000000102,"[X]Assault by corrosive substance, occurrence at school, other institution and public administrative area"
-433731000000100,"[X]Assault by corrosive substance, occurrence on street and highway"
-433891000000107,"[X]Assault by other specified means, occurrence in residential institution"
 433960002,Abuse by sibling
-434091000000104,"[X]Assault by other and unspecified firearm discharge, occurrence at trade and service area"
-434101000000107,"[X]Assault by other and unspecified firearm discharge, occurrence at industrial and construction area"
-434111000000109,"[X]Assault by explosive material, occurrence on farm"
-434121000000103,"[X]Assault by handgun discharge, occurrence in residential institution"
-434131000000101,"[X]Assault by handgun discharge, occurrence at school, other institution and public administrative area"
-434321000000100,"[X]Assault by explosive material, occurrence at unspecified place"
-434341000000107,"[X]Assault by drugs, medicaments and biological substances, occurrence at school, other institution and public administrative area"
-434351000000105,"[X]Assault by other specified chemicals and noxious substances, occurrence at home"
-434461000000100,"[X]Assault by bodily force, occurrence at other specified place"
-434471000000107,"[X]Assault by bodily force, occurrence at unspecified place"
-434631000000107,"[X]Assault by explosive material, occurrence at home"
-434641000000103,"[X]Assault by blunt object, occurrence in residential institution"
-434731000000102,"[X]Assault by smoke, fire and flames, occurrence at sports and athletics area"
-434741000000106,"[X]Assault by pushing from high place, occurrence at industrial and construction area"
-434811000000100,"[X]Other maltreatment syndromes, by acquaintance or friend"
-434821000000106,"[X]Assault by unspecified chemical or noxious substance, occurrence at unspecified place"
-434951000000106,"[X]Assault by bodily force, occurrence at trade and service area"
-434961000000109,"[X]Assault by unspecified means, occurrence at school, other institution and public administrative area"
-435021000000101,"[X]Assault by unspecified means, occurrence at home"
-435281000000107,"[X]Assault by corrosive substance, occurrence at unspecified place"
-435361000000107,[X]Assault by pushing from high place
-435411000000101,"[X]Assault by handgun discharge, occurrence at trade and service area"
-435671000000108,"[X]Assault by steam, hot vapours and hot objects, occurrence on street and highway"
-435701000000107,"[X]Assault by hanging, strangulation and suffocation, occurrence on farm"
-435711000000109,[X]Assault by drowning and submersion
-435921000000100,"[X]Assault by gases and vapours, occurrence at home"
-435931000000103,"[X]Assault by gases and vapours, occurrence in residential institution"
-436481000000100,"[X]Assault by other specified means, occurrence at trade and service area"
+442084003,Victim of physical violence
 444557007,Sexual abuse of adult
-446161000000104,"[X]Assault by sharp object, occurrence at other specified place"
-446171000000106,"[X]Assault by crashing of motor vehicle, occurrence on street and highway"
-446181000000108,"[X]Assault by drowning and submersion, occurrence at industrial and construction area"
-446211000000109,"[X]Assault by explosive material, occurrence on street and highway"
-446221000000103,"[X]Assault by blunt object, occurrence at trade and service area"
-446231000000101,"[X]Assault by explosive material, occurrence at industrial and construction area"
-446241000000105,"[X]Assault by handgun discharge, occurrence at sports and athletics area"
-446351000000100,"[X]Assault by bodily force, occurrence at home"
-446361000000102,"[X]Assault by bodily force, occurrence in residential institution"
-446371000000109,"[X]Assault by other specified means, occurrence at other specified place"
-446401000000106,[X]Assault by unspecified means
-446431000000100,"[X]Assault by pesticides, occurrence at trade and service area"
-446561000000109,"[X]Assault by drugs, medicaments and biological substances, occurrence at industrial and construction area"
-446571000000102,"[X]Assault by drugs, medicaments and biological substances, occurrence on farm"
-446641000000107,"[X]Assault by unspecified means, occurrence at other specified place"
-446801000000108,"[X]Assault by unspecified chemical or noxious substance, occurrence at school, other institution and public administrative area"
-446811000000105,"[X]Assault by handgun discharge, occurrence at other specified place"
-446821000000104,"[X]Assault by unspecified chemical or noxious substance, occurrence at industrial and construction area"
-446861000000107,"[X]Assault by unspecified chemical or noxious substance, occurrence at other specified place"
-446921000000109,"[X]Assault by bodily force, occurrence on street and highway"
-446931000000106,"[X]Assault by bodily force, occurrence at industrial and construction area"
-446941000000102,"[X]Assault by unspecified means, occurrence at sports and athletics area"
-447161000000101,"[X]Assault by corrosive substance, occurrence at other specified place"
-447261000000108,"[X]Assault by other specified chemicals and noxious substances, occurrence at unspecified place"
-447611000000108,"[X]Assault by steam, hot vapours and hot objects, occurrence at sports and athletics area"
-447621000000102,"[X]Assault by steam, hot vapours and hot objects, occurrence at trade and service area"
-447641000000109,"[X]Assault by steam, hot vapours and hot objects, occurrence on farm"
-447651000000107,"[X]Assault by hanging, strangulation and suffocation, occurrence at other specified place"
-457121000000107,"[X]Assault by other and unspecified firearm discharge, occurrence at sports and athletics area"
-457541000000108,"[X]Assault by rifle, shotgun and larger firearm discharge, occurrence at trade and service area"
-457711000000100,"[X]Assault by crashing of motor vehicle, occurrence at school, other institution and public administrative area"
-457751000000101,"[X]Assault by corrosive substance, occurrence at home"
-457771000000105,"[X]Assault by corrosive substance, occurrence on farm"
-457861000000107,"[X]Assault by other specified means, occurrence at home"
-458021000000107,"[X]Assault by sharp object, occurrence at industrial and construction area"
-458031000000109,"[X]Assault by sharp object, occurrence on farm"
-458041000000100,"[X]Assault by other and unspecified firearm discharge, occurrence at other specified place"
-458061000000104,[X]Assault by handgun discharge
-458071000000106,"[X]Assault by handgun discharge, occurrence at home"
-458081000000108,"[X]Assault by blunt object, occurrence on farm"
-458091000000105,"[X]Assault by smoke, fire and flames, occurrence in residential institution"
-458331000000106,"[X]Assault by bodily force, occurrence at sports and athletics area"
-458421000000101,[X]Assault by gases and vapours
-458491000000103,"[X]Assault by drugs, medicaments and biological substances, occurrence in residential institution"
-458501000000109,"[X]Assault by drugs, medicaments and biological substances, occurrence at sports and athletics area"
-458521000000100,"[X]Assault by drugs, medicaments and biological substances, occurrence at trade and service area"
-458691000000101,"[X]Assault by unspecified means, occurrence at industrial and construction area"
-458701000000101,"[X]Assault by unspecified means, occurrence on farm"
-458821000000103,"[X]Assault by drowning and submersion, occurrence at other specified place"
-458831000000101,"[X]Assault by drowning and submersion, occurrence at unspecified place"
-458901000000104,"[X]Assault by pushing from high place, occurrence at trade and service area"
-458911000000102,"[X]Assault by smoke, fire and flames, occurrence at industrial and construction area"
-458921000000108,"[X]Assault by rifle, shotgun and larger firearm discharge, occurrence at home"
-458931000000105,"[X]Assault by rifle, shotgun and larger firearm discharge, occurrence in residential institution"
-459061000000105,"[X]Other maltreatment syndromes, by official authorities"
-459371000000101,"[X]Assault by hanging, strangulation and suffocation, occurrence at home"
-459801000000102,"[X]Assault by hanging, strangulation and suffocation, occurrence at sports and athletics area"
-459841000000104,"[X]Assault by gases and vapours, occurrence at school, other institution and public administrative area"
-459851000000101,"[X]Assault by gases and vapours, occurrence on street and highway"
-460191000000101,"[X]Assault by other specified means, occurrence at sports and athletics area"
-460301000000105,"[X]Sexual assault by bodily force, occurrence on street and highway"
-473261000000104,"[X]Assault by sharp object, occurrence at trade and service area"
-473281000000108,"[X]Assault by corrosive substance, occurrence at industrial and construction area"
-473581000000105,"[X]Assault by other and unspecified firearm discharge, occurrence on farm"
-473601000000101,"[X]Assault by other specified chemicals and noxious substances, occurrence at trade and service area"
-473611000000104,"[X]Assault by explosive material, occurrence at trade and service area"
-473771000000100,"[X]Assault by bodily force, occurrence at school, other institution and public administrative area"
-473811000000100,"[X]Assault by pesticides, occurrence at other specified place"
-473821000000106,"[X]Assault by pesticides, occurrence at unspecified place"
-473871000000105,"[X]Assault by gases and vapours, occurrence at unspecified place"
-473901000000105,"[X]Assault by other specified chemicals and noxious substances, occurrence in residential institution"
-473911000000107,"[X]Assault by other specified chemicals and noxious substances, occurrence at school, other institution and public administrative area"
-473981000000100,"[X]Assault by bodily force, occurrence on farm"
-474151000000105,"[X]Assault by crashing of motor vehicle, occurrence on farm"
-474161000000108,"[X]Assault by crashing of motor vehicle, occurrence at other specified place"
-474171000000101,"[X]Assault by crashing of motor vehicle, occurrence at unspecified place"
-474291000000107,"[X]Assault by pushing from high place, occurrence at sports and athletics area"
-474301000000106,"[X]Assault by pushing from high place, occurrence on street and highway"
-474311000000108,"[X]Assault by unspecified chemical or noxious substance, occurrence at sports and athletics area"
-474321000000102,"[X]Assault by unspecified chemical or noxious substance, occurrence on street and highway"
-474331000000100,"[X]Assault by smoke, fire and flames, occurrence at trade and service area"
-474341000000109,"[X]Assault by unspecified chemical or noxious substance, occurrence at trade and service area"
-474351000000107,"[X]Assault by unspecified chemical or noxious substance, occurrence on farm"
-474391000000104,"[X]Other maltreatment syndromes, by parent"
-474401000000101,"[X]Assault by pushing from high place, occurrence at other specified place"
-474551000000101,"[X]Assault by other and unspecified firearm discharge, occurrence at unspecified place"
-474561000000103,"[X]Assault by crashing of motor vehicle, occurrence at industrial and construction area"
-474681000000108,"[X]Assault by pushing from high place, occurrence at home"
-474791000000103,"[X]Assault by hanging, strangulation and suffocation, occurrence in residential institution"
-474921000000103,"[X]Assault by smoke, fire and flames"
-474931000000101,"[X]Assault by blunt object, occurrence at unspecified place"
-475031000000101,"[X]Assault by unspecified chemical or noxious substance, occurrence at home"
-475041000000105,"[X]Assault by rifle, shotgun and larger firearm discharge, occurrence at sports and athletics area"
-475051000000108,"[X]Assault by rifle, shotgun and larger firearm discharge, occurrence on street and highway"
-475061000000106,[X]Assault by pushing or placing victim before moving object
-475311000000107,"[X]Assault by steam, hot vapours and hot objects, occurrence at school, other institution and public administrative area"
-475321000000101,"[X]Assault by other and unspecified firearm discharge, occurrence at home"
-475331000000104,"[X]Assault by other and unspecified firearm discharge, occurrence at school, other institution and public administrative area"
-475341000000108,"[X]Assault by pushing or placing victim before moving object, occurrence at industrial and construction area"
-475351000000106,"[X]Assault by pushing or placing victim before moving object, occurrence on farm"
-475531000000107,"[X]Assault by gases and vapours, occurrence on farm"
-475641000000104,"[X]Assault by other specified means, occurrence on street and highway"
-475731000000103,"[X]Assault by rifle shotgun and larger firearm discharge, occurrence at industrial and construction area"
-476921000000105,"[X]Assault by hanging, strangulation and suffocation"
 51347003,Incest
 56890008,Victim of sexual aggression
-624911000000108,Assault by means NOS
-640961000000102,"Homicide or assault by fight, brawl or rape NOS"
-670861000000109,Assault by corrosive substance NOS
-670871000000102,Assault by poisoning by other solid or liquid substances
-670881000000100,Assault by poisoning NOS
-670891000000103,Assault by hanging or strangulation NOS
-670901000000102,Assault by handgun NOS
-670911000000100,Assault by other firearms
-670931000000108,Assault by other explosive
-670941000000104,Assault by bomb NOS
-670951000000101,Assault by other explosive NOS
-670961000000103,Assault by explosive NOS
-680141000000106,Child maltreatment syndrome NOS
-681091000000107,Assault by other specified means
-684841000000109,Assault by other means NOS
-684851000000107,Assault by unspecified means
-688801000000100,Child battering and other maltreatment
-688811000000103,Child battering or other maltreatment by parent
-688831000000106,Child battering or other maltreatment by other specified person
-688841000000102,Child battering or other maltreatment by person NOS
-688851000000104,Assault by other means
-692141000000106,Adult maltreatment syndrome NOS
-693401000000107,Assault by poisoning by other gases or vapours
 697957000,Suspected elderly person maltreatment
 698301002,Non-domestic physical abuse of adult
 70167006,Non-incestuous child concubinage
-702841000000109,Assault by cutting or stabbing NOS
-702891000000104,Assault by homicidal burns NOS
-702901000000103,Assault by striking by blunt or thrown object NOS
+706893006,Victim of intimate partner abuse
 713820002,Victim of sexual assault by intimate partner
 713821003,Victim of sexual assault by member of household
 720025009,Domestic emotional abuse
+720407008,Mother victim of domestic violence
 720595008,Domestic sexual abuse
 720684005,Domestic physical abuse
+721181000000107,Violence
+722771000000103,Sexual violence
 74715005,Battered woman syndrome
 782869001,Incapacitated sexual assault
 787209003,Domestic physical abuse of adult
-823091000000107,Maltreatment
-834761000000100,Maltreatment
-834771000000107,Maltreatment
-834781000000109,Maltreatment
-834791000000106,Maltreatment
-834801000000105,Maltreatment
-834811000000107,Maltreatment
-834821000000101,Maltreatment
-938101000000100,Seen in sexual assault referral centre
+809681000000105,Victim of honour based violence
+816191000000109,Violence between family members of subject
 95921002,Elderly person maltreatment
 95922009,Child sex abuse
+983731000000107,Notification received of alleged domestic violence in household

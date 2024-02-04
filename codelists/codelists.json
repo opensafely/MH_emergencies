@@ -61,10 +61,10 @@
       "sha": "7a95a3fce6e6bb5536915bbc3550ba29dd381d96"
     },
     "user-agleman-assault_violence-snomed-ct.csv": {
-      "id": "user/agleman/assault_violence-snomed-ct/5915c9e8",
-      "url": "https://www.opencodelists.org/codelist/user/agleman/assault_violence-snomed-ct/5915c9e8/",
-      "downloaded_at": "2024-02-03 17:52:15.655271Z",
-      "sha": "5b6a7812b53b9474ec6a4d5998fe0df8cd10eb74"
+      "id": "user/agleman/assault_violence-snomed-ct/4ad1568b",
+      "url": "https://www.opencodelists.org/codelist/user/agleman/assault_violence-snomed-ct/4ad1568b/",
+      "downloaded_at": "2024-02-04 11:01:53.568768Z",
+      "sha": "a33427239474b7bb71ef65aac1ebcde7e43db3d1"
     },
     "user-agleman-assault_violence-icd10.csv": {
       "id": "user/agleman/assault_violence-icd10/24e4a7bc",
