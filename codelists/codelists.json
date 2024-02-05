@@ -66,6 +66,12 @@
       "downloaded_at": "2024-02-04 11:01:53.568768Z",
       "sha": "a33427239474b7bb71ef65aac1ebcde7e43db3d1"
     },
+    "user-agleman-violence_assult_abuse_maltr_snomed.csv": {
+      "id": "user/agleman/violence_assult_abuse_maltr_snomed/3c8ce32e",
+      "url": "https://www.opencodelists.org/codelist/user/agleman/violence_assult_abuse_maltr_snomed/3c8ce32e/",
+      "downloaded_at": "2024-02-05 23:06:29.432024Z",
+      "sha": "b5c5aacfcee25f1e4c06097324a748fff91089eb"
+    },
     "user-agleman-assault_violence-icd10.csv": {
       "id": "user/agleman/assault_violence-icd10/24e4a7bc",
       "url": "https://www.opencodelists.org/codelist/user/agleman/assault_violence-icd10/24e4a7bc/",
