@@ -84,7 +84,7 @@ for (i in c(
   p <- p + geom_vline(xintercept=as.Date(start, format="%Y-%m-%d"), size=0.3, colour="red")
   p <- p +  geom_text(aes(x=as.Date(start, format="%Y-%m-%d")+5, y=min(value2)+(sd(value2)*2)), 
                       color = "red",label="Start of\nrestrictions", angle = 90, size = 3)
-  p <- p + labs(caption="OpenSafely-TPP July 2023")
+  p <- p + labs(caption="OpenSafely-TPP January 2024")
   p <- p + theme(plot.caption = element_text(size=8))
   p <- p + theme(plot.title = element_text(size = 10))
   
@@ -211,7 +211,7 @@ for (i in c(
   p <- p + geom_vline(xintercept=as.Date(start, format="%Y-%m-%d"), size=0.3, colour="red")
   p <- p +  geom_text(aes(x=as.Date(start, format="%Y-%m-%d")+5, y=min(value2)+(sd(value2)*2)), 
                       color = "red",label="Start of\nrestrictions", angle = 90, size = 3)
-  p <- p + labs(caption="OpenSafely-TPP June 2023")
+  p <- p + labs(caption="OpenSafely-TPP January 2024")
   p <- p + theme(plot.caption = element_text(size=8))
   p <- p + theme(plot.title = element_text(size = 10))
   
