@@ -98,9 +98,11 @@ code,term
 12204271000119108,Partial thickness burn of lower back
 1255135001,Partial thickness chemical burn of foot
 13212004,Partial thickness burn of multiple sites
+13746004,Bipolar disorder
 14020004,Partial thickness burn of multiple sites of upper arm
 14664006,Epidermal burn of hand
 16333002,Epidermal burn of male genitalia
+17226007,Adjustment disorder
 200833005,Sunburn of first degree
 200834004,Sunburn of second degree
 20490007,Epidermal burn of lower leg
@@ -182,6 +184,8 @@ code,term
 212131009,(First degree burn) or (superficial burn NOS)
 212132002,(Second degree burn) or (partial thickness burn NOS)
 22045003,Partial thickness burn of scalp
+248020004,Bizarre behavior
+248062006,Self-injurious behavior
 25515000,"Second degree burn of face, head AND/OR neck"
 262585002,Epidermal burn of skin of finger
 262587005,Superficial partial thickness burn
@@ -196,8 +200,11 @@ code,term
 269241004,Superficial partial thickness burn of neck
 269243001,Epidermal burn of wrist and hand
 269244007,Partial thickness burn of wrist and hand
+272022009,Complaining of feeling depressed
 27346001,Epidermal burn of ankle
 275450006,Partial thickness burn of wrist and hand with blister
+276853009,Self inflicted injury
+2776000,Delirium
 284197002,Superficial corrosion of scalp
 284198007,Superficial corrosion of forehead
 284200001,Superficial corrosion of ear
@@ -218,18 +225,22 @@ code,term
 287140008,Partial thickness burn of head
 29418006,Epidermal burn of palm
 29673001,"Second degree burn of single finger, not thumb"
+30077003,Somatoform pain disorder
 31577002,Partial thickness burn of palm
 33047005,Partial thickness burn of elbow
+33449004,Personality disorder
 33824005,"Burn erythema of face, head AND/OR neck"
 33826007,Epidermal burn of elbow
 34384008,Second degree burn of chest wall
 34554001,Epidermal burn of axilla
 3469002,Partial thickness burn of thumb
+35489007,Depressive disorder
 35501005,Epidermal burn of breast
 35847008,Partial thickness burn of wrist
 37637007,Second degree burn of lip
 38305003,Application of dressing for second degree burn
 38966005,Epidermal burn of neck
+397923000,Somatization disorder
 403190006,Epidermal burn of skin
 403191005,Partial thickness burn
 40986008,Epidermal burn of foot
@@ -239,6 +250,7 @@ code,term
 43138003,Second degree burn of wrist AND/OR hand
 43635001,Epidermal burn of scapular region
 438482000,Partial thickness burn of multiple sites of hand
+44376007,Dissociative disorder
 446905000,Partial thickness burn of face
 447157009,Epidermal burn of face
 449623007,Epidermal burn of multiple sites of lower leg
@@ -263,10 +275,13 @@ code,term
 473269004,Partial thickness burn of multiple sites of wrist
 473272006,Epidermal burn of multiple sites of upper limb without involvement of wrist and without involvement of hand
 473273001,Partial thickness burn of multiple sites of upper limb without involvement of wrist and without involvement of hand
+48694002,Anxiety
 49523001,Epidermal burn of multiple sites of upper limb
 49615009,Burn erythema of abdominal wall
+50705009,Factitious disorder
 5083008,Partial thickness burn of back
 52425001,Epidermal burn of female genitalia
+52448006,Dementia
 52899007,Partial thickness burn of lower limb
 53080007,Partial thickness burn of upper limb
 54296007,Partial thickness burn of hand
@@ -276,6 +291,7 @@ code,term
 56710004,Epidermal burn of wrist
 57266005,Second degree burn of two OR more fingers including thumb
 57332004,Partial thickness burn of shoulder
+58214004,Schizophrenia
 58340008,Epidermal burn of nose
 59684006,Partial thickness burn of back of hand
 62242007,Epidermal burn of upper limb
@@ -291,10 +307,13 @@ code,term
 6821004,Partial thickness burn of neck
 68628004,Epidermal burn of toe
 69025008,Epidermal burn of thumb
+69322001,Psychotic disorder
 69429006,Burn erythema of two OR more fingers not including thumb
+7011001,Hallucinations
 70250009,Epidermal burn of lower limb
 70432004,Epidermal burn of upper arm
 70505006,Partial thickness burn of forearm
+72366004,Eating disorder
 72882005,Epidermal burn of shoulder
 735500001,First degree burn of genitalia
 735501002,Epidermal burn of perineum

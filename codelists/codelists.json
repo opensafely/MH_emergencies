@@ -37,10 +37,10 @@
       "sha": "7e6ed67c391b24de8f85adcca66813026596f67d"
     },
     "user-agleman-eating-disorders-icd10.csv": {
-      "id": "user/agleman/eating-disorders-icd10/143947b8",
-      "url": "https://www.opencodelists.org/codelist/user/agleman/eating-disorders-icd10/143947b8/",
-      "downloaded_at": "2023-07-17 21:48:00.684010Z",
-      "sha": "68de28842299c4e50707bda6e802046114294512"
+      "id": "user/agleman/eating-disorders-icd10/018f0953",
+      "url": "https://www.opencodelists.org/codelist/user/agleman/eating-disorders-icd10/018f0953/",
+      "downloaded_at": "2024-02-06 23:07:24.214213Z",
+      "sha": "9299c1d893aae0fe3fafde0355c3e23734ee739b"
     },
     "user-agleman-lifestyle-snomed-ct-short.csv": {
       "id": "user/agleman/lifestyle-snomed-ct-short/21b70786",
@@ -67,10 +67,10 @@
       "sha": "a33427239474b7bb71ef65aac1ebcde7e43db3d1"
     },
     "user-agleman-violence2.csv": {
-      "id": "user/agleman/violence2/7edc495c",
-      "url": "https://www.opencodelists.org/codelist/user/agleman/violence2/7edc495c/",
-      "downloaded_at": "2024-02-06 16:25:30.183571Z",
-      "sha": "a4ea08e9f4bad9d33ef042613acb72575f4c78e2"
+      "id": "user/agleman/violence2/33adefbd",
+      "url": "https://www.opencodelists.org/codelist/user/agleman/violence2/33adefbd/",
+      "downloaded_at": "2024-02-06 23:07:25.087481Z",
+      "sha": "0f1c8daabcc454011a78f0aac2095b7a8c905c6e"
     },
     "user-agleman-assault_violence-icd10.csv": {
       "id": "user/agleman/assault_violence-icd10/24e4a7bc",
