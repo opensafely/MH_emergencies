@@ -95,6 +95,12 @@
       "url": "https://www.opencodelists.org/codelist/user/agleman/psych-emergencies-snomed/593b6ddc/",
       "downloaded_at": "2023-07-19 21:34:17.360220Z",
       "sha": "5cc00f2baddc8d2fcf2efc9da278c27d6430bf24"
+    },
+    "user-agleman-violence3.csv": {
+      "id": "user/agleman/violence3/0807101d",
+      "url": "https://www.opencodelists.org/codelist/user/agleman/violence3/0807101d/",
+      "downloaded_at": "2024-06-08 02:34:02.528284Z",
+      "sha": "68cae70346d78f7f3995f1e275670480529c69b8"
     }
   }
 }
