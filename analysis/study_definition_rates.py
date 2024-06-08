@@ -258,10 +258,10 @@ measures = [
         small_number_suppression=True,
     ),
     Measure(
-        id="self_harmAEbyRegion_rate",
+        id="self_harmAEbySex_rate",
         numerator="self_harmAE",
         denominator="population",
-        group_by="region",
+        group_by="sex",
         small_number_suppression=True,
     ),
     Measure(
@@ -293,10 +293,10 @@ measures = [
         small_number_suppression=True,
     ),
     Measure(
-        id="self_harmHobyRegion_rate",
+        id="self_harmHobySex_rate",
         numerator="self_harmHo",
         denominator="population",
-        group_by="region",
+        group_by="sex",
         small_number_suppression=True,
     ),
     Measure(
@@ -329,10 +329,10 @@ measures = [
         small_number_suppression=True,
     ),
     Measure(
-        id="emot_distAEbyRegion_rate",
+        id="emot_distAEbySex_rate",
         numerator="emot_distAE",
         denominator="population",
-        group_by="region",
+        group_by="sex",
         small_number_suppression=True,
     ),
     Measure(
@@ -364,10 +364,10 @@ measures = [
         small_number_suppression=True,
     ),
     Measure(
-        id="emot_distHobyRegion_rate",
+        id="emot_distHobySex_rate",
         numerator="emot_distHo",
         denominator="population",
-        group_by="region",
+        group_by="sex",
         small_number_suppression=True,
     ),
     Measure(
@@ -400,10 +400,10 @@ measures = [
         small_number_suppression=True,
     ),
     Measure(
-        id="eat_disorAEbyRegion_rate",
+        id="eat_disorAEbySex_rate",
         numerator="eat_disorAE",
         denominator="population",
-        group_by="region",
+        group_by="sex",
         small_number_suppression=True,
     ),
     Measure(
@@ -435,10 +435,10 @@ measures = [
         small_number_suppression=True,
     ),
     Measure(
-        id="eat_disorHobyRegion_rate",
+        id="eat_disorHobySex_rate",
         numerator="eat_disorHo",
         denominator="population",
-        group_by="region",
+        group_by="sex",
         small_number_suppression=True,
     ),
     Measure(
@@ -471,10 +471,10 @@ measures = [
         small_number_suppression=True,
     ),
     Measure(
-        id="lifestyleAEbyRegion_rate",
+        id="lifestyleAEbySex_rate",
         numerator="lifestyleAE",
         denominator="population",
-        group_by="region",
+        group_by="sex",
         small_number_suppression=True,
     ),
     Measure(
@@ -506,10 +506,10 @@ measures = [
         small_number_suppression=True,
     ),
     Measure(
-        id="lifestyleHobyRegion_rate",
+        id="lifestyleHobySex_rate",
         numerator="lifestyleHo",
         denominator="population",
-        group_by="region",
+        group_by="sex",
         small_number_suppression=True,
     ),
     Measure(
@@ -542,10 +542,10 @@ measures = [
         small_number_suppression=True,
     ),
     Measure(
-        id="violence_AEbyRegion_rate",
+        id="violence_AEbySex_rate",
         numerator="violence_AE",
         denominator="population",
-        group_by="region",
+        group_by="sex",
         small_number_suppression=True,
     ),
     Measure(
@@ -577,10 +577,10 @@ measures = [
         small_number_suppression=True,
     ),
     Measure(
-        id="violence_HobyRegion_rate",
+        id="violence_HobySex_rate",
         numerator="violence_Ho",
         denominator="population",
-        group_by="region",
+        group_by="sex",
         small_number_suppression=True,
     ),
     Measure(
@@ -613,10 +613,10 @@ measures = [
         small_number_suppression=True,
     ),
     Measure(
-        id="s_m_illn_AEbyRegion_rate",
+        id="s_m_illn_AEbySex_rate",
         numerator="s_m_illn_AE",
         denominator="population",
-        group_by="region",
+        group_by="sex",
         small_number_suppression=True,
     ),
     Measure(
@@ -648,10 +648,10 @@ measures = [
         small_number_suppression=True,
     ),
     Measure(
-        id="s_m_illn_HobyRegion_rate",
+        id="s_m_illn_HobySex_rate",
         numerator="s_m_illn_Ho",
         denominator="population",
-        group_by="region",
+        group_by="sex",
         small_number_suppression=True,
     ),
     Measure(
@@ -684,10 +684,10 @@ measures = [
         small_number_suppression=True,
     ),
     Measure(
-        id="psyc_eme_AEbyRegion_rate",
+        id="psyc_eme_AEbySex_rate",
         numerator="psyc_eme_AE",
         denominator="population",
-        group_by="region",
+        group_by="sex",
         small_number_suppression=True,
     ),
     Measure(
