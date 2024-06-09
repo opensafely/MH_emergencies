@@ -15,7 +15,7 @@ study = StudyDefinition(
         "rate": "uniform",
         "incidence": 0.5,
     },
-    index_date="2023-06-01",
+    index_date="2015-01-01", # this is for rates, is it needed here
     population=patients.all(),
 ### demographics
     age=patients.age_as_of(
@@ -107,13 +107,13 @@ study = StudyDefinition(
         returning="binary_flag",
         return_expectations={"incidence": 0.20},
     ),
-# mortality
-    self_harmDead=patients.with_these_codes_on_death_certificate(
-        self_harm_icd10,
-        match_only_underlying_cause=False,
-        on_or_before="index_date",
-        returning="binary_flag",
-    ),
+# # mortality
+#     self_harmDead=patients.with_these_codes_on_death_certificate(
+#         self_harm_icd10,
+#         match_only_underlying_cause=False,
+#         on_or_before="index_date",
+#         returning="binary_flag",
+#     ),
 ### Variable 2. Emotional distress
 # A&E: SNOMED_codes
     emotional_distressAE=patients.attended_emergency_care(
@@ -129,13 +129,13 @@ study = StudyDefinition(
         returning="binary_flag",
         return_expectations={"incidence": 0.20},
     ),
-# mortality
-    emotional_distressDead=patients.with_these_codes_on_death_certificate(
-        emotional_distress_icd10,
-        match_only_underlying_cause=False,
-        on_or_before="index_date",
-        returning="binary_flag",
-    ),
+# # mortality
+#     emotional_distressDead=patients.with_these_codes_on_death_certificate(
+#         emotional_distress_icd10,
+#         match_only_underlying_cause=False,
+#         on_or_before="index_date",
+#         returning="binary_flag",
+#     ),
 ### Variable 3. Eating disorders
 # A&E: SNOMED_codes
     eating_disordersAE=patients.attended_emergency_care(
@@ -151,13 +151,13 @@ study = StudyDefinition(
         returning="binary_flag",
         return_expectations={"incidence": 0.20},
     ),
-# mortality
-    eating_disordersDead=patients.with_these_codes_on_death_certificate(
-        eating_disorders_icd10,
-        match_only_underlying_cause=False,
-        on_or_before="index_date",
-        returning="binary_flag",
-    ),
+# # mortality
+#     eating_disordersDead=patients.with_these_codes_on_death_certificate(
+#         eating_disorders_icd10,
+#         match_only_underlying_cause=False,
+#         on_or_before="index_date",
+#         returning="binary_flag",
+#     ),
 ### Variable 4. Problems related to lifestyle
 # A&E: SNOMED_codes
     lifestyleAE=patients.attended_emergency_care(
@@ -173,13 +173,13 @@ study = StudyDefinition(
         returning="binary_flag",
         return_expectations={"incidence": 0.20},
     ),
-# mortality
-    lifestyleDead=patients.with_these_codes_on_death_certificate(
-        lifestyle_icd10,
-        match_only_underlying_cause=False,
-        on_or_before="index_date",
-        returning="binary_flag",
-    ),
+# # mortality
+#     lifestyleDead=patients.with_these_codes_on_death_certificate(
+#         lifestyle_icd10,
+#         match_only_underlying_cause=False,
+#         on_or_before="index_date",
+#         returning="binary_flag",
+#     ),
 ### Variable 5. Assault and violence
 # A&E: SNOMED_codes
     violenceAE=patients.attended_emergency_care(
@@ -195,13 +195,13 @@ study = StudyDefinition(
         returning="binary_flag",
         return_expectations={"incidence": 0.20},
     ),
-# mortality
-    violenceDead=patients.with_these_codes_on_death_certificate(
-        violence_icd10,
-        match_only_underlying_cause=False,
-        on_or_before="index_date",
-        returning="binary_flag",
-    ),
+# # mortality
+#     violenceDead=patients.with_these_codes_on_death_certificate(
+#         violence_icd10,
+#         match_only_underlying_cause=False,
+#         on_or_before="index_date",
+#         returning="binary_flag",
+#     ),
 ### Variable 6. SMIs
 # A&E: SNOMED_codes
     s_m_illnAE=patients.attended_emergency_care(
@@ -217,13 +217,13 @@ study = StudyDefinition(
         returning="binary_flag",
         return_expectations={"incidence": 0.20},
     ),
-# mortality
-    s_m_illnDead=patients.with_these_codes_on_death_certificate(
-        s_m_illn_icd10,
-        match_only_underlying_cause=False,
-        on_or_before="index_date",
-        returning="binary_flag",
-    ),
+# # mortality
+#     s_m_illnDead=patients.with_these_codes_on_death_certificate(
+#         s_m_illn_icd10,
+#         match_only_underlying_cause=False,
+#         on_or_before="index_date",
+#         returning="binary_flag",
+#     ),
 #### A&E: psych emergencies
     psyc_emeAE=patients.attended_emergency_care(
         with_these_diagnoses=psyc_eme_SNOMED,
