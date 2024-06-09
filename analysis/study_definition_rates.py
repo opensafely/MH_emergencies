@@ -11,17 +11,18 @@ end_date = "2023-10-01"
 
 study = StudyDefinition(
     default_expectations={
-        "date": {"earliest": "2015-01-01", "latest": "today"},
+        "date": {"earliest": "2018-01-01", "latest": "today"},
         "rate": "uniform",
         "incidence": 0.5,
         },
-    index_date="2015-01-01", # for measures
-    population=patients.satisfying(
-        """
-        registered
-        AND NOT has_died
-        """
-    ),
+    index_date="2018-01-01", # for measures
+    # population=patients.satisfying(
+    #     """
+    #     registered
+    #     AND NOT has_died
+    #     """
+    # ),
+    population=patients.all(),
     registered=patients.registered_as_of(
         "index_date",
         return_expectations={"incidence":0.95}
@@ -65,25 +66,25 @@ study = StudyDefinition(
             "category": {"ratios": {"M": 0.49, "F": 0.51}},
         }
     ),
-    region=patients.registered_practice_as_of(
-        "index_date",
-        returning="nuts1_region_name",
-        return_expectations={
-            "rate": "universal",
-            "category": {
-                "ratios": {
-                    "North East": 0.1,
-                    "North West": 0.1,
-                    "Yorkshire and the Humber": 0.2,
-                    "East Midlands": 0.1,
-                    "West Midlands": 0.1,
-                    "East of England": 0.1,
-                    "London": 0.1,
-                    "South East": 0.2,
-                },
-            },
-        },
-    ),
+    # region=patients.registered_practice_as_of(
+    #     "index_date",
+    #     returning="nuts1_region_name",
+    #     return_expectations={
+    #         "rate": "universal",
+    #         "category": {
+    #             "ratios": {
+    #                 "North East": 0.1,
+    #                 "North West": 0.1,
+    #                 "Yorkshire and the Humber": 0.2,
+    #                 "East Midlands": 0.1,
+    #                 "West Midlands": 0.1,
+    #                 "East of England": 0.1,
+    #                 "London": 0.1,
+    #                 "South East": 0.2,
+    #             },
+    #         },
+    #     },
+    # ),
     imd_cat=patients.categorised_as(
         {
             "Unknown": "DEFAULT",
