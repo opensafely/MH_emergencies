@@ -17,7 +17,7 @@ self_harm_SNOMED = codelist_from_csv(
     column="code",
 )
 self_harm_icd10 = codelist_from_csv(
-    "codelists/user-hjforbes-suicide-icd-10.csv",
+    "codelists/user-agleman-self-harm-and-suicide-icd-10.csv",
     system="icd10",
     column="code",
 )

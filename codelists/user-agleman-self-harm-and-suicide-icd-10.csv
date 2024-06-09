@@ -7,6 +7,13 @@ X64,"Intentional self-poisoning by and exposure to other and unspecified drugs, 
 X65,Intentional self-poisoning by and exposure to alcohol
 X66,Intentional self-poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours
 X67,Intentional self-poisoning by and exposure to carbon monoxide and other gases and vapours
+X670,Intentional self-poisoning by and exposure to carbon monoxide from combustion engine exhaust
+X671,Intentional self-poisoning by and exposure to carbon monoxide from utility gas
+X672,Intentional self-poisoning by and exposure to carbon monoxide from other domestic fuels
+X673,Intentional self-poisoning by and exposure to carbon monoxide from other sources
+X674,Intentional self-poisoning by and exposure to carbon monoxide from unspecified sources
+X678,Intentional self-poisoning by and exposure to other specified gases and vapours
+X679,Intentional self-poisoning by and exposure to unspecified gases and vapours
 X68,Intentional self-poisoning by and exposure to pesticides
 X69,Intentional self-poisoning by and exposure to other and unspecified chemicals and noxious substances
 X70,"Intentional self-harm by hanging, strangulation and suffocation"
@@ -32,6 +39,13 @@ Y14,"Poisoning by and exposure to other and unspecified drugs, medicaments and b
 Y15,"Poisoning by and exposure to alcohol, undetermined intent"
 Y16,"Poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours, undetermined intent"
 Y17,"Poisoning by and exposure to carbon monoxide and other gases and vapours, undetermined intent"
+Y170,"Poisoning by and exposure to carbon monoxide from combustion engine exhaust, undetermined intent"
+Y171,"Poisoning by and exposure to carbon monoxide from utility gas, undetermined intent"
+Y172,"Poisoning by and exposure to carbon monoxide from other domestic fuels, undetermined intent"
+Y173,"Poisoning by and exposure to carbon monoxide from other sources, undetermined intent"
+Y174,"Poisoning by and exposure to carbon monoxide from unspecified sources, undetermined intent"
+Y178,"Poisoning by and exposure to other specified gases and vapours, undetermined intent"
+Y179,"Poisoning by and exposure to unspecified gases and vapours, undetermined intent"
 Y18,"Poisoning by and exposure to pesticides, undetermined intent"
 Y19,"Poisoning by and exposure to other and unspecified chemicals and noxious substances, undetermined intent"
 Y20,"Hanging, strangulation and suffocation, undetermined intent"
@@ -48,4 +62,3 @@ Y30,"Falling, jumping or pushed from a high place, undetermined intent"
 Y31,"Falling, lying or running before or into moving object, undetermined intent"
 Y32,"Crashing of motor vehicle, undetermined intent"
 Y33,"Other specified events, undetermined intent"
-Y34,"Unspecified event, undetermined intent"
