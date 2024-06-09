@@ -1,5 +1,5 @@
 code,term
-F04,"Organic amnesic syndrome, not induced by alcohol and other psychoactive substances"
+E244,Alcohol-induced pseudo-Cushing syndrome
 F10,Mental and behavioural disorders due to use of alcohol
 F100,Mental and behavioural disorders due to use of alcohol : Acute intoxication
 F101,Mental and behavioural disorders due to use of alcohol : Harmful use
@@ -111,8 +111,12 @@ F197,Mental and behavioural disorders due to multiple drug use and use of other 
 F198,Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances : Other mental and behavioural disorders
 F199,Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances : Unspecified mental and behavioural disorder
 F28,Other nonorganic psychotic disorders
-F538,"Other mental and behavioural disorders associated with the puerperium, not elsewhere classified"
 F55,Abuse of non-dependence-producing substances
+G312,Degeneration of nervous system due to alcohol
+G621,Alcoholic polyneuropathy
+G721,Alcoholic myopathy
+I426,Alcoholic cardiomyopathy
+K292,Alcoholic gastritis
 K70,Alcoholic liver disease
 K700,Alcoholic fatty liver
 K701,Alcoholic hepatitis
@@ -131,37 +135,13 @@ K716,"Toxic liver disease with hepatitis, not elsewhere classified"
 K717,Toxic liver disease with fibrosis and cirrhosis of liver
 K718,Toxic liver disease with other disorders of liver
 K719,"Toxic liver disease, unspecified"
-T36,Poisoning by systemic antibiotics
-T360,Poisoning: Penicillins
-T361,Poisoning: Cefalosporins and other beta-lactam antibiotics
-T362,Poisoning: Chloramphenicol group
-T363,Poisoning: Macrolides
-T364,Poisoning: Tetracyclines
-T365,Poisoning: Aminoglycosides
-T366,Poisoning: Rifamycins
-T367,"Poisoning: Antifungal antibiotics, systemically used"
-T368,Poisoning: Other systemic antibiotics
-T369,"Poisoning: Systemic antibiotic, unspecified"
-T37,Poisoning by other systemic anti-infectives and antiparasitics
-T370,Poisoning: Sulfonamides
-T371,Poisoning: Antimycobacterial drugs
-T372,Poisoning: Antimalarials and drugs acting on other blood protozoa
-T373,Poisoning: Other antiprotozoal drugs
-T374,Poisoning: Anthelminthics
-T375,Poisoning: Antiviral drugs
-T378,Poisoning: Other specified systemic anti-infectives and antiparasitics
-T379,"Poisoning: Systemic anti-infective and antiparasitic, unspecified"
-T38,"Poisoning by hormones and their synthetic substitutes and antagonists, not elsewhere classified"
-T380,Poisoning: Glucocorticoids and synthetic analogues
-T381,Poisoning: Thyroid hormones and substitutes
-T382,Poisoning: Antithyroid drugs
-T383,Poisoning: Insulin and oral hypoglycaemic [antidiabetic] drugs
-T384,Poisoning: Oral contraceptives
-T385,Poisoning: Other estrogens and progestogens
-T386,"Poisoning: Antigonadotrophins, antiestrogens, antiandrogens, not elsewhere classified"
-T387,Poisoning: Androgens and anabolic congeners
-T388,Poisoning: Other and unspecified hormones and their synthetic substitutes
-T389,Poisoning: Other and unspecified hormone antagonists
+K852,Alcohol-induced acute pancreatitis
+K860,Alcohol-induced chronic pancreatitis
+O354,Maternal care for (suspected) damage to fetus from alcohol
+P043,Fetus and newborn affected by maternal use of alcohol
+Q860,Fetal alcohol syndrome (dysmorphic)
+R780,Finding of alcohol in blood
+R782,Finding of cocaine in blood
 T39,"Poisoning by nonopioid analgesics, antipyretics and antirheumatics"
 T390,Poisoning: Salicylates
 T391,Poisoning: 4-Aminophenol derivatives
@@ -181,13 +161,6 @@ T406,Poisoning: Other and unspecified narcotics
 T407,Poisoning: Cannabis (derivatives)
 T408,Poisoning: Lysergide [LSD]
 T409,Poisoning: Other and unspecified psychodysleptics [hallucinogens]
-T41,Poisoning by anaesthetics and therapeutic gases
-T410,Poisoning: Inhaled anaesthetics
-T411,Poisoning: Intravenous anaesthetics
-T412,Poisoning: Other and unspecified general anaesthetics
-T413,Poisoning: Local anaesthetics
-T414,"Poisoning: Anaesthetic, unspecified"
-T415,Poisoning: Therapeutic gases
 T42,"Poisoning by antiepileptic, sedative-hypnotic and antiparkinsonism drugs"
 T420,Poisoning: Hydantoin derivatives
 T421,Poisoning: Iminostilbenes
@@ -208,39 +181,6 @@ T435,Poisoning: Other and unspecified antipsychotics and neuroleptics
 T436,Poisoning: Psychostimulants with abuse potential
 T438,"Poisoning: Other psychotropic drugs, not elsewhere classified"
 T439,"Poisoning: Psychotropic drug, unspecified"
-T44,Poisoning by drugs primarily affecting the autonomic nervous system
-T440,Poisoning: Anticholinesterase agents
-T441,Poisoning: Other parasympathomimetics [cholinergics]
-T442,"Poisoning: Ganglionic blocking drugs, not elsewhere classified"
-T443,"Poisoning: Other parasympatholytics [anticholinergics and antimuscarinics] and spasmolytics, not elsewhere classified"
-T444,"Poisoning: Predominantly alpha-adrenoreceptor agonists, not elsewhere classified"
-T445,"Poisoning: Predominantly beta-adrenoreceptor agonists, not elsewhere classified"
-T446,"Poisoning: Alpha-adrenoreceptor antagonists, not elsewhere classified"
-T447,"Poisoning: Beta-adrenoreceptor antagonists, not elsewhere classified"
-T448,"Poisoning: Centrally acting and adrenergic-neuron-blocking agents, not elsewhere classified"
-T449,Poisoning: Other and unspecified drugs primarily affecting the autonomic nervous system
-T45,"Poisoning by primarily systemic and haematological agents, not elsewhere classified"
-T450,Poisoning: Antiallergic and antiemetic drugs
-T451,Poisoning: Antineoplastic and immunosuppressive drugs
-T452,"Poisoning: Vitamins, not elsewhere classified"
-T453,"Poisoning: Enzymes, not elsewhere classified"
-T454,Poisoning: Iron and its compounds
-T455,Poisoning: Anticoagulants
-T456,Poisoning: Fibrinolysis-affecting drugs
-T457,"Poisoning: Anticoagulant antagonists, vitamin K and other coagulants"
-T458,Poisoning: Other primarily systemic and haematological agents
-T459,"Poisoning: Primarily systemic and haematological agent, unspecified"
-T46,Poisoning by agents primarily affecting the cardiovascular system
-T460,Poisoning: Cardiac-stimulant glycosides and drugs of similar action
-T461,Poisoning: Calcium-channel blockers
-T462,"Poisoning: Other antidysrhythmic drugs, not elsewhere classified"
-T463,"Poisoning: Coronary vasodilators, not elsewhere classified"
-T464,Poisoning: Angiotensin-converting-enzyme inhibitors
-T465,"Poisoning: Other antihypertensive drugs, not elsewhere classified"
-T466,Poisoning: Antihyperlipidaemic and antiarteriosclerotic drugs
-T467,Poisoning: Peripheral vasodilators
-T468,"Poisoning: Antivaricose drugs, including sclerosing agents"
-T469,Poisoning: Other and unspecified agents primarily affecting the cardiovascular system
 T47,Poisoning by agents primarily affecting the gastrointestinal system
 T470,Poisoning: Histamine H 2 -receptor antagonists
 T471,Poisoning: Other antacids and anti-gastric-secretion drugs
@@ -261,28 +201,6 @@ T484,Poisoning: Expectorants
 T485,Poisoning: Anti-common-cold drugs
 T486,"Poisoning: Antiasthmatics, not elsewhere classified"
 T487,Poisoning: Other and unspecified agents primarily acting on the respiratory system
-T49,"Poisoning by topical agents primarily affecting skin and mucous membrane and by ophthalmological, otorhinolaryngological and dental drugs"
-T490,"Poisoning: Local antifungal, anti-infective and anti-inflammatory drugs, not elsewhere classified"
-T491,Poisoning: Antipruritics
-T492,Poisoning: Local astringents and local detergents
-T493,"Poisoning: Emollients, demulcents and protectants"
-T494,"Poisoning: Keratolytics, keratoplastics and other hair treatment drugs and preparations"
-T495,Poisoning: Ophthalmological drugs and preparations
-T496,Poisoning: Otorhinolaryngological drugs and preparations
-T497,"Poisoning: Dental drugs, topically applied"
-T498,Poisoning: Other topical agents
-T499,"Poisoning: Topical agent, unspecified"
-T50,"Poisoning by diuretics and other and unspecified drugs, medicaments and biological substances"
-T500,Poisoning: Mineralocorticoids and their antagonists
-T501,Poisoning: Loop [high-ceiling] diuretics
-T502,"Poisoning: Carbonic-anhydrase inhibitors, benzothiadiazides and other diuretics"
-T503,"Poisoning: Electrolytic, caloric and water-balance agents"
-T504,Poisoning: Drugs affecting uric acid metabolism
-T505,Poisoning: Appetite depressants
-T506,"Poisoning: Antidotes and chelating agents, not elsewhere classified"
-T507,Poisoning: Analeptics and opioid receptor antagonists
-T508,Poisoning: Diagnostic agents
-T509,"Poisoning: Other and unspecified drugs, medicaments and biological substances"
 T51,Toxic effect of alcohol
 T510,Toxic effect: Ethanol
 T511,Toxic effect: Methanol
@@ -314,13 +232,6 @@ T541,Toxic effect: Other corrosive organic compounds
 T542,Toxic effect: Corrosive acids and acid-like substances
 T543,Toxic effect: Corrosive alkalis and alkali-like substances
 T549,"Toxic effect: Corrosive substance, unspecified"
-T73,Effects of other deprivation
-T730,Effects of hunger
-T731,Effects of thirst
-T732,Exhaustion due to exposure
-T733,Exhaustion due to excessive exertion
-T738,Other effects of deprivation
-T739,"Effect of deprivation, unspecified"
 T76,Unspecified effects of external causes
 T96,"Sequelae of poisoning by drugs, medicaments and biological substances"
 T98,Sequelae of other and unspecified effects of external causes
@@ -523,6 +434,24 @@ Y576,Other diagnostic agents
 Y577,"Vitamins, not elsewhere classified"
 Y578,Other drugs and medicaments
 Y579,"Drug or medicament, unspecified"
+Y90,Evidence of alcohol involvement determined by blood alcohol level
+Y900,Blood alcohol level of less than 20 mg/100 ml
+Y901,Blood alcohol level of 20-39 mg/100 ml
+Y902,Blood alcohol level of 40-59 mg/100 ml
+Y903,Blood alcohol level of 60-79 mg/100 ml
+Y904,Blood alcohol level of 80-99 mg/100 ml
+Y905,Blood alcohol level of 100-119 mg/100 ml
+Y906,Blood alcohol level of 120-199 mg/100 ml
+Y907,Blood alcohol level of 200-239 mg/100 ml
+Y908,Blood alcohol level of 240 mg/100 ml or more
+Y909,"Presence of alcohol in blood, level not specified"
+Y91,Evidence of alcohol involvement determined by level of intoxication
+Y910,Mild alcohol intoxication
+Y911,Moderate alcohol intoxication
+Y912,Severe alcohol intoxication
+Y913,Very severe alcohol intoxication
+Y919,"Alcohol involvement, not otherwise specified"
+Z040,Blood-alcohol and blood-drug test
 Z55,Problems related to education and literacy
 Z550,Illiteracy and low-level literacy
 Z551,Schooling unavailable and unattainable
@@ -540,17 +469,6 @@ Z564,Discord with boss and workmates
 Z565,Uncongenial work
 Z566,Other physical and mental strain related to work
 Z567,Other and unspecified problems related to employment
-Z57,Occupational exposure to risk-factors
-Z570,Occupational exposure to noise
-Z571,Occupational exposure to radiation
-Z572,Occupational exposure to dust
-Z573,Occupational exposure to other air contaminants
-Z574,Occupational exposure to toxic agents in agriculture
-Z575,Occupational exposure to toxic agents in other industries
-Z576,Occupational exposure to extreme temperature
-Z577,Occupational exposure to vibration
-Z578,Occupational exposure to other risk-factors
-Z579,Occupational exposure to unspecified risk-factor
 Z58,Problems related to physical environment
 Z580,Exposure to noise
 Z581,Exposure to air pollution
@@ -593,27 +511,6 @@ Z616,Problems related to alleged physical abuse of child
 Z617,Personal frightening experience in childhood
 Z618,Other negative life events in childhood
 Z619,"Negative life event in childhood, unspecified"
-Z62,Other problems related to upbringing
-Z620,Inadequate parental supervision and control
-Z621,Parental overprotection
-Z622,Institutional upbringing
-Z623,Hostility towards and scapegoating of child
-Z624,Emotional neglect of child
-Z625,Other problems related to neglect in upbringing
-Z626,Inappropriate parental pressure and other abnormal qualities of upbringing
-Z628,Other specified problems related to upbringing
-Z629,"Problem related to upbringing, unspecified"
-Z63,"Other problems related to primary support group, including family circumstances"
-Z630,Problems in relationship with spouse or partner
-Z631,Problems in relationship with parents and in-laws
-Z632,Inadequate family support
-Z633,Absence of family member
-Z634,Disappearance and death of family member
-Z635,Disruption of family by separation and divorce
-Z636,Dependent relative needing care at home
-Z637,Other stressful life events affecting family and household
-Z638,Other specified problems related to primary support group
-Z639,"Problem related to primary support group, unspecified"
 Z64,Problems related to certain psychosocial circumstances
 Z640,Problems related to unwanted pregnancy
 Z641,Problems related to multiparity
@@ -629,6 +526,7 @@ Z654,Victim of crime and terrorism
 Z655,"Exposure to disaster, war and other hostilities"
 Z658,Other specified problems related to psychosocial circumstances
 Z659,Problem related to unspecified psychosocial circumstances
+Z714,Alcohol abuse counselling and surveillance
 Z72,Problems related to lifestyle
 Z720,Tobacco use
 Z721,Alcohol use

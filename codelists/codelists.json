@@ -6,11 +6,11 @@
       "downloaded_at": "2023-02-15 21:31:22.155268Z",
       "sha": "8b849b5b785d80306e488d0109640c8c1d2da01b"
     },
-    "user-hjforbes-suicide-icd-10.csv": {
-      "id": "user/hjforbes/suicide-icd-10/3b53a18e",
-      "url": "https://www.opencodelists.org/codelist/user/hjforbes/suicide-icd-10/3b53a18e/",
-      "downloaded_at": "2023-01-24 20:55:17.525094Z",
-      "sha": "806be08bebc267e8abb26b8ceeefd713dacb1eb8"
+    "user-agleman-self-harm-and-suicide-icd-10.csv": {
+      "id": "user/agleman/self-harm-and-suicide-icd-10/589ae9a8",
+      "url": "https://www.opencodelists.org/codelist/user/agleman/self-harm-and-suicide-icd-10/589ae9a8/",
+      "downloaded_at": "2024-06-09 15:20:53.586666Z",
+      "sha": "c8433585e72a114dfe83d8e942df404b31b2cc6c"
     },
     "ons-self-harm-intentional-and-undetermined-intent.csv": {
       "id": "ons/self-harm-intentional-and-undetermined-intent/74239017",
@@ -42,12 +42,6 @@
       "downloaded_at": "2024-02-06 23:07:24.214213Z",
       "sha": "9299c1d893aae0fe3fafde0355c3e23734ee739b"
     },
-    "user-agleman-lifestyle-snomed-ct-short.csv": {
-      "id": "user/agleman/lifestyle-snomed-ct-short/21b70786",
-      "url": "https://www.opencodelists.org/codelist/user/agleman/lifestyle-snomed-ct-short/21b70786/",
-      "downloaded_at": "2023-10-13 21:08:43.772663Z",
-      "sha": "e6d3240c717a0790e3cc85783b954cd9619c7df1"
-    },
     "user-agleman-lifestyle-snomed-ct.csv": {
       "id": "user/agleman/lifestyle-snomed-ct/53b049fc",
       "url": "https://www.opencodelists.org/codelist/user/agleman/lifestyle-snomed-ct/53b049fc/",
@@ -55,22 +49,16 @@
       "sha": "51915a44c5d7f90a3a7768a7acbea8e7c301cd2d"
     },
     "user-agleman-lifestyle-problems-icd10.csv": {
-      "id": "user/agleman/lifestyle-problems-icd10/3df41af1",
-      "url": "https://www.opencodelists.org/codelist/user/agleman/lifestyle-problems-icd10/3df41af1/",
-      "downloaded_at": "2023-01-25 17:59:45.751472Z",
-      "sha": "7a95a3fce6e6bb5536915bbc3550ba29dd381d96"
+      "id": "user/agleman/lifestyle-problems-icd10/23c94348",
+      "url": "https://www.opencodelists.org/codelist/user/agleman/lifestyle-problems-icd10/23c94348/",
+      "downloaded_at": "2024-06-09 15:20:54.918422Z",
+      "sha": "46174be67dd1b728faeddcd5f1c3379f2bc326b8"
     },
-    "user-agleman-assault_violence-snomed-ct.csv": {
-      "id": "user/agleman/assault_violence-snomed-ct/4ad1568b",
-      "url": "https://www.opencodelists.org/codelist/user/agleman/assault_violence-snomed-ct/4ad1568b/",
-      "downloaded_at": "2024-02-04 11:01:53.568768Z",
-      "sha": "a33427239474b7bb71ef65aac1ebcde7e43db3d1"
-    },
-    "user-agleman-violence2.csv": {
-      "id": "user/agleman/violence2/33adefbd",
-      "url": "https://www.opencodelists.org/codelist/user/agleman/violence2/33adefbd/",
-      "downloaded_at": "2024-02-06 23:07:25.087481Z",
-      "sha": "0f1c8daabcc454011a78f0aac2095b7a8c905c6e"
+    "user-agleman-violence3.csv": {
+      "id": "user/agleman/violence3/3cd8b67d",
+      "url": "https://www.opencodelists.org/codelist/user/agleman/violence3/3cd8b67d/",
+      "downloaded_at": "2024-06-09 13:14:26.201020Z",
+      "sha": "f8464dded4731feaa06cacd3e895ed1620cd61c4"
     },
     "user-agleman-assault_violence-icd10.csv": {
       "id": "user/agleman/assault_violence-icd10/24e4a7bc",
@@ -95,12 +83,6 @@
       "url": "https://www.opencodelists.org/codelist/user/agleman/psych-emergencies-snomed/593b6ddc/",
       "downloaded_at": "2023-07-19 21:34:17.360220Z",
       "sha": "5cc00f2baddc8d2fcf2efc9da278c27d6430bf24"
-    },
-    "user-agleman-violence3.csv": {
-      "id": "user/agleman/violence3/0807101d",
-      "url": "https://www.opencodelists.org/codelist/user/agleman/violence3/0807101d/",
-      "downloaded_at": "2024-06-08 02:34:02.528284Z",
-      "sha": "68cae70346d78f7f3995f1e275670480529c69b8"
     }
   }
 }
