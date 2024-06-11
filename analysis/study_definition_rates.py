@@ -15,14 +15,14 @@ study = StudyDefinition(
         "rate": "uniform",
         "incidence": 0.5,
         },
-    index_date="2018-01-01", # for measures
-    # population=patients.satisfying(
-    #     """
-    #     registered
-    #     AND NOT has_died
-    #     """
-    # ),
-    population=patients.all(),
+    index_date="2017-10-01", # for measures
+    population=patients.satisfying(
+        """
+        registered
+        AND NOT has_died
+        """
+    ),
+    # population=patients.all(),
     registered=patients.registered_as_of(
         "index_date",
         return_expectations={"incidence":0.95}
