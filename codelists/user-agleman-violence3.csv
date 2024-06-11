@@ -71,6 +71,7 @@ code,term
 160829008,Violence between parents
 161051006,At increased risk violence in the home
 161064007,Child/parent violence
+161898004,Falls
 162596006,Suspected victim of child abuse
 16266001,Voice abuse
 16445007,Homosexual forcible assault
@@ -341,6 +342,7 @@ code,term
 298261000000101,Alleged victim of physical assault by stranger
 298271000000108,Alleged victim of physical assault by care giver
 298281000000105,Alleged victim of physical assault by relative
+298344006,Elderly fall
 302986003,Assault by poisoning by non-pharmaceutical substances
 309771000000102,Referral to domestic violence advocate
 309781000000100,Referral to domestic violence advocate 
@@ -376,6 +378,7 @@ code,term
 406137001,Adult victim of abuse
 406138006,Domestic abuse of adult
 406556003,High risk of harm to others
+408561005,Falls caused by medication
 41358001,Child concubinage
 416936003,At increased risk of physical abuse
 417361000,At increased risk of sexual abuse
