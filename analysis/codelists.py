@@ -56,7 +56,7 @@ lifestyle_icd10 = codelist_from_csv(
 )
 # Variable 5. Assault and violence
 violence_SNOMED = codelist_from_csv(
-    "codelists/user-agleman-violence3.csv",
+    "codelists/user-agleman-violence4.csv",
     system="snomed",
     column="code",
 )

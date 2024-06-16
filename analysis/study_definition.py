@@ -183,7 +183,7 @@ study = StudyDefinition(
 ### Variable 5. Assault and violence
 # A&E: SNOMED_codes
     violenceAE=patients.attended_emergency_care(
-        with_these_diagnoses=violence_SNOMED, 
+        with_these_diagnoses=violence_SNOMED,
         on_or_before="index_date",
         returning="binary_flag",
         return_expectations={"incidence": 0.20},
