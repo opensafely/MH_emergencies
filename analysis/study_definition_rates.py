@@ -200,7 +200,7 @@ study = StudyDefinition(
 ### Variable 5. Assault and violence_
 # A&E: SNOMED_codes
     violence_AE=patients.attended_emergency_care(
-        with_these_diagnoses=violence_SNOMED,
+        with_these_diagnoses=lifestyle_SNOMED, # substituted for a test: violence_SNOMED,
         between=[
             "first_day_of_month(index_date)",
             "last_day_of_month(index_date)",
