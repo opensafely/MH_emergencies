@@ -18,13 +18,13 @@ actions:
   #       cohort: output/input.csv
   #
   generate_rates_1:    
-    run: cohortextractor:latest generate_cohort --study-definition study_definition_rates --index-date-range "2017-10-01 to 2021-01-01 by month" --skip-existing --output-dir=output --output-format=csv.gz
+    run: cohortextractor:latest generate_cohort --study-definition study_definition_rates --index-date-range "2021-10-01 to 2022-01-01 by month" --skip-existing --output-dir=output --output-format=csv.gz
     outputs:      
       highly_sensitive:
         cohort: output/measures/inpu*.csv.gz
   
   generate_rates_2:    
-    run: cohortextractor:latest generate_cohort --study-definition study_definition_rates --index-date-range "2021-02-01 to 2024-05-01 by month" --skip-existing --output-dir=output --output-format=csv.gz
+    run: cohortextractor:latest generate_cohort --study-definition study_definition_rates --index-date-range "2022-02-01 to 2022-11-01 by month" --skip-existing --output-dir=output --output-format=csv.gz
     outputs:      
       highly_sensitive:
         cohort: output/measures/inp*.csv.gz
