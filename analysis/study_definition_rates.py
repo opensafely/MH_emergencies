@@ -7,15 +7,15 @@ from cohortextractor import (
 from codelists import *
 
 start_date = "2015-01-01"
-end_date = "2023-10-01"
+end_date = "2024-05-01"
 
 study = StudyDefinition(
     default_expectations={
-        "date": {"earliest": "2018-01-01", "latest": "today"},
+        "date": {"earliest": "2017-05-01", "latest": "today"},
         "rate": "uniform",
         "incidence": 0.5,
         },
-    index_date="2017-10-01", # for measures
+    index_date="2017-05-01", # for measures
     population=patients.satisfying(
         """
         registered
