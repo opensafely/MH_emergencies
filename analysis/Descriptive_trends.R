@@ -13,7 +13,7 @@ library(plyr)
 library(dplyr)
 
 ## Redactor code (W.Hulme)
-redactor <- function(n, threshold=7,e_overwrite=NA_integer_){
+redactor <- function(n, threshold=7, e_overwrite=NA_integer_){
   # given a vector of frequencies, this returns a boolean vector that is TRUE if
   # a) the frequency is <= the redaction threshold and
   # b) if the sum of redacted frequencies in a) is still <= the threshold, then the
@@ -60,6 +60,7 @@ for (i in c(
   Rates_rounded[,1] <- redactor(Rates_rounded[,1])
   ### apply the fix for missing data 
   Rates_rounded[which(is.na(Rates_rounded[,1])),1] <- NA
+  Rates_rounded[which(is.na(Rates_rounded[,1])),1] <- 0
   for (j in 1:2){
     Rates_rounded[,j] <- plyr::round_any(Rates_rounded[,j], 5, f = round)}
   
@@ -186,6 +187,7 @@ for (i in c(
   ###
   Rates_rounded[,2] <- redactor(Rates_rounded[,2])
   Rates_rounded[which(is.na(Rates_rounded[,2])),2] <- NA
+  Rates_rounded[which(is.na(Rates_rounded[,2])),2] <- 0
   
   for (j in 2:3){
     Rates_rounded[,j] <- plyr::round_any(Rates_rounded[,j], 5, f = round)}
